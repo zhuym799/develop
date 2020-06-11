@@ -1,0 +1,17 @@
+
+.logo_panel {
+	width: 100%;
+	height: 100%;
+}
+.logo_image {
+	height: 115px;
+	width: 100%;
+	margin-top: -70px;
+	background: url('../Images/logo.png') center no-repeat;
+}
+.logo_info {
+	font-size: 18px;
+	color: #b5bfc9;
+	line-height: 1.5;
+	cursor: default;
+}

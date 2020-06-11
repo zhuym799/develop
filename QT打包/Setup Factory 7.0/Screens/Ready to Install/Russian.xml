@@ -1,0 +1,30 @@
+<SUF70Messages>
+	<Language>
+		<Name>Russian</Name>
+		<Default>0</Default>
+		<Primary>25</Primary>
+		<Secondary>
+		</Secondary>
+	</Language>
+	<Messages>
+		<IDS_WINDOW_TITLE>Установка %ProductName%</IDS_WINDOW_TITLE>
+		<IDS_HEADER_TEXT>Программа готова к установке</IDS_HEADER_TEXT>
+		<IDS_SUBHEADER_TEXT>Вы теперь можете установить %ProductName% %ProductVer%</IDS_SUBHEADER_TEXT>
+		<IDS_CTRL_BUTTON_NEXT>&Дальше &gt;</IDS_CTRL_BUTTON_NEXT>
+		<IDS_CTRL_BUTTON_BACK>&lt; &Назад</IDS_CTRL_BUTTON_BACK>
+		<IDS_CTRL_BUTTON_CANCEL>&Отмена</IDS_CTRL_BUTTON_CANCEL>
+		<IDS_CTRL_BUTTON_HELP>&Справка</IDS_CTRL_BUTTON_HELP>
+		<IDS_CTRL_STATICTEXT_BODY>Программа получила достаточно информации для установки %ProductName% на ваш компьютер.
+
+
+Будут использоваться следующие свойства:
+
+Папка для Установки:        %AppFolder%
+
+Папка Ярлыка:    %AppShortcutFolderName%
+
+
+Пожалуйста, нажмите на кнопку Дальше для установки.</IDS_CTRL_STATICTEXT_BODY>
+		<IDS_CTRL_HEADINGTEXT_BODY>Заголовок</IDS_CTRL_HEADINGTEXT_BODY>
+	</Messages>
+</SUF70Messages>

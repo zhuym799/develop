@@ -1,0 +1,97 @@
+/**
+ * 签名变粗问题
+ */
+hr[size="1"] {
+	box-sizing: border-box;
+}
+
+
+/**
+ * 在webkit渲染引擎中，原0~1px会变为0px，导致很多表格线无法显示。
+ * 目前在webkit中修改为0~0.5px的为0px，0.5~1px的为1px。
+ * 所以下面这段兼容样式已不再需要。
+ */
+/**
+ * 表格无法显示问题
+ */
+/*td[style*='0.5pt solid'][style*='BORDER'] {
+	border-width: 1px !important;
+}
+td[style*='0.5pt solid'][style*='border'] {
+	border-width: 1px !important;
+}
+
+td[style*='0.5pt solid'][style*='BORDER-TOP'] {
+	border-top-width: 1px !important;
+}
+td[style*='0.5pt solid'][style*='border-top'] {
+	border-top-width: 1px !important;
+}
+td[style*='0.5pt solid'][style*='BORDER-BOTTOM'] {
+	border-bottom-width: 1px !important;
+}
+td[style*='0.5pt solid'][style*='border-bottom'] {
+	border-bottom-width: 1px !important;
+}
+td[style*='0.5pt solid'][style*='BORDER-LEFT'] {
+	border-left-width: 1px !important;
+}
+td[style*='0.5pt solid'][style*='border-left'] {
+	border-left-width: 1px !important;
+}
+td[style*='0.5pt solid'][style*='BORDER-RIGHT'] {
+	border-right-width: 1px !important;
+}
+td[style*='0.5pt solid'][style*='border-right'] {
+	border-right-width: 1px !important;
+}
+
+td[style*='0.5pt'][style*='border-top-width'] {
+	border-top-width: 1px !important;
+}
+td[style*='0.5pt'][style*='BORDER-TOP-WIDTH'] {
+	border-top-width: 1px !important;
+}
+td[style*='0.5pt'][style*='border-bottom-width'] {
+	border-bottom-width: 1px !important;
+}
+td[style*='0.5pt'][style*='BORDER-BOTTOM-WIDTH'] {
+	border-bottom-width: 1px !important;
+}
+td[style*='0.5pt'][style*='border-left-width'] {
+	border-left-width: 1px !important;
+}
+td[style*='0.5pt'][style*='BORDER-LEFT-WIDTH'] {
+	border-left-width: 1px !important;
+}
+td[style*='0.5pt'][style*='border-right-width'] {
+	border-right-width: 1px !important;
+}
+td[style*='0.5pt'][style*='BORDER-RIGHT-WIDTH'] {
+	border-right-width: 1px !important;
+}*/
+
+
+/**
+ * 表格内容无法显示问题
+ */
+td:empty:after {
+	content: " ";
+}
+
+ol, ul {
+	list-style-position: inside;
+}
+
+
+/**
+ * 文字无法显示问题
+ * IE8以下的浏览器不支持alpha，rgba(0, 0, 0, 0)在IE8以下不生效。
+ * 这里我们使rgba(0, 0, 0, 0)不生效
+ */
+
+*[style*='color: rgba(0, 0, 0, 0)'] {
+	color: inherit !important;
+}
+
+

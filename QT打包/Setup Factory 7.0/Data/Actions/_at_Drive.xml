@@ -1,0 +1,121 @@
+<ActionTemplates>
+   <Action>
+      <Name>Drive.Eject</Name>
+      <Description>当给出了有效的盘符时弹出 CD 或 DVD-ROM。</Description>
+      <ReturnValueType/>
+      <Arguments>
+         <Arg>
+            <Name>Drive</Name>
+            <Description>要弹出的驱动器。字符串的第一个字符将被用作盘符。因此，如果你要弹出 E: 盘，那么 "E"、"E:"、"E:\" 和 "E:\Myfile.txt" 都是有效值。</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>_SourceDrive</Default>
+               <DataType>string</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+   <Action>
+      <Name>Drive.Enumerate</Name>
+      <Description>返回包含用户系统上所有驱动器的数字索引表。</Description>
+      <ReturnValueType>table</ReturnValueType>
+   </Action>
+   <Action>
+      <Name>Drive.GetFreeSpace</Name>
+      <Description>获取指定驱动器的剩余磁盘空间，并返回其大小 (MB)。</Description>
+      <ReturnValueType>number</ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>Drive</Name>
+            <Description>要查询磁盘空间的驱动器。字符串的第一个字符将被用作盘符。因此，"C"、"C:"、"C:\" 和 "C:\Myfile.txt" 都是有效值。</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>"C:"</Default>
+               <DataType>string</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+   <Action>
+      <Name>Drive.GetInformation</Name>
+      <Description>返回有关指定驱动器的信息表。</Description>
+      <ReturnValueType>table</ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>Drive</Name>
+            <Description>要获取信息的驱动器。驱动器的格式必须为 "C:" 或 "C:\"。</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>"C:"</Default>
+               <DataType>string</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+   <Action>
+      <Name>Drive.GetSize</Name>
+      <Description>获取指定硬盘的磁盘空间，并返回其大小 (MB)。</Description>
+      <ReturnValueType>number</ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>Drive</Name>
+            <Description>要获取大小的驱动器。字符串的第一个字符将被用作盘符。因此，"C"、"C:"、"C:\" 和 "C:\Myfile.txt" 都是有效值。</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>"C:"</Default>
+               <DataType>string</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+   <Action>
+      <Name>Drive.GetType</Name>
+      <Description>获取指定驱动器的类型。</Description>
+      <ReturnValueType>number</ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>Drive</Name>
+            <Description>要获取类型的驱动器。字符串的第一个字符将被用作盘符。因此，"C"、"C:"、"C:\" 和 "C:\Myfile.txt" 都是有效值。</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>_SourceDrive</Default>
+               <DataType>string</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+   <Action>
+      <Name>Drive.GetUsedSpace</Name>
+      <Description>获取指定驱动器的已用磁盘空间，并返回其大小 (MB)。</Description>
+      <ReturnValueType>number</ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>Drive</Name>
+            <Description>要查询已用磁盘空间的驱动器。字符串的第一个字符将被用作盘符。因此，"C"、"C:"、"C:\" 和 "C:\Myfile.txt" 都是有效值。</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>"C:"</Default>
+               <DataType>string</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+</ActionTemplates>

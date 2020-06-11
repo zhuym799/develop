@@ -1,0 +1,538 @@
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:54:59:627
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:54:59:629
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 330496
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:58:49:072
+ TContactTip.Create self: 115558000
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:58:49:072
+[ 115558000 ] ** [InnerShowTip] Start Show Tip ** email : gaoshuang@hx-soft.cn
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:58:49:073
+[GetWXWorkWindow] FWXWorkWindow : 0
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:58:49:073
+[InnerShowTip] FBShowWXWorkFeature: 0
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:58:49:077
+[ShowFoxmailUserInfoWindow]
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:58:49:077
+ ** [DoShowForm] Show Form ** 
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:58:51:701
+[ 115558000 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:58:51:703
+[ 115558000 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:59:27:880
+[ 115558000 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:59:29:362
+[ 115558000 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:59:34:359
+[ 115558000 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:59:34:362
+[ 115558000 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:59:34:453
+[ 115558000 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:59:34:457
+[ 115558000 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:59:34:501
+[ 115558000 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:59:34:503
+[ 115558000 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:59:37:292
+[ 115558000 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 5092]  2019-05-29 09:59:37:293
+[ 115558000 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 5092]  2019-05-29 10:00:01:762
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 9600]  2019-05-29 15:50:38:124
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 9600]  2019-05-29 15:50:38:124
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 66620
+[7.2.10.151] [MainThread: 2928]  2019-05-29 16:05:17:358
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 2928]  2019-05-29 16:05:17:358
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 264548
+[7.2.10.151] [MainThread: 2928]  2019-05-29 16:06:09:436
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 10436]  2019-06-01 17:53:23:604
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 10436]  2019-06-01 17:53:23:605
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 1051540
+[7.2.10.151] [MainThread: 10436]  2019-06-01 17:53:32:088
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 424]  2019-06-03 11:47:39:232
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 424]  2019-06-03 11:47:39:233
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 330036
+[7.2.10.151] [ThreadId: 8696]  2019-06-03 14:36:42:540
+[TWXWorkServer] RequestError: 11001LastErrorDescription: 不知道这样的主机。
+
+[7.2.10.151] [MainThread: 424]  2019-06-03 14:47:07:724
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 12560]  2019-06-04 16:02:53:105
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 12560]  2019-06-04 16:02:53:106
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 528496
+[7.2.10.151] [MainThread: 12560]  2019-06-04 16:03:32:178
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 13864]  2019-06-10 17:25:41:521
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 13864]  2019-06-10 17:25:41:521
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 3278856
+[7.2.10.151] [MainThread: 13864]  2019-06-10 17:34:56:703
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 7908]  2019-06-13 14:54:03:224
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 7908]  2019-06-13 14:54:03:225
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 1968234
+[7.2.10.151] [MainThread: 7908]  2019-06-13 14:59:33:667
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 5208]  2019-06-17 09:35:46:743
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 5208]  2019-06-17 09:35:46:744
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 3671380
+[7.2.10.151] [MainThread: 5208]  2019-06-17 09:38:24:436
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 10572]  2019-06-27 14:23:50:220
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 10572]  2019-06-27 14:23:50:223
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 461204
+[7.2.10.151] [MainThread: 10572]  2019-06-27 14:25:32:740
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 9444]  2019-07-08 13:45:07:452
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 9444]  2019-07-08 13:45:07:453
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 5047906
+[7.2.10.151] [MainThread: 9444]  2019-07-08 13:45:45:434
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 17316]  2019-07-12 14:41:39:271
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 17316]  2019-07-12 14:41:39:272
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 2232010
+[7.2.10.151] [MainThread: 17316]  2019-07-12 14:52:07:784
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 8148]  2019-07-23 08:53:12:456
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 8148]  2019-07-23 08:53:12:457
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 133362
+[7.2.10.151] [MainThread: 9920]  2019-07-25 14:36:38:300
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 9920]  2019-07-25 14:36:38:303
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 2952248
+[7.2.10.151] [MainThread: 9920]  2019-07-25 16:38:50:565
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 9744]  2019-08-01 10:35:52:939
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 9744]  2019-08-01 10:35:52:939
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 263666
+[7.2.10.151] [MainThread: 9744]  2019-08-01 10:36:00:511
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 956]  2019-08-01 11:18:19:918
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 956]  2019-08-01 11:18:19:918
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 133474
+[7.2.10.151] [MainThread: 956]  2019-08-01 11:18:31:051
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 5580]  2019-08-01 11:18:41:492
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 5580]  2019-08-01 11:18:41:492
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 133658
+[7.2.10.151] [MainThread: 5580]  2019-08-01 11:27:22:006
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 169528]  2019-08-12 17:51:27:863
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 169528]  2019-08-12 17:51:27:866
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 658944
+[7.2.10.151] [MainThread: 169528]  2019-08-12 17:54:27:531
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 18748]  2019-08-22 15:02:51:538
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 18748]  2019-08-22 15:02:51:540
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 1118956
+[7.2.10.151] [MainThread: 18748]  2019-08-22 15:05:41:999
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 154016]  2019-08-24 09:06:20:419
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 154016]  2019-08-24 09:06:20:423
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 398472
+[7.2.10.151] [MainThread: 154016]  2019-08-24 09:07:16:740
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 195052]  2019-09-02 08:52:35:505
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 195052]  2019-09-02 08:52:35:507
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 1640542
+[7.2.10.151] [MainThread: 195052]  2019-09-02 08:56:41:340
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 20904]  2019-09-02 11:38:44:558
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 20904]  2019-09-02 11:38:44:560
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 529548
+[7.2.10.151] [MainThread: 20904]  2019-09-02 15:59:34:106
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 9160]  2019-09-10 17:12:17:935
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 9160]  2019-09-10 17:12:17:938
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 5445248
+[7.2.10.151] [MainThread: 9160]  2019-09-10 17:13:07:459
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 99068]  2019-09-12 13:24:18:936
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 99068]  2019-09-12 13:24:18:942
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 7935318
+[7.2.10.151] [MainThread: 99068]  2019-09-12 13:29:53:683
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 163092]  2019-09-18 11:58:32:106
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 163092]  2019-09-18 11:58:32:113
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 791684
+[7.2.10.151] [MainThread: 163092]  2019-09-18 12:18:21:814
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 86636]  2019-09-18 16:57:20:190
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 86636]  2019-09-18 16:57:20:194
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 21958166
+[7.2.10.151] [MainThread: 86636]  2019-09-18 20:51:17:760
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 21556]  2019-09-20 11:25:44:976
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 21556]  2019-09-20 11:25:44:977
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 265060
+[7.2.10.151] [MainThread: 21556]  2019-09-20 11:33:27:032
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 11104]  2019-09-25 12:22:48:325
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 11104]  2019-09-25 12:22:48:327
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 396350
+[7.2.10.151] [MainThread: 11104]  2019-09-25 12:22:58:804
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 28052]  2019-10-14 15:49:55:475
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 28052]  2019-10-14 15:49:55:478
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 593672
+[7.2.10.151] [MainThread: 28052]  2019-10-14 15:54:22:746
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 104200]  2019-10-15 16:22:36:136
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 104200]  2019-10-15 16:22:36:138
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 8197424
+[7.2.10.151] [MainThread: 104200]  2019-10-15 19:06:24:737
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 150916]  2019-10-23 10:54:08:652
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 150916]  2019-10-23 10:54:08:657
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 71168
+[7.2.10.151] [MainThread: 150916]  2019-10-23 11:00:31:310
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 18420]  2019-11-02 14:56:38:336
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 18420]  2019-11-02 14:56:38:338
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 52102866
+[7.2.10.151] [MainThread: 18420]  2019-11-04 09:49:44:328
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 13052]  2019-11-06 18:58:22:781
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 13052]  2019-11-06 18:58:22:782
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 68846
+[7.2.10.151] [MainThread: 13052]  2019-11-06 18:58:29:262
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 4748]  2019-11-11 08:59:46:883
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 4748]  2019-11-11 08:59:46:884
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 1182476
+[7.2.10.151] [MainThread: 4748]  2019-11-11 09:02:36:123
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 24464]  2019-11-30 10:17:49:563
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 24464]  2019-11-30 10:17:49:566
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 22941046
+[7.2.10.151] [MainThread: 24464]  2019-11-30 10:36:17:110
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 14996]  2019-12-11 14:57:59:636
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 14996]  2019-12-11 14:57:59:638
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 595166
+[7.2.10.151] [MainThread: 14996]  2019-12-11 14:58:51:450
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 13480]  2019-12-13 09:21:46:786
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 13480]  2019-12-13 09:21:46:788
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 71012
+[7.2.10.151] [MainThread: 13480]  2019-12-13 10:18:24:008
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 15096]  2019-12-16 19:07:02:944
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 15096]  2019-12-16 19:07:02:945
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 4396026
+[7.2.10.151] [MainThread: 15096]  2019-12-16 19:09:19:536
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 9008]  2019-12-26 11:42:23:318
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 9008]  2019-12-26 11:42:23:319
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 527466
+[7.2.10.151] [MainThread: 9008]  2019-12-26 11:44:42:382
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 1716]  2019-12-26 11:46:34:772
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 1716]  2019-12-26 11:46:34:773
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 462566
+[7.2.10.151] [MainThread: 1716]  2019-12-26 11:56:06:045
+ TContactTip.Create self: 109721408
+[7.2.10.151] [MainThread: 1716]  2019-12-26 11:56:06:046
+[ 109721408 ] ** [InnerShowTip] Start Show Tip ** email : gekai@hx-soft.cn
+[7.2.10.151] [MainThread: 1716]  2019-12-26 11:56:06:046
+[GetWXWorkWindow] FWXWorkWindow : 0
+[7.2.10.151] [MainThread: 1716]  2019-12-26 11:56:06:046
+[InnerShowTip] FBShowWXWorkFeature: 0
+[7.2.10.151] [MainThread: 1716]  2019-12-26 11:56:06:047
+[ShowFoxmailUserInfoWindow]
+[7.2.10.151] [MainThread: 1716]  2019-12-26 11:56:06:047
+ ** [DoShowForm] Show Form ** 
+[7.2.10.151] [MainThread: 1716]  2019-12-26 11:56:06:922
+[ 109721408 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 1716]  2019-12-26 11:56:06:927
+[ 109721408 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 1716]  2019-12-26 11:56:06:977
+[ 109721408 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 1716]  2019-12-26 12:00:41:618
+[ 109721408 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 1716]  2019-12-26 12:00:41:631
+[ 109721408 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 1716]  2019-12-26 12:00:41:639
+[ 109721408 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 1716]  2019-12-26 12:00:41:685
+[ 109721408 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 1716]  2019-12-26 12:00:41:686
+[ 109721408 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 1716]  2019-12-26 12:00:41:735
+[ 109721408 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 1716]  2019-12-26 12:00:41:736
+[ 109721408 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 1716]  2019-12-26 12:00:42:864
+[ 109721408 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 1716]  2019-12-26 12:00:42:866
+[ 109721408 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 1716]  2019-12-26 12:00:42:954
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 15164]  2019-12-26 17:31:15:189
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 15164]  2019-12-26 17:31:15:190
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 1117236
+[7.2.10.151] [MainThread: 15164]  2019-12-26 17:39:55:564
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 14136]  2020-01-06 11:55:42:503
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 14136]  2020-01-06 11:55:42:504
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 1643514
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:15:305
+ TContactTip.Create self: 210638352
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:15:307
+[ 210638352 ] ** [InnerShowTip] Start Show Tip ** email : guoxin@hx-soft.cn
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:15:308
+[GetWXWorkWindow] FWXWorkWindow : 0
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:15:308
+[InnerShowTip] FBShowWXWorkFeature: 0
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:15:310
+[ShowFoxmailUserInfoWindow]
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:15:310
+ ** [DoShowForm] Show Form ** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:16:980
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:19:493
+[ 210638352 ] ** [InnerShowTip] Start Show Tip ** email : qinzongping@hx-soft.cn
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:19:493
+[GetWXWorkWindow] FWXWorkWindow : 0
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:19:497
+[InnerShowTip] FBShowWXWorkFeature: 0
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:19:497
+[ShowFoxmailUserInfoWindow]
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:19:497
+ ** [DoShowForm] Show Form ** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:20:716
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:31:015
+[ 210638352 ] ** [InnerShowTip] Start Show Tip ** email : fangjianfeng@hx-soft.cn
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:31:015
+[GetWXWorkWindow] FWXWorkWindow : 0
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:31:015
+[InnerShowTip] FBShowWXWorkFeature: 0
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:31:016
+[ShowFoxmailUserInfoWindow]
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:31:016
+ ** [DoShowForm] Show Form ** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:47:372
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:57:525
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:57:527
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:33:57:529
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:08:555
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:08:569
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:08:571
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:08:629
+[ 210638352 ] ** [InnerShowTip] Start Show Tip ** email : liubingjie@hx-soft.cn
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:08:629
+[GetWXWorkWindow] FWXWorkWindow : 0
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:08:629
+[InnerShowTip] FBShowWXWorkFeature: 0
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:08:630
+[ShowFoxmailUserInfoWindow]
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:08:630
+ ** [DoShowForm] Show Form ** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:09:820
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:09:941
+[ 210638352 ] ** [InnerShowTip] Start Show Tip ** email : sunqian@hx-soft.cn
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:09:941
+[GetWXWorkWindow] FWXWorkWindow : 0
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:09:941
+[InnerShowTip] FBShowWXWorkFeature: 0
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:09:942
+[ShowFoxmailUserInfoWindow]
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:09:942
+ ** [DoShowForm] Show Form ** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:10:717
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:10:821
+[ 210638352 ] ** [InnerShowTip] Start Show Tip ** email : wangtongtong@hx-soft.cn
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:10:821
+[GetWXWorkWindow] FWXWorkWindow : 0
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:10:821
+[InnerShowTip] FBShowWXWorkFeature: 0
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:10:821
+[ShowFoxmailUserInfoWindow]
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:10:822
+ ** [DoShowForm] Show Form ** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:11:669
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:13:052
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:13:054
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:13:059
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:44:598
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:44:604
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:44:606
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:47:245
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:47:247
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:34:47:301
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:48:32:123
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:48:32:146
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:48:32:163
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:48:32:222
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:48:32:224
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:48:32:294
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:48:32:295
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:48:40:317
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:48:40:318
+[ 210638352 ]  *** [HideTip] *** 
+[7.2.10.151] [MainThread: 14136]  2020-01-06 13:48:40:493
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 16236]  2020-01-06 17:00:24:633
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 16236]  2020-01-06 17:00:24:634
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 723116
+[7.2.10.151] [MainThread: 16236]  2020-01-06 18:12:16:357
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 4080]  2020-01-10 15:45:35:551
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 4080]  2020-01-10 15:45:35:553
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 180686982
+[7.2.10.151] [MainThread: 4080]  2020-01-10 15:54:37:664
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 768]  2020-01-10 20:30:02:405
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 768]  2020-01-10 20:30:02:406
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 67562
+[7.2.10.151] [MainThread: 768]  2020-01-10 20:42:58:445
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 1076]  2020-03-13 17:35:08:773
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 1076]  2020-03-13 17:35:08:773
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 66368
+[7.2.10.151] [MainThread: 1076]  2020-03-13 18:36:50:524
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 12496]  2020-03-16 14:56:25:586
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 12496]  2020-03-16 14:56:25:589
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 67268
+[7.2.10.151] [ThreadId: 7892]  2020-03-16 17:22:52:196
+[TWXWorkServer] RequestError: 11001LastErrorDescription: 不知道这样的主机。
+
+[7.2.10.151] [MainThread: 8580]  2020-03-18 18:29:43:727
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 8580]  2020-03-18 18:29:43:728
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 66812
+[7.2.10.151] [MainThread: 7604]  2020-03-19 10:48:04:772
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 7604]  2020-03-19 10:48:04:773
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 67798
+[7.2.10.151] [ThreadId: 14768]  2020-03-19 13:10:35:332
+[TWXWorkServer] RequestError: 11001LastErrorDescription: 不知道这样的主机。
+
+[7.2.10.151] [MainThread: 1240]  2020-03-19 18:34:02:492
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 1240]  2020-03-19 18:34:02:493
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 920348
+[7.2.10.151] [MainThread: 3252]  2020-03-22 14:14:52:965
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 3252]  2020-03-22 14:14:52:966
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 198844
+[7.2.10.151] [MainThread: 3116]  2020-03-22 16:10:58:268
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 3116]  2020-03-22 16:10:58:268
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 67474
+[7.2.10.151] [MainThread: 3116]  2020-03-22 16:12:01:074
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 4944]  2020-03-22 16:24:40:446
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 4944]  2020-03-22 16:24:40:446
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 1050134
+[7.2.10.151] [MainThread: 4944]  2020-03-22 16:25:35:073
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 11268]  2020-03-22 16:25:52:351
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 11268]  2020-03-22 16:25:52:352
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 198750
+[7.2.10.151] [MainThread: 11268]  2020-03-22 16:26:34:397
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 1488]  2020-03-23 20:06:29:752
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 1488]  2020-03-23 20:06:29:752
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 197936
+[7.2.10.151] [MainThread: 1488]  2020-03-23 20:56:54:353
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 10692]  2020-03-23 20:57:24:662
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 10692]  2020-03-23 20:57:24:663
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 526172
+[7.2.10.151] [MainThread: 10692]  2020-03-23 21:05:08:374
+=== FinalizeCommunication ===
+[7.2.10.151] [MainThread: 4656]  2020-03-23 21:09:26:367
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 4656]  2020-03-23 21:09:26:368
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 722164
+[7.2.10.151] [ThreadId: 13672]  2020-03-24 07:23:22:780
+[TWXWorkServer] RequestError: 11001LastErrorDescription: 不知道这样的主机。
+
+[7.2.10.151] [MainThread: 8248]  2020-03-30 20:45:36:855
+--- InitCommunication ---
+[7.2.10.151] [MainThread: 8248]  2020-03-30 20:45:36:857
+ [AfterConstruction] TFoxmailIPCWindow: FWindow 985530
+[7.2.10.151] [MainThread: 8248]  2020-03-30 20:45:40:324
+=== FinalizeCommunication ===

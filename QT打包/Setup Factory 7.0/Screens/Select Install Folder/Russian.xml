@@ -1,0 +1,24 @@
+<SUF70Messages>
+	<Language>
+		<Name>Russian</Name>
+		<Default>0</Default>
+		<Primary>25</Primary>
+		<Secondary>
+		</Secondary>
+	</Language>
+	<Messages>
+		<IDS_WINDOW_TITLE>Установка %ProductName%</IDS_WINDOW_TITLE>
+		<IDS_HEADER_TEXT>Папка для Установки</IDS_HEADER_TEXT>
+		<IDS_SUBHEADER_TEXT>Куда вы хотите установить %ProductName%?</IDS_SUBHEADER_TEXT>
+		<IDS_CTRL_BUTTON_NEXT>&Дальше &gt;</IDS_CTRL_BUTTON_NEXT>
+		<IDS_CTRL_BUTTON_BACK>&lt; &Назад</IDS_CTRL_BUTTON_BACK>
+		<IDS_CTRL_BUTTON_CANCEL>&Отмена</IDS_CTRL_BUTTON_CANCEL>
+		<IDS_CTRL_BUTTON_HELP>&Справка</IDS_CTRL_BUTTON_HELP>
+		<IDS_CTRL_BUTTON_BROWSE>&Изменить...</IDS_CTRL_BUTTON_BROWSE>
+		<IDS_CTRL_EDIT_FOLDER>%AppFolder%</IDS_CTRL_EDIT_FOLDER>
+		<IDS_CTRL_STATICTEXT_TOPINSTRUCTIONS>Данная программа будет установлена в указанную папку. Для установки в другое место, либо введите новый путь, либо нажмите на кнопку Изменить для поиска существующей папки.</IDS_CTRL_STATICTEXT_TOPINSTRUCTIONS>
+		<IDS_CTRL_STATICTEXT_LABEL_01>Установить %ProductName% в:</IDS_CTRL_STATICTEXT_LABEL_01>
+		<IDS_CTRL_STATICTEXT_SPACEREQUIRED>Необходимо: %SpaceRequired%</IDS_CTRL_STATICTEXT_SPACEREQUIRED>
+		<IDS_CTRL_STATICTEXT_SPACEAVAILABLE>Свободно на выбранном диске: %SpaceAvailable%</IDS_CTRL_STATICTEXT_SPACEAVAILABLE>
+	</Messages>
+</SUF70Messages>

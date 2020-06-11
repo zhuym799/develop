@@ -1,0 +1,20 @@
+.horizontal_scroller {
+	position: absolute;
+	width: 100%;
+	overflow: auto;
+	bottom: 0px;
+}
+@media print {
+	.horizontal_scroller {
+		display: none;
+	}
+}
+.horizontal_scroller.fixed_bottom {
+	position:fixed;
+	bottom: 0px;
+	width: -webkit-calc(100% - 20px);
+	/*padding: 0 10px 0 0;*/
+}
+.scroller_sham_content {
+	height: 1px;
+}

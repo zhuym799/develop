@@ -1,0 +1,47 @@
+<div class='editPanelWrapper'>
+    <div class="contactEditPanel clearfix">
+        <div class="contactEditArea">
+                    
+            <div class="contactEditArea_controlPanel">
+
+                <!-- 基本信息 -->
+                {{person_basic_section}}
+
+
+                <!-- 主要信息 -->
+                {{person_main_section}}
+                
+                <!-- 展开更多 -->
+                <div class="editMore {{edit_more_hide}}">
+                    <span><em>{{lng_more_label}}</em></span>
+                </div>
+
+                <!-- 个人信息 -->
+                {{person_profile_section}}
+
+                <!-- 工作信息 -->
+                {{person_company_section}}
+                
+            </div>
+            
+        </div>
+
+
+        <div class="btnBarWrap defcursor unselectable">
+                    
+            <div class="btnBar clearfix">
+                <div class="inner">
+                    <div class="leftBtns">
+                        <div class="foxButton gray savePersonButon">{{lng_save}}</div><!--
+                        --><div class="foxButton gray cancelPersonButon">{{lng_cancel}}</div>
+                    </div>
+                    
+                    <div class="rightBtns {{delete_hide}}">
+                        <div class="foxButton red deletePersonButon" style="width:80px;">{{lng_delete}}</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

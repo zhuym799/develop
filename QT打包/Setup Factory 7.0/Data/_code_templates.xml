@@ -1,0 +1,176 @@
+<IRCodeTemplates>
+   <Template>
+      <Name>注释 (单行)</Name>
+      <Type>insert</Type>
+      <Top>-- 输入注释</Top>
+      <Bottom/>
+   </Template>
+   <Template>
+      <Name>注释 (多行)</Name>
+      <Type>insert</Type>
+      <Top>--[[
+输
+入
+注
+释
+]]
+      </Top>
+      <Bottom/>
+   </Template>
+   <Template>
+     <Name>注释 (多行，自动换行)</Name>
+     <Type>wrap</Type>
+     <Top>--[[
+     </Top>
+     <Bottom>]]
+     </Bottom>
+	</Template>
+   <Template>
+      <Name>连接字符串</Name>
+      <Type>insert</Type>
+      <Top>-- 设置 string_name 为 "First Last"
+string_name = "First ".."Last";</Top>
+      <Bottom/>
+   </Template>
+   <Template>
+      <Name>for 循环</Name>
+      <Type>wrap</Type>
+      <Top>-- 一个从 1 到 10 的 for 循环
+min = 1;  -- 起始数字
+max = 10;  -- 终止数字
+for count = min, max do
+	-- 要执行的语句</Top>
+      <Bottom>end</Bottom>
+   </Template>
+   <Template>
+      <Name>for 循环 (带步长)</Name>
+      <Type>wrap</Type>
+      <Top>-- 一个从 1 到 10、步长为 2 的 for 循环
+min = 0;  -- 起始数字
+max = 10;  -- 终止数字
+step = 2;  -- 间隔数字 (0, 2, 4, ...)
+for count = min, max, step do
+	-- 要执行的语句</Top>
+      <Bottom>end</Bottom>
+   </Template>
+   <Template>
+      <Name>函数</Name>
+      <Type>wrap</Type>
+      <Top>-- 接受两个值并返回一个值的函数
+function YourFunction(Arg1, Arg2)
+	-- 放置函数脚本
+	local value1 = Arg1; -- 存取 Arg1
+	local value2 = Arg2; -- 存取 Arg2
+	local result_value = Arg1 .. Arg2;  -- 连接 Arg1 与 Arg2
+	return result_value;  -- 返回 result_value</Top>
+      <Bottom>end</Bottom>
+   </Template>
+   <Template>
+      <Name>全局变量分配 (布尔)</Name>
+      <Type>insert</Type>
+      <Top>-- 创建一个全局变量，并赋予一个布尔值
+the_sky_is_blue = true;</Top>
+      <Bottom/>
+   </Template>
+   <Template>
+      <Name>全局变量分配 (数字)</Name>
+      <Type>insert</Type>
+      <Top>-- 创建一个全局变量，并赋予一个数值
+pi = 3.1415;</Top>
+      <Bottom/>
+   </Template>
+   <Template>
+      <Name>全局变量分配 (字符串)</Name>
+      <Type>insert</Type>
+      <Top>-- 创建一个全局变量，并赋予一个字符串
+your_variable = "汉化新世纪";</Top>
+      <Bottom/>
+   </Template>
+   <Template>
+      <Name>if..else 语句</Name>
+      <Type>wrap</Type>
+      <Top>-- 比较两个数字的 if ... else 语句
+x = 10;
+y = 20;
+if (x &gt; y) then
+	-- 要执行的语句</Top>
+      <Bottom>else
+	-- 要执行的 else 语句
+end</Bottom>
+   </Template>
+   <Template>
+      <Name>if 语句</Name>
+      <Type>wrap</Type>
+      <Top>-- 比较两个数字的 if 语句
+x = 10;
+y = 20;
+if (x &gt; y) then
+	-- 要执行的语句</Top>
+      <Bottom>end</Bottom>
+   </Template>
+   <Template>
+      <Name>if 语句 (不相等)</Name>
+      <Type>wrap</Type>
+      <Top>-- 比较两个不相等数字的 if 语句
+x = 10;
+y = 20;
+if (x ~= y) then
+	-- 要执行的语句</Top>
+      <Bottom>end</Bottom>
+   </Template>
+   <Template>
+      <Name>局部变量分配 (布尔)</Name>
+      <Type>insert</Type>
+      <Top>-- 创建一个局部变量，并赋予一个布尔值
+local the_sky_is_blue = true;</Top>
+      <Bottom/>
+   </Template>
+   <Template>
+      <Name>局部变量分配 (数字)</Name>
+      <Type>insert</Type>
+      <Top>-- 创建一个局部变量，并赋予一个数值
+local pi = 3.1415;</Top>
+      <Bottom/>
+   </Template>
+   <Template>
+      <Name>局部变量分配 (字符串)</Name>
+      <Type>insert</Type>
+      <Top>-- 创建一个局部变量，并赋予一个字符串
+local your_variable = "汉化新世纪";</Top>
+      <Bottom/>
+   </Template>
+   <Template>
+      <Name>repeat ... until 循环</Name>
+      <Type>wrap</Type>
+      <Top>-- repeat ... until 循环
+numLoopCount = 0;
+repeat
+	-- 要执行的语句
+	numLoopCount = numLoopCount + 1;</Top>
+      <Bottom>until numLoopCount == 10;</Bottom>
+   </Template>
+   <Template>
+      <Name>表格构造器 (联合)</Name>
+      <Type>insert</Type>
+      <Top>-- 一个联合表格 (数组)
+my_table = {One = "第一个元素", Two = "第二个元素", Three = "第三个元素"};</Top>
+      <Bottom/>
+   </Template>
+   <Template>
+      <Name>表格构造器 (数字索引)</Name>
+      <Type>insert</Type>
+      <Top>-- 一个数字索引表格 (数组)
+my_table = {"第一个元素","第二个元素","第三个元素"};</Top>
+      <Bottom/>
+   </Template>
+   <Template>
+      <Name>while 循环</Name>
+      <Type>wrap</Type>
+      <Top>-- while 循环
+testvar = 10;
+while (testvar &lt; 100) do
+	-- 要执行的语句
+	testvar = testvar + 1;</Top>
+      <Bottom>end</Bottom>
+   </Template>
+</IRCodeTemplates>

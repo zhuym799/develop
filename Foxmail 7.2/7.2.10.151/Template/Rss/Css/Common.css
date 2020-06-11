@@ -1,0 +1,256 @@
+/* 全局设置 */
+HTML {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+/*	overflow: hidden */
+}
+body {
+	padding: 0;
+	margin: 0;
+	height: -webkit-calc(100% - 20px);
+/*	overflow: hidden; */
+}
+div#foxmail_view_body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+	position: relative;
+	z-index: 1;
+}
+
+#body_main{
+	margin: 0px 0px 0px 0px;
+  padding: 0px 0px 10px 0px;
+}
+.foxFrameBorder {
+	border-radius: 2px;
+	border: 1px solid rgb(158, 166, 170);
+	background-color: window;
+	position: relative;
+}
+
+/* 通用样式 */
+.clear {
+    clear: both;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hide_ifnot_0, .hide_if_1, .hide_when_collapse_collapse, .hide_when_expand_expand {
+    display: none;
+}
+
+.hide_ifzero_0{
+	padding-right:0 !important;
+	display: none;
+}
+
+.FocusReceiver {
+	position: absolute;
+	top: -999px;
+	left: -999px;
+}
+
+/* 邮件会话区域 */
+.mail_frame {
+}
+
+.mail_session_container {
+	position: relative;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.mail_session_title {
+	margin: 0 3px 6px 3px;
+}
+
+.mail_session {
+	margin-top: 0px;
+    margin-bottom: 0px;
+	height: auto;
+	position: relative;
+}
+
+.mail_session_panel{
+	padding: 5px;
+}
+
+.mail_session_expand {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+
+.mail_head_expand {
+	padding: 2px 15px 2px 15px;
+    cursor: default;
+}
+
+.mail_head_subject_wrapper {
+    float: left;
+    text-align: left;
+	width: 100%;
+}
+
+.mail_head_subject_container {
+    margin-top: 6px;
+	margin-bottom: 3px;
+    text-align: left;
+}
+
+.mail_head_subject {
+    text-align: left;
+}
+.mail_top_most {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	position: relative;
+	top: 2px;
+	margin: 0px 0px 0px 5px;
+}
+.mail_top_most.top {
+	background: url(../../Common/FoxUI/Images/New/Icon/top.png) no-repeat;
+}
+.mail_top_most.not_top {
+	background: url(../../Common/FoxUI/Images/New/Icon/untop.png) no-repeat;
+}
+
+.mail_body {
+    position: relative;
+	/*z-index: 200;*//* 高于 mail_head */
+	top: 0px;
+	zoom: 1.0;
+	padding: 4px 3px 30px 3px; /* 正文下边距 */
+	background-color: window;
+	word-break：break-all;
+}
+
+.mail_info {
+    padding: 0px 6px 0px 6px;
+    font-size: 13px;
+	line-height: 17px;
+}
+/* 展开头部信息 */
+.rss_head_block {
+    margin: 0px 0px 0px 0px;
+	padding-top: 3px;
+	padding-bottom: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+	width: 100%;
+	border-bottom: 1px solid rgb(219,221,223);
+}
+
+/* 概要信息视图 */
+.rss_head_block_main {
+	position: relative;
+	z-index: 1000;
+}
+.rss_left_sendtime {
+    color: rgb(144,144,144);
+	font-size: 10.5pt;
+	display: inline;
+}
+.rss_left_sender {
+    color: rgb(66,73,79);
+	font-size: 10.5pt;
+	display: inline;
+	padding-right: 10px;
+}
+.rss_right_block {
+	float: right;
+	font-size: 10.5pt;
+	color: rgb(19, 109, 186);
+	text-decoration: none;
+	cursor: pointer;
+	height: 19px;
+}
+.rss_right_block a {
+	text-decoration: none;
+	cursor: pointer;
+	outline: none;
+}
+.rss_right_block a:active{
+	color: rgb(19, 109, 186);
+}
+.rss_right_block a:visited{
+	color: rgb(19, 109, 186);
+}
+.rss_right_block a:link{
+	color: rgb(19, 109, 186);
+}
+.rss_left_block{
+	margin-right: 80px;
+	height: 19px;
+	line-height: 19px;
+}
+
+/* 正文区域 */
+.rss_content_container {
+	margin:0; 
+	padding: 10px 10px 10px 10px;
+	font-size: 10.5pt; 
+	line-height: 1.7;
+}
+.rss_content_container a img {
+	border: none;
+}
+.rss_content_container *{
+	font-family: '宋体';
+}
+.rss_content_container *> IMG{
+	max-width: 100%; 
+	height:auto !important;
+}
+.rss_content_container td img {
+    max-width: inherit;
+}
+#rss_fox_logo { height: 100%;}
+
+#fox_logo_box{	
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+}
+#fox_rss_logo_box_img{
+	width: 160px;
+	height: 120px;
+	background-image: url('../Images/Logo/rss_logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: -30px;
+}
+#fox_rss_logo_box_info{
+	font-size: 18px;
+	color: #b5bfc9;
+	margin-top: 10px;
+	line-height: 1.5;
+	cursor: default;
+}
+
+.common_page_margin{
+	margin: 5px
+}
+
+.common_page_top_margin{
+	margin-top: 5px
+}
+
+.common_page_right_margin{
+	margin-right: 5px
+}
+
+.common_page_bottom_margin{
+	margin-bottom: 5px
+}
+
+.common_page_left_margin{
+	margin-left: 5px
+}

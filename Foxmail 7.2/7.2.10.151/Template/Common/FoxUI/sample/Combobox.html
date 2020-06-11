@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src='../../Javascript/jquery-1.9.1.min.js'></script>
+    <script src='../FoxUI.js'></script>
+    <link type="text/css" rel="stylesheet" href="../FoxUI.css"></head>
+<body>
+    <!-- HTML Template -->
+    <div class='foxCombobox normal'>
+        <div class='input'>
+            <div class='border-top border-top-background'></div>
+            <div class='border-top-left border-top-left-background'></div>
+            <div class='border-top-right border-top-right-background'></div>
+            <div class='border-left border-left-background'></div>
+            <div class='border-right border-right-background'></div>
+            <div class='border-bottom border-bottom-background'></div>
+            <div class='border-bottom-left border-bottom-left-background'></div>
+            <div class='border-bottom-right border-bottom-right-background'></div>
+            <a>123</a>
+            <div class='select-button'></div>
+        </div>
+        <div class='listContainer'>
+            <div class='list hidden'>
+                <div class='border-top border-top-background'></div>
+                <div class='border-top-left border-top-left-background'></div>
+                <div class='border-top-right border-top-right-background'></div>
+                <div class='border-left border-left-background'></div>
+                <div class='border-right border-right-background'></div>
+                <div class='border-bottom border-bottom-background'></div>
+                <div class='border-bottom-left border-bottom-left-background'></div>
+                <div class='border-bottom-right border-bottom-right-background'></div>
+                <ul>
+                    <li val='1'>123</li>
+                    <li val='2'>123</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div>1231232</div>
+<script type="text/javascript">
+        $('.foxCombobox').foxCombobox();
+        $('.foxCombobox').foxCombobox().updateList(['a','b','c']);
+        $('.foxCombobox').foxCombobox().setValue('d');
+        //console.log($('.foxCombobox').foxCombobox().getValue());
+    </script>
+</body>
+</html>

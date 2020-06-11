@@ -1,0 +1,153 @@
+You keep good company! Indigo Rose products are used by over 16,000 developers and tens of millions of end users worldwide.
+The Indigo Rose Corporation web site address is http://www.indigorose.com. Check it out for the latest news and information.
+Installers created with Setup Factory 7.0 are smaller and faster than ever before. Compare our tiny ~450 KB runtime overhead (including uninstall) to the competition and see for yourself.
+We've taken the classic Setup Factory action engine and replaced it with an all-new and incredibly powerful free-form scripting engine. Based on the popular Lua language, this easy to understand scripting language features everything from "for, repeat and while" loops, to "if/else" conditions, functions, variables and tables (associative arrays).
+Setup Factory 7.0 comes with a built-in library of more than 250 easy to use actions, so you can do whatever you need without having to be an advanced programmer. You can execute programs, call DLL functions, query drive information, manipulate strings, copy files, enumerate processes, start and stop services, interact with web scripts, display dialog boxes and much more.
+The Publishing Wizard walks you through the build process with a few easy steps. You can choose to output your installer as either a web/email ready single-file setup.exe, or optimized for distribution on CD-ROM, DVD-ROM, LAN or even floppy disk.
+With Setup Factory 7.0's action library, full mathematical evaluation and Boolean expressions, there's simply nothing you can't achieve. We've also built in an "Action Wizard" and "Code Wizard" so even complete novices can create powerful installers that handle even the most demanding installation tasks.
+Setup Factory 7.0 offers unsurpassed support for multilingual installations right out of the box. While some products charge you extra for this essential feature (or don't offer it at all), Setup Factory 7.0 gives you everything you need to support your customers and clients around the world.
+Choose from dozens of pre-made themes (skins) for your screens or even make your own. You can configure everything from fonts (face, color, size, style) and banner images to body/background graphics, control colors (buttons, check boxes, radio buttons) and more. Whether your installer needs a corporate feel or a hip attitude, you can do it with Setup Factory 7.0!
+You're going to love our other products as well! Indigo Rose is the creator of award-winning tools such as AutoPlay Media Studio, TrueUpdate and Visual Patch. For more details visit our web site at http://www.indigorose.com.
+With no "unpacking" step required, Setup Factory 7.0 installers are much faster to initialize and install than those created by competitive tools.
+Check out http://www.setupfactory.com out for all the latest news and product updates.
+You can find the exact version number of this software by choosing Help > About Setup Factory.
+You can download files from the Internet during your install using the HTTP.Download action.
+To add a new language to your project, choose Project > Languages.
+Primer files are automatically extracted to a temporary folder at run time. The path to this folder is automatically stored in a session variable named %TempLaunchFolder%. You should use this session variable in actions when you need to access your primer files.
+The new “folder reference” feature allows you to add folders with dynamic content to your project. When your project is built, the folder will be scanned and every file it finds will be added to your project. It’s a great addition that will save you time and effort.
+You can check your spelling from almost any edit field within Setup Factory 7.0 by right-clicking on the field and selecting Check Spelling from the context menu.
+You can assign keyboard shortcuts to frequently used menu commands. It will save you time and is easy to do. See the Tools > Customize menu to try it yourself.
+Silent installs let you maintain control over hundreds or thousands of workstations while enforcing corporate standards. New options let you enable silent installs with a command line switch, or even force the installer to always run in unattended mode.
+Previous versions of Setup Factory have included a handful of system actions for doing routine tasks such as running programs and creating shortcut icons. Setup Factory 7.0 takes it to another level and gives you full control over your installer.
+Setup Factory 7.0 fits seamlessly into your daily build process with its unattended build feature. Creating your product installer every time you build your source code makes it easy to test early and often. Simply include your Setup Factory project in your build process to run automatically and output a finished setup.exe.
+You can easily edit the properties of multiple files at once by selecting them in the main file list and selecting Project > File Properties from the menu.
+Does your software application make use of Visual Basic runtime files, or any other third-party dependencies? If so, check out Setup Factory 7.0’s dependency modules feature by choosing Resources > Dependencies.
+Global functions allow you to re-use blocks of code without having to reproduce the actions over and over again.
+Would you like to protect your install with a password or serial number? Try choosing Project > Serial Numbers from the program menu. You will also need to provide a screen in your install so the user can enter their serial number. Simply add the "Verify Serial Number" screen to handle this type of validation.
+Primer Files are extracted to a temporary location at the start of the setup. You can include a file as a primer file by choosing Resources > Primer Files from the program menu. They’re great for those times where you need to include “helper” applications or DLL files along with your installer.
+The Edit Fields screen now supports up to 32 edit fields.
+Plugin actions feature tight integration with the design environment, making them just as easy to use as built-in actions. Plugins are available through Indigo Rose as well as third-party developers thanks to Indigo Rose's freely available plugin development kit.
+The License Agreement screen now accepts an HTML document for its contents.  This means you can format your documents with color, fonts and styles – just like any web page!
+Have you tried any other Indigo Rose products? TrueUpdate makes it easy to add a powerful "update from web" feature to all of your products.
+Setup Factory 7.0 has a number of debugging features built in so you can easily trace through your script actions. Try using the Debug actions "Debug.ShowWindow" followed by "Debug.SetTraceMode" for a detailed look at your script execution.
+Setup Factory 7.0 allows you to set a global theme for your setup by choosing Project > Screens. The global theme of your project can be overridden on a per-screen basis by using the Style tab in any screen's properties dialog.
+Are you distributing on CD or DVD and need some of your files installed, yet also available on the CD/DVD? Try adding those files to the External tab. Files listed there will be installed, but will not be compressed into the setup.exe.
+Panes remember their positions even after you unpin them. If you unpin a pane, and then pin it again, it will return to the position it had before it was unpinned.
+You can customize the columns by choosing View > Columns. This opens the Columns dialog, where you can choose which columns to display in the list, and change the order (left to right) that the columns are listed in.
+It can be helpful to set the number of undo levels to a larger value, like 25 or 50. That way you can undo even more "steps" back if you change your mind while you're working on a project.
+Once you're in the design environment, you can start a new project by choosing File > New.
+Spend five minutes with Setup Factory's easy to use Project Wizard and come away with a complete, ready to build installation project. You'll be walked through each option so you can get your project started as quickly as possible
+Setup Factory 7.0 comes with an advanced executable scanner that can assist you in determining required DLL's and libraries for those difficult to manage multi-team projects. Look for it on the Tools menu.
+The new dynamic control layout feature in Setup Factory 7.0 makes it easy to have great looking screens. Your data is automatically formatted to fit the available screen space, saving you time and ensuring that all of your data is visible, all the time!
+Folder references are one of the most powerful new features in Setup Factory 7.0! Be sure to use them to your advantage.
+Pressing F1 will actually bring you directly to the appropriate topic in the online help. This context-sensitive help is an excellent way to answer any questions you may have about a specific dialog or object.
+You can easily enforce system requirements just by clicking a few boxes. Built-in checks include operating system, memory, screen resolution, color depth and administrator privileges. If the user's system does not meet the minimum requirements you have chosen, the installer can either warn the user or abort the setup entirely.
+Changes you make to the user's system using script actions are not automatically undone by the uninstall.  You must insert the “opposite” action into the uninstall for your changes to be reversed.
+Do you want your setup to have a background window, instead of just being a typical windowed setup? If so, you can select this option by choosing Project > Background Window.
+Project Filters make it easy for you to organize and locate the files you’ve added to your project. For large projects this is a very helpful feature, letting you filter your list by dozens of criteria, and focus on the task at hand.
+Docked panes can be "pinned" or "unpinned." Pinned panes remain open when you're not using them. (All of the panes in the default layout are pinned.) Unpinned panes stay out of the way until you click on them or hover the mouse over them. Whenever you need them they "slide" open, on top of everything else, and then slide closed when you're done.
+You can pin or unpin a pane by clicking the little pin icon on the pane's title bar.
+Add some basic security to your installer by implementing serial numbers, and expiration criteria.  Both of these options are available by selecting Project > Serial Numbers and Project > Expiration, respectively.
+Installers created with Setup Factory can automatically determine the language of the client operating system and adjust the display of screens and messages appropriately. Whether you need to support English, French, German, Spanish, Italian or any other language, just provide the text and your installer takes care of the rest!
+You can include Web sites in your setup using the Scrolling HTML screen.
+If you're creating installers for your Visual Basic projects, then look no further! Setup Factory can analyze your VB project and automatically add the necessary runtime files and dependencies for you.
+The Checkbox screen now supports up to 32 checkboxes.
+Primer files are just regular files that get extracted from the setup executable before the installation process begins. This means you can use primer files at the very start of the installation process, right after the user runs the setup executable.
+The External file list (or "External tab") is for files that you don't want compressed and stored in the setup executable. In other words, this list is for files that will be distributed with your installer.
+You can change the order that files are installed in from the Advanced tab of the File Properties dialog.
+When working with large numbers of files, use a filter to display only those files matching certain criteria. This makes finding specific files simpler.
+A video training CD is available for learning Setup Factory 7.0 inside and out. Compared to classes and seminars, there's really no question that this multimedia training series offers a great value and a depth of content that just can't be beat.
+You can install ODBC drivers and configure ODBC data sources using the ODBC actions.
+We listened when you said you wanted more learning resources. The new user's guide has been written from scratch to cover everything you need to know to create professional installers. Look for it on the Help menu.
+To restrict installation of your product to only systems meeting minimum system requirements, set the options on the Requirements tab of the Project Settings dialog. This is accessible by choosing Project > System Requirements.
+Use separate packages to keep different builds of your product separate, but in the same installer. To get started with packages, choose Project > Packages.
+If you make a mistake, you can use the Undo command to back up and try again. Look for it on the Edit menu, or press Ctrl+Z.
+The new Select Packages screen has been significantly enhanced. It now features a hierarchical tree with checkboxes, giving users much more control over the selection of packages being installed.
+You can easily change the colors and other visual aspects of Setup Factory 7.0’s development environment. Choose Edit > Preferences to see all of the options. 
+The improved internationalization features of Setup Factory 7.0 let you translate your user interface screens into multiple languages. It’s a big leap forward for multilingual installers.
+You can change the properties of more than one file at a time. Simply select the files that you want to edit in the list, right-click, and choose File Properties from the menu.
+Hidden from prying eyes, your installer data is compressed using proprietary algorithms and serial numbers are encrypted using industry standard MD5 hashing. Of course, if you'd rather do it yourself, Setup Factory 7.0 is flexible enough to support your own custom validation and authorization schemes.
+You can assign keyboard shortcuts to frequently used menu commands. It will save you time and is easy to do. See the Tools > Customize menu to try it yourself.
+Have you tried any other Indigo Rose products? AutoPlay Media Studio lets you easily create autorun CD menus and other multimedia applications using a drag-and-drop interface.
+You can change system settings before your files are installed by inserting actions into your installer's On Startup event.
+Setup Factory 7.0 features a new and improved uninstall feature. Simply turn it on and let Setup Factory worry about removing your files. Anything that is installed during the setup will be marked for removal by the uninstaller.
+You can move panes around by dragging them by their title bars. As you move a pane, an outline shows you the general area where the panel will end up. If you drag the pane near the edge of the program window, or near another pane, the outline will "snap" to show you how the pane can be docked, tabbed, or otherwise combined with the target area.
+You can easily add your own customized screens to the Screen Gallery by selecting the screen in the Screens dialog and choosing Advanced > Add to Gallery.
+Make sure you are using the most recent version of Setup Factory! Try using our automated updating system that can be configured by choosing Edit > Preferences from the program menu and then clicking on the "Updates" category.
+Keeping track of the essential details of your installation project is now just a couple of clicks away. With improved HTML-based project reports (featuring CSS formatting) and text-based install-time log files, you'll have an accurate record of everything you need.
+You can show a splash screen with an image on it by using the Dialog.SplashImage action.
+Do you distribute Visual Basic 5 or 6 applications? Try using Setup Factory 7.0's Visual Basic Project Scanner to determine the dependencies of your application. This feature can be found by choosing Tools > Scan Visual Basic Project.
+You can configure how often Setup Factory auto-saves backups of your projects from Edit > Preferences.
+The items that appear in the Setup Factory file lists refer to files on your system. When you add a file to your project, the file is not copied into the project. It is only referenced by the project.
+Setup Factory 7.0 lets you choose between the traditional setup-wizard style or the modern Windows Installer style interface. You're able to customize the background window with gradients, images, color washes, headlines and footer text with 3D effects.
+You can make your setup expire by either time or uses on the Expiration tab of the Security dialog.
+Instantly add runtime support for many popular third-party technologies, including Visual Basic 5.0, Visual Basic 6.0, DCOM, JET, MDAC, Visual C++ and more. Additional dependency modules are easy to create and integrate seamlessly into the development environment.
+Using Build Configurations you can configure one project to build many different types of setups.
+Include files that you want to be compressed on the Archive tab, and files that you want to reference outside of the compressed executable on the External tab.
+In the properties for each file in your file list there is a tab named “Notes”. This allows you to add comments to files for future reference. You will never forget why a file is included in your install if you use this tab properly.
+The new action editor harnesses the power of a complete and advanced scripting language, but it’s even easier to use than any previous version of the software.
+Are you creating installs for applications that will only run on certain operating systems? Setup Factory 7.0 allows you to quickly configure the system requirements for your installation. Select Project > System Requirements for all the options.
+You don't have to be a wizard to create powerful installers with Setup Factory 7.0. We've built the wizard into the software! Simply choose the action you want from a categorized list (complete with on-screen interactive help), fill in the requested information fields and the wizard does the rest.
+Setup Factory 7.0 includes the option to generate a setup log file.  This log file is an excellent tool for diagnosing problems with your install, should they arise.  You can control how the logging is handled by choosing Project > Log Files.  If you want to include some specific information in the log file, use the action SetupData.WriteToLogFile.
+Setup Factory includes a variety of features designed to help you manage access to your software, including serial number lists and date-based expiration. With its powerful serial number generator you can quickly create thousands of unique serial numbers, which are stored internally as secure MD5 hashes.
+Setup Factory 7.0 can be easily expanded with Action Plugins. These plugin modules can extend the product in infinitely powerful ways, such as adding support for databases, XML, data encryption and FTP file transfers.
+When you're dragging panes, it's the position of the mouse cursor that determines where the outline snaps into place. For example, to dock a pane below another one, drag the pane so the cursor is near the bottom edge of that pane. To "tab" one pane with another, drag the pane so the cursor is on top of the other pane's title bar.
+Indigo Rose offers free web-based technical support. Visit our dedicated support site at http://support.indigorose.com for knowledge base articles, product manuals and personalized support tickets.
+We’ve drastically improved the installation log feature. It’s now much easier to see exactly what happened during an installation.
+Verifying a serial number can now be done from just about anywhere in your installation. It’s as easy as calling the SetupData.IsValidSerialNumber action.
+Occasionally, you’ll want to control the order in which your files are installed or registered. Setup Factory 7.0 gives you full control over the ordering of your files. Each file's install order can be set on the Advanced tab of the File Properties dialog.
+Create silent installations with Setup Factory 7.0 that operate without displaying user interface dialogs, prompts, messages or errors. Easily read command defaults from a response file and control the installation automatically.
+Do you occasionally move files, causing them to be missing from your project? With large projects, it may be difficult to see the missing files listed in red. In these cases, try using the "Missing Files" filter. All available filters can be found in the Setup Factory toolbar.
+You can create shortcuts for a file in up to seven different locations with just one click on the Shortcuts tab of the File Properties dialog.
+The uninstaller is now fully customizable. You can take full control of what files are removed, what shortcut icons are deleted, what registry changes are made and anything else you require. Even the dialog screens and sequence can be adjusted to suit your needs!
+Folder references are similar to files, but they reference a folder on your system instead of a single file. They're useful for including folders full of files without having to reference each file individually.
+The new system requirements tab makes excluding an operating system from your installation as easy as unchecking a checkbox. This is great for those applications that don’t work on Windows 95, or perhaps require XP to run.
+You can create a timer event on a screen using the Screen.StartTimer action.
+There are three ways to navigate the online help system: you can find the appropriate topic using the table of contents, or with the help of the keyword index, or by searching through the entire help system for a specific word or phrase.
+You can use the Filters toolbar to apply a filter to the file list so it only shows files that meet specific criteria. For example, you could filter the list to only show files that are larger than 5 MB, or files that will be installed to a specific location. 
+Another way to access files at the start of the installation process is to distribute them "alongside" your installer. For instance, you could store the files "externally" on the same CD-ROM, and access them directly; or, you could download the files from your web site using an HTTP.Download action in the On Startup project event.
+The Screen Manager allows you to add and remove screens at will, and adjust the sequence with a simple drag-and-drop motion. Each screen features a real-time preview so you can see the result of your changes as you work.
+An easy way to access file properties is to double-click on a file in the list.
+The Radio Buttons screen now allows up the 32 radio buttons.
+You can create your own custom toolbars or edit the existing ones by choosing Tools > Customize.
+By default, any setup created with Setup Factory 7.0 will add its uninstall to the “Add or Remove Programs” section of the user’s control panel. To disable this feature, choose Uninstall > Control panel, and uncheck “List Uninstall in Add or Remove Programs”.
+Creating installers for complex and multi-part products is now easier than ever. With dramatically improved support for grouping files into packages, it's a snap to group products and features into a single installer.
+Setup Factory 7.0 gives you a ton of options for customizing the development interface. Selecting "View" on the program menu to see all of the options you can enable or disable.
+The new built-in spelling checker helps make sure that typos don't creep into your projects. Dictionaries are available for over a dozen languages including English, French, German, Italian, Spanish, Dutch, Swedish, Danish, Croatian, Czech, Polish and Slovenian.
+You can make any file a primer file simply by adding it to the Primer Files tab on the Resources dialog. The files on this tab will be included in the setup executable when you build the installer.
+Indigo Rose offers free web-based technical support. Visit our dedicated support site at http://support.indigorose.com for knowledge base articles, product manuals and personalized support tickets.
+The Indigo Rose Corporation web site address is http://www.indigorose.com. Check it out for the latest news and information.
+You can adjust the undo levels by choosing Edit > Preferences and clicking on the Document category.
+Setup Factory 7.0 has a number of built-in ODBC actions. This makes distributing databases easier then ever.
+Choose Uninstall > Shortcut to control how your uninstall is displayed in the user’s start menu.
+Do you need to make an installer that runs without user interaction (i.e. a silent install)? Setup Factory 7.0 makes it easy! You can access this option by choosing to Project > Advanced Settings from the main menu.
+When problems occur during testing, try creating an installation log file. You can enable log file creation by choosing Project > Log Files from the program menu. A log file can also be created during the uninstall process and can be enabled by choosing Uninstall > Log Files.
+An easy way to access the properties of an item in the file list is to simply double-click on the item.
+The online help is only a key press away! Setup Factory comes with an extensive online program reference with information on every object, action, and feature in the program.
+While other installer tools are dropping support for older operating systems such as Windows 95 and 98, we believe that your choice of installation builder shouldn't limit your potential market. Setups created with Setup Factory 7.0 work just fine on every Windows operating system from Windows 95 to XP and beyond.
+Setup Factory has a built-in dependency scanner that you can use to identify dependency files and add them to your project. You can access this feature by choosing Tools > Scan File Dependencies.
+There are now three different options for the progress of your install. You can edit these from Project > Screens > While Installing.
+The Archive file list (or "Archive tab") is for files that you want compressed and stored in the setup executable. In other words, this list is for files that will be included in your installer.
+If you didn't really want to Undo something, you can use the Redo command to redo the last undone step. Either choose Edit > Redo, or press Ctrl+Y.
+You can set a default path for %AppFolder% by choosing Project > Session Variables, and you can allow the user to change it (i.e. select a different path) by including a Select Install Folder screen in your project.
+A quick way to determine which files are missing in your project is to click on the Status column header to sort the files in the list view according to their status.
+Most installations involve asking the user to confirm where they would like the software to be installed. In order to accommodate the user's choice in this matter, Setup Factory uses a session variable to represent the main folder where your software will be installed. The name of this session variable is %AppFolder%, which is short for Application Folder, i.e. the folder where your software application is to be installed.
+Setup Factory is smart enough to maintain your folder structure, automatically query version resource information, create shortcut icons and ensure 100% data integrity with reliable CRC-32 checking.
+You can have a background window with gradient colors or image that will fill the entire screen during install. You can edit this from Project > Background Window.
+With a library of more than twenty different screen templates to choose from and a pre-built wizard sequence suitable for the majority of installation tasks, Setup Factory 7.0 is miles ahead of both previous versions and the competition.
+Have you tried any other Indigo Rose products? Visual Patch creates compact and secure full-history patches. They work great in conjunction with Setup Factory and TrueUpdate for a complete software distribution solution.
+You don't have to know anything about scripting or programming - just fill in the blanks and you're done. Making changes is just as easy. Click on the line you want to change and press the "edit" button to go back to the original form. It's really that easy.
+The user's guide covers everything from basics like working with files and customizing the user interface all the way up to lessons on mastering the scripting language and creating multilingual installers. Look for it on the Help menu.
+You can create setups that span multiple CDs or DVDs by building the setup to multiple segments.
+You should fully test your software in its "final" structure before creating the installer.
+Using Folder References you can include an entire folder or tree of files to your project that will be dynamically added to your project at build-time.
+Do you create both commercial and evaluation versions of your software? You can handle them both with the same project. Build Configurations make it easy to choose between different sets of constants and output options. You’ll find them on the main menu by going to Publish > Settings.
+Setup Factory 7.0’s new “smart-pathing” algorithm makes it faster and easier to add files and folders to your project, while maintaining their structure during the installation.
+If you've outgrown the Action Wizard interface or simply want to unleash the power of the fast and efficient scripting engine, we've got you covered. The Setup Factory 7.0 freeform action editor features all of the professional features you'd expect. There's color syntax highlighting, code completion, function highlighting, as-you-type action prototypes, Ctrl+Space function listings and even context-sensitive help.
+Setup Factory 7.0 stores your project file in XML format. This makes it really easy to view, manipulate or print them using your favorite XML tools.
+Would you like a hard copy report of your project? Try Setup Factory 7.0 new and improved project report feature. You’ll find it on the Tools menu.
+You can change the install order of a file from the advanced tab of the files properties. This gives you ultimate control over the flow of your setup.
+You can add a folder reference from the project menu. This allows you to include certain files from a folder without having to add the files manually.
+There is now plug-in support in Setup Factory 7.0. This allows almost endless possibilities for your install.
+You can now run your install without a taskbar icon. You can set this from Project > Advanced Settings. This allows you to run a pure silent install.
+The addition of Lua scripting to Setup Factory 7.0 allows you to reuse code between your AutoPlay Media Studio 5.0 and Setup Factory 7.0 projects.

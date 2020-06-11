@@ -1,0 +1,42 @@
+<SUF7SessionVars>
+	<SessionVar>
+		<Name>%ProductName%</Name>
+		<Value>您的产品</Value>
+		<Type>1</Type>
+	</SessionVar>
+	<SessionVar>
+		<Name>%CompanyName%</Name>
+		<Value>您的公司</Value>
+		<Type>1</Type>
+	</SessionVar>
+	<SessionVar>
+		<Name>%ProductVer%</Name>
+		<Value>1.0</Value>
+		<Type>1</Type>
+	</SessionVar>
+	<SessionVar>
+		<Name>%Copyright%</Name>
+		<Value>版权 (C)2005 %CompanyName%</Value>
+		<Type>1</Type>
+	</SessionVar>
+	<SessionVar>
+		<Name>%CompanyURL%</Name>
+		<Value>http://www.yourcompany.com</Value>
+		<Type>1</Type>
+	</SessionVar>
+	<SessionVar>
+		<Name>%WindowTitle%</Name>
+		<Value>%ProductName% 安装</Value>
+		<Type>1</Type>
+	</SessionVar>
+	<SessionVar>
+		<Name>%AppFolder%</Name>
+		<Value>%ProgramFilesFolder%\%ProductName%</Value>
+		<Type>2</Type>
+	</SessionVar>
+	<SessionVar>
+		<Name>%AppShortcutFolderName%</Name>
+		<Value>%ProductName%</Value>
+		<Type>2</Type>
+	</SessionVar>
+</SUF7SessionVars>

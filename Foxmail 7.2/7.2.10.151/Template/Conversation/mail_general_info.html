@@ -1,0 +1,20 @@
+<!-- hit 普通信息 -->
+<div class='general_info'>
+	<div class='general_info_top'>
+		<div class='general_info_sender ellipsis'>{{general_sender}}</div>
+	</div>
+	<div class='general_info_bottom'>
+		<div class='general_info_bottom_left ellipsis {{recerver_hide}}'>
+			<span>{{lng_To}}</span>
+			<span>{{general_receiver}}</span>
+		</div>
+		<div class='general_info_bottom_right'>
+			<div class='detail_info_prompt' showPrompt='{{lng_ShowDetail}}' hidePrompt='{{lng_HideDetail}}' state={{detail_state}}>{{lng_Detail}}</div>
+			<div class='general_info_time'>{{date_simple}}</div>
+		</div>
+	</div>
+	<div class='general_info_tool {{info_tool_hide}}'>
+		<div class='fastreply_button'></div><!--
+		--><div class='control_button'></div>
+	</div>
+</div>

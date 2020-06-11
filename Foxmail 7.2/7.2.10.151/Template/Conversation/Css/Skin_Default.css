@@ -1,0 +1,276 @@
+
+.mail_fast_reply_show_icon {
+	background: url(../Images/Skin_Default/fast_reply_show_press.png) center no-repeat;
+}
+.mail_fast_reply_show_icon:hover{
+	background: url(../Images/Skin_Default/fast_reply_show_press.png) center no-repeat;
+}
+.mail_fast_reply_show_icon:active{
+	background: url(../Images/Skin_Default/fast_reply_show.png) center no-repeat;
+}
+.mail_fast_reply_hide_icon {
+	background: url(../Images/Skin_Default/replay_normal.png) center no-repeat;
+}
+.mail_fast_reply_hide_icon:hover {
+	background: url(../Images/Skin_Default/replay_hover.png) center no-repeat;
+}
+.mail_fast_reply_hide_icon:active {
+	background: url(../Images/Skin_Default/replay_press.png) center no-repeat;
+}
+.mail_more_control_icon {
+    background: url(../Images/Skin_Default/more_normal.png) center no-repeat;
+}
+.mail_more_control_icon:hover {
+    background: url(../Images/Skin_Default/more_hover.png) center no-repeat;
+}
+.mail_more_control_icon:active {
+    background: url(../Images/Skin_Default/more_press.png) center no-repeat;
+}
+
+.mail_fast_reply_popup {
+    background: url(../Images/Skin_Default/popup_normal.png) center no-repeat;
+}
+
+.mail_fast_reply_popup:hover {
+    background: url(../Images/Skin_Default/popup_hover.png) center no-repeat;
+}
+.mail_fast_reply_popup:active {
+    background: url(../Images/Skin_Default/popup_active.png) center no-repeat;
+}
+
+
+.mail_fast_reply_cancel {
+    background: url(../Images/Skin_Default/fast_reply_cancel_normal.png) center no-repeat;
+}
+.mail_fast_reply_cancel:hover {
+    background: url(../Images/Skin_Default/fast_reply_cancel_hover.png) center no-repeat;
+}
+.mail_fast_reply_cancel:active {
+    background: url(../Images/Skin_Default/fast_reply_cancel_down.png) center no-repeat;
+}
+
+.mail_fast_reply_send_enabled {
+    background: url(../Images/Skin_Default/fast_reply_send_normal.png) center no-repeat;
+}
+.mail_fast_reply_send_enabled:hover {
+    background: url(../Images/Skin_Default/fast_reply_send_hover.png) center no-repeat;
+}
+.mail_fast_reply_send_enabled:active {
+    background: url(../Images/Skin_Default/fast_reply_send_down.png) center no-repeat;
+}
+
+.mail_fast_reply_send_disabled {
+    background: url(../Images/Skin_Default/fast_reply_send_disable.png) center no-repeat;
+}
+
+.mail_meeting_icon {
+    background: url(../Images/Skin_Default/calendar_title_2x.png) center no-repeat;
+}
+
+.mail_head_attachment {
+    background: url(../Images/Skin_Default/attachment_info.png) center no-repeat;
+    background-size: 16px 16px;
+}
+
+.mail_info_attachment_count {
+    background: url(../Images/Skin_Default/attachment_info.png) center no-repeat;
+	background-position: 0px 0px;
+}
+.mail_info_attachment_count:active {
+	background: url(../Images/Skin_Default/attachment_press.png) center no-repeat;
+	background-position: 0px 0px;
+}
+/*
+.mail_info_expand_border {
+    background: url(../Images/Skin_Default/info_expand_border.png) repeat-x center bottom;
+    background-size: 1px 1px;
+}*/
+
+.mail_info_expand_corner {
+    background: url(../Images/Skin_Default/info_expand_corner.png) no-repeat;
+    background-size: 14px 8px;
+}
+
+.mail_head_collapse_readmark_unread .mail_head_readmark {
+    background: url(../Images/Skin_Default/unread_mark.png) center no-repeat;
+    background-size: 16px 16px;
+}
+
+.mail_attachment_download_button {
+	background: url(../Images/Skin_Default/download_normal.png) center no-repeat;
+	background-size: 16px 16px;
+	background-position: 0px 0px;
+}
+.mail_attachment_download_button:hover {
+	background: url(../Images/Skin_Default/download_hover.png) center no-repeat;
+	background-size: 16px 16px;
+	background-position: 0px 0px;
+}
+.mail_attachment_download_button:active {
+	background: url(../Images/Skin_Default/download_down.png) center no-repeat;
+	background-size: 16px 16px;
+	background-position: 0px 0px;
+}
+
+.mail_entry_timemail_button{
+	background: url(../Images/Skin_Default/fast_reply_cancel_normal.png) center no-repeat;
+}
+.mail_entry_timemail_button:hover{
+	background: url(../Images/Skin_Default/fast_reply_cancel_hover.png) center no-repeat;
+}
+.mail_entry_timemail_button:active{
+	background: url(../Images/Skin_Default/fast_reply_cancel_down.png) center no-repeat;
+}
+
+.mail_entry_info_normal_attachments_area_count{
+	background: url(../Images/Skin_Default/attachment_info.png) center no-repeat;
+	background-size: 16px 16px;
+	background-position: 0px 0px;
+}
+/*¸½¼þÀ¸ÇøÓò*/
+.preview_button{
+	background: url(../Images/Skin_Default/AttachArea/icon_normal.png) center no-repeat;
+}
+.preview_button:hover{
+	background: url(../Images/Skin_Default/AttachArea/icon_hover.png) center no-repeat;
+}
+.preview_button:active{
+	background: url(../Images/Skin_Default/AttachArea/icon_press.png) center no-repeat;
+}
+.preview_button_area{
+	background: url(../Images/Skin_Default/AttachArea/hover_mask.png) center no-repeat;
+}
+.mail_entry_info_normal_attachment_item:hover.selected .preview_button_area{
+	background: url(../Images/Skin_Default/AttachArea/selected_mask.png) center no-repeat;
+}
+.mail_entry_info_normal_attachment_item:active .preview_button_area{
+	background: url(../Images/Skin_Default/AttachArea/selected_mask.png) center no-repeat;
+}
+.mail_entry_info_normal_attachment_item:hover{
+	background: url(../Images/Skin_Default/AttachArea/hover_bg.png) center no-repeat;
+}
+.mail_entry_info_normal_attachment_item:active{
+	background: url(../Images/Skin_Default/AttachArea/selected_bg.png) center no-repeat;
+}
+.mail_entry_info_normal_attachment_item.selected{
+	background: url(../Images/Skin_Default/AttachArea/selected_bg.png) center no-repeat;
+}
+.mail_entry_info_huge_attachment_item:hover{
+	background: url(../Images/Skin_Default/AttachArea/hover_bg.png) center no-repeat;
+}
+.mail_entry_info_huge_attachment_item:active{
+	background: url(../Images/Skin_Default/AttachArea/selected_bg.png) center no-repeat;
+}
+.mail_entry_info_huge_attachment_item.selected{
+	background: url(../Images/Skin_Default/AttachArea/selected_bg.png) center no-repeat;
+}
+.mail_entry_info_huge_attachment_item:hover.selected .preview_button_area{
+	background: url(../Images/Skin_Default/AttachArea/selected_mask.png) center no-repeat;
+}
+.mail_entry_info_huge_attachment_item:active .preview_button_area{
+	background: url(../Images/Skin_Default/AttachArea/selected_mask.png) center no-repeat;
+}
+
+.attach_slide_btn_left{
+	background: url(../Images/Skin_Default/AttachArea/normal_left.png) center no-repeat;
+}
+.attach_slide_btn_right{
+	background: url(../Images/Skin_Default/AttachArea/normal_right.png) center no-repeat;
+}
+.attach_slide_btn_middle{
+	background: url(../Images/Skin_Default/AttachArea/normal_center.png) center repeat-x;
+}
+
+.attach_slide_btn_middle:hover {
+	background: url(../Images/Skin_Default/AttachArea/hover_center.png) center repeat-x;
+}
+.attach_slide_btn_middle:hover .attach_slide_btn_left{
+	background: url(../Images/Skin_Default/AttachArea/hover_left.png) center no-repeat;
+}
+.attach_slide_btn_middle:hover .attach_slide_btn_right{
+	background: url(../Images/Skin_Default/AttachArea/hover_right.png) center no-repeat;
+}
+
+.attach_slide_btn_middle:active {
+	background: url(../Images/Skin_Default/AttachArea/press_center.png) center repeat-x;
+}
+.attach_slide_btn_middle:active .attach_slide_btn_left{
+	background: url(../Images/Skin_Default/AttachArea/press_left.png) center no-repeat;
+}
+.attach_slide_btn_middle:active .attach_slide_btn_right{
+	background: url(../Images/Skin_Default/AttachArea/press_right.png) center no-repeat;
+}
+.attach_slidedown_btn .attach_slide_btn_dir{
+	background: url(../Images/Skin_Default/AttachArea/down_icon.png) center no-repeat;
+}
+.attach_slideup_btn .attach_slide_btn_dir{
+	background: url(../Images/Skin_Default/AttachArea/up_icon.png) center no-repeat;
+}
+
+.foxmail_blockquote_block_head_left {
+	background: url(../Images/Skin_Default/dashline.png) center no-repeat;
+}
+.foxmail_blockquote_block_head_right {
+	background: url(../Images/Skin_Default/dashline.png) center no-repeat;
+}
+
+.foxmail_conversation_tips_bg{
+	background: url(../Images/Skin_Default/ConversationTips/conversation_tips.png) center repeat-x;
+}
+.foxmail_conversation_tips_help_btn{
+	background: url(../Images/Skin_Default/ConversationTips/help_icon.png) center no-repeat;
+}
+.foxmail_conversation_tips_close_btn{
+	background: url(../Images/Skin_Default/ConversationTips/close_normal.png) center no-repeat;
+}
+.foxmail_conversation_tips_close_btn:hover{
+	background: url(../Images/Skin_Default/ConversationTips/close_hover.png) center no-repeat;
+}
+.foxmail_conversation_tips_close_btn:active{
+	background: url(../Images/Skin_Default/ConversationTips/close_press.png) center no-repeat;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi){ 
+
+	.foxmail_conversation_tips_help_btn{
+		background: url(../Images/Skin_Default/ConversationTips/help_icon@2x.png) center no-repeat;
+		background-size: 16px 16px;
+	}
+	.foxmail_conversation_tips_close_btn{
+		background: url(../Images/Skin_Default/ConversationTips/close_normal@2x.png) center no-repeat;
+		background-size: 16px 16px;
+	}
+	.foxmail_conversation_tips_close_btn:hover{
+		background: url(../Images/Skin_Default/ConversationTips/close_hover@2x.png) center no-repeat;
+		background-size: 16px 16px;
+	}
+	.foxmail_conversation_tips_close_btn:active{
+		background: url(../Images/Skin_Default/ConversationTips/close_press@2x.png) center no-repeat;
+		background-size: 16px 16px;
+	}
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi){
+
+	.foxmail_conversation_tips_help_btn{
+		background: url(../Images/Skin_Default/ConversationTips/help_icon@2x.png) center no-repeat;
+		background-size: 16px 16px;
+	}
+	.foxmail_conversation_tips_close_btn{
+		background: url(../Images/Skin_Default/ConversationTips/close_normal@2x.png) center no-repeat;
+		background-size: 16px 16px;
+	}
+	.foxmail_conversation_tips_close_btn:hover{
+		background: url(../Images/Skin_Default/ConversationTips/close_hover@2x.png) center no-repeat;
+		background-size: 16px 16px;
+	}
+	.foxmail_conversation_tips_close_btn:active{
+		background: url(../Images/Skin_Default/ConversationTips/close_press@2x.png) center no-repeat;
+		background-size: 16px 16px;
+	}
+}
+

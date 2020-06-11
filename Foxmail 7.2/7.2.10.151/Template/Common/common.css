@@ -1,0 +1,52 @@
+/* 一些通用的属性 */
+.hide {
+	display: none; 
+}
+.visibility{
+	visibility: hidden;	
+}
+.invisibility{
+	visibility: hidden;	
+}
+.clear {
+    clear: both;
+}
+.webkitbox {
+	display: -webkit-box;
+}
+.center {
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+}
+.vertical {
+	-webkit-box-orient:vertical;
+}
+.unselectable {
+	-webkit-user-select: none;
+}
+
+.defcursor {
+	cursor: default;
+}
+
+/* 标题样式 */
+.common_page_subject{
+	color: #3f464d !important;
+	font-weight: bold !important;
+	font-size: 16px !important;
+	line-height: 24px !important;
+}
+
+/* 背景颜色   */
+.common_page_background{
+	background-color: #dbe2e8 !important;
+}
+
+.plaintext_qoute{
+	-webkit-user-select: text;
+	outline: none;
+	font-family: '微软雅黑';
+	font-size: 10.5pt;
+	color: gray;	
+}
+

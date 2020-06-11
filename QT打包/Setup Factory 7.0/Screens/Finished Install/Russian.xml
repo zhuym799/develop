@@ -1,0 +1,25 @@
+<SUF70Messages>
+	<Language>
+		<Name>Russian</Name>
+		<Default>0</Default>
+		<Primary>25</Primary>
+		<Secondary>
+		</Secondary>
+	</Language>
+	<Messages>
+		<IDS_WINDOW_TITLE>Установка %ProductName%</IDS_WINDOW_TITLE>
+		<IDS_HEADER_TEXT>Установка Завершена</IDS_HEADER_TEXT>
+		<IDS_SUBHEADER_TEXT>Установка завершена успешно.</IDS_SUBHEADER_TEXT>
+		<IDS_CTRL_BUTTON_NEXT>&Выход</IDS_CTRL_BUTTON_NEXT>
+		<IDS_CTRL_BUTTON_BACK>&lt; &Назад</IDS_CTRL_BUTTON_BACK>
+		<IDS_CTRL_BUTTON_CANCEL>&Отмена</IDS_CTRL_BUTTON_CANCEL>
+		<IDS_CTRL_BUTTON_HELP>&Справка</IDS_CTRL_BUTTON_HELP>
+		<IDS_CTRL_STATICTEXT_BODY>Установка %ProductName% %ProductVer% завершена.
+
+Спасибо, что выбрали %ProductName%!
+
+Пожалуйста, нажмите на кнопку Выход для выхода из программы инсталляции.
+</IDS_CTRL_STATICTEXT_BODY>
+		<IDS_CTRL_HEADINGTEXT_BODY>Установка Успешна</IDS_CTRL_HEADINGTEXT_BODY>
+	</Messages>
+</SUF70Messages>

@@ -1,0 +1,21 @@
+<SUF70Messages>
+	<Language>
+		<Name>Russian</Name>
+		<Default>0</Default>
+		<Primary>25</Primary>
+		<Secondary>
+		</Secondary>
+	</Language>
+	<Messages>
+		<IDS_WINDOW_TITLE>Установка %ProductName%</IDS_WINDOW_TITLE>
+		<IDS_HEADER_TEXT>Лицензионное соглашение</IDS_HEADER_TEXT>
+		<IDS_SUBHEADER_TEXT>Пожалуйста, внимательно прочтите данное лицензионное соглашение.</IDS_SUBHEADER_TEXT>
+		<IDS_CTRL_BUTTON_NEXT>&Дальше &gt;</IDS_CTRL_BUTTON_NEXT>
+		<IDS_CTRL_BUTTON_BACK>&lt; &Назад</IDS_CTRL_BUTTON_BACK>
+		<IDS_CTRL_BUTTON_CANCEL>&Отмена</IDS_CTRL_BUTTON_CANCEL>
+		<IDS_CTRL_BUTTON_HELP>&Справка</IDS_CTRL_BUTTON_HELP>
+		<IDS_CTRL_SCROLLTEXT_BODY>Вставьте сюда текст вашего лицензионного соглашения...</IDS_CTRL_SCROLLTEXT_BODY>
+		<IDS_CTRL_RADIOBTN_AGREE>Я согласен с пунктами данного лицензионного соглашения.</IDS_CTRL_RADIOBTN_AGREE>
+		<IDS_CTRL_RADIOBTN_DISAGREE>Я не согласен с пунктами данного лицензионного соглашения.</IDS_CTRL_RADIOBTN_DISAGREE>
+	</Messages>
+</SUF70Messages>

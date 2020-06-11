@@ -1,0 +1,571 @@
+html{
+	height: 100%;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+
+body{
+	/*padding:9px;*/
+	margin: 0px;
+	background: #dbe2e8;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+
+/*浏览界面-------------------------------------------------------------------------*/
+.contactViewPanel{
+	position: relative;
+	height: 100%;
+	background: #dbe2e8;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.contactViewArea{
+	position: relative;
+	min-height: -webkit-calc(100% - 20px);
+	margin: 9px;
+	background: #fff;
+	border-radius: 2px;
+	border: 1px solid rgb(158, 166, 170);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+
+
+/*基本信息-----------------------------------------------------------------------*/
+.contactView_basicSection,
+.contactEdit_basicSection{
+	position:relative;
+	height:50px;
+	border-bottom:solid 1px #e6e6e6;
+	margin:0 20px 20px;
+	padding:20px 0;
+}
+
+.contactView_basicSection_wrap{
+	position: relative;
+	padding: 0 90px 0 70px;
+	height: 50px;
+}
+
+.contactEdit_basicSection_wrap{
+	position: relative;
+	padding: 0 0 0 70px;
+	height: 50px;
+}
+
+
+.contactAvatar_view,
+.contactAvatar_edit{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50px;
+	height: 50px;
+}
+
+#contactAvatar_img{
+	width: 48px;
+	height: 48px;
+	border:solid 1px #c8c8c8;
+}
+
+.contactName_view{
+	font-size:16px;
+	font-weight:bold;
+	line-height: 24px;
+	width: auto;
+	height: 50px;
+	overflow: hidden;
+	white-space:nowrap; 
+	word-break:break-all;
+	text-overflow:ellipsis;
+	display: block;
+}
+
+.displayName_view{
+	/*font-size:16px;
+	font-weight:bold;
+	line-height: 24px;
+	width: auto;
+	height: 50px;
+	overflow: hidden;
+	white-space:nowrap; 
+	word-break:break-all;
+	text-overflow:ellipsis;
+	display: block;*/
+}
+
+.displayName_view:hover{color:#3e5974;}
+
+.contactEditBtn{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+
+/*浏览联系人信息-------------------------------------------------------------------------*/
+.contactView_emailSection,
+.contactView_telSection,
+.contactView_memoSection,
+.contactView_personalSection,
+.contactView_companySection,
+.contactView_mailGroupSection{
+	padding:0 20px 20px;
+}
+
+
+.viewPanel_item{
+	position:relative;
+	padding:0 0 0 70px;
+	margin-bottom:4px;
+	line-height:20px;
+}
+
+.viewPanel_item:last-child{
+	margin-bottom:0;
+}
+
+.viewPanel_item_label{
+	font-size:12px;
+	color:#999;
+	position:absolute;
+	left:0px;
+	width:50px;
+	text-align:right;
+}
+
+.viewPanel_item_value{
+	font-size:12px;
+	color:#333;
+	word-break: break-word;
+}
+
+
+/*主要信息*/
+.email_item{margin-right:12px;}
+.email_item:hover{color:#3e5974;}
+.email_item.default{font-weight:bold;}
+
+.relate_email{color:#457cb2;}
+.relate_email:hover{color:#659fd7;}
+
+
+/*邮件组*/
+.mailGroupList_item{
+	margin-bottom:6px;
+}
+
+.mailGroupList_item span{
+	display:inline-block;
+	padding-left:20px;
+	background:url(../Images/icon_group_small.png) no-repeat left 4px;
+}
+
+.mailGroupList_item span:hover{color:#3e5974;}
+
+
+
+
+
+
+
+
+/*编辑界面-------------------------------------------------------------------------*/
+.editPanelWrapper {
+	padding: 9px; 
+	height: 100%; 
+	box-sizing: border-box;
+}
+
+.contactEditPanel{
+	position: relative;
+	/*height: -webkit-calc(100% - 50px);*/
+	height: 100%;
+	background: #dbe2e8;
+	box-sizing: border-box;
+	/*overflow-x:hidden;*/
+	/*overflow-y:auto;*/
+}
+
+.contactEditArea{
+	position: relative;
+	min-height: -webkit-calc(100% - 20px);
+	/*margin: 9px;*/
+	background: #fff;
+	border-radius: 2px;
+	border: 1px solid rgb(158, 166, 170);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+	min-width:434px;
+}
+
+.contactEditArea_controlPanel{
+	padding-bottom: 20px;
+}
+
+.errMsg{
+	color:#666666;
+	font-size:12px;
+	line-height:12px;
+	padding-left: 20px;
+	background:url(../../Common/FoxUI/Images/New/Icon/err.png) no-repeat left center;
+}
+
+
+
+/*编辑名字*/
+.displayName_edit{
+	margin-bottom:8px;
+}
+
+#last_name{
+	width:140px;
+	margin-right:10px;
+}
+
+#first_name{
+	width:150px;
+}
+
+#switch_display_name{
+	font-size:12px;
+	color:#666;
+	text-overflow:ellipsis;
+}
+
+#switch_display_name .label{
+	color:#999;
+	margin-right:6px;
+}
+
+.displayNameStyle{
+	padding-right:12px;
+	cursor: default;
+	background:url(../Images/arrow_normal.png) no-repeat right center;
+}
+
+
+
+/*通用信息-------------------------------------------------------------------------*/
+.contactEdit_mainSection,
+.contactEdit_personalSection,
+.contactEdit_companySection{
+	padding: 0 20px;
+	margin-bottom:40px;
+}
+
+.section_title{
+	font-size:14px;
+	color:#6390b3;
+	margin-bottom:16px;
+	background:url(../Images/sectionTitleBg.png) repeat-x;
+}
+
+.section_title span{
+	display:inline-block;
+	width:70px;
+	background:#fff;
+}
+
+.contactEdit_item{
+	position:relative;
+	padding-left:70px;
+	margin-bottom:12px;
+}
+
+.contactEdit_item_label{
+	position:absolute;
+	left:0;
+	font-size:12px;
+	color:#666;
+	line-height:23px;
+	width:56px;
+	text-align:right;
+}
+
+.contactEdit_item_value{
+	font-size:12px;
+}
+
+
+
+/*主要信息-------------------------------------------------------------------------*/
+.contactEdit_emailList,
+.contactEdit_telList{
+	max-width:434px;
+	margin-bottom:20px;
+}
+
+.email_item_container,
+.tel_item_container{
+	position:relative;
+	margin-bottom:10px;
+}
+
+.email_item_label,
+.tel_item_label{
+	display:inline-block;
+	font-size:12px;
+	color:#666;
+	width:50px;
+	text-align:right;
+	padding-right:12px;
+	margin-right:8px;
+}
+.email_item_label {
+	cursor: default;
+	background:url(../Images/arrow_normal.png) no-repeat right center;
+}
+.tel_item_label{
+	width: 56px;
+	margin-right: 2px;
+}
+
+.email_item_label:hover{
+	color:#3e5974;
+}
+
+.email_item_editors,
+.tel_item_editors{
+	display:inline-block;
+	font-size:12px;
+	width:320px;
+	vertical-align:top;
+}
+
+.email_item_container.set_default_email input{
+	font-weight:bold;
+}
+
+.email_item_editors input,
+.tel_item_editors input{
+	width:310px;
+}
+
+.email_item_btn,
+.tel_item_btn{
+	position:absolute;
+	left:396px;
+	top:2px;
+	display:inline-block;
+	width:18px;
+	height:18px;
+	background:url(../Images/reduce_normal.png) no-repeat;
+}
+
+.email_item_btn:hover,
+.tel_item_btn:hover{
+	background:url(../Images/reduce_hover.png) no-repeat;
+}
+
+.email_item_btn:active,
+.tel_item_btn:active{
+	background:url(../Images/reduce_press.png) no-repeat;
+}
+
+.addEmailBar,
+.addTelBar{
+	padding-left:70px;
+	width:320px;
+}
+
+.addEmail,
+.addTel{
+	float:right;
+}
+
+
+/*附注*/
+.other_editor textarea{width:310px; height:80px;}
+
+
+
+/*个人信息---------------------------------------------------------------------------*/
+.contactEdit_item.contactEdit_item_sex,
+.contactEdit_item.contactEdit_item_qq{
+	float:left;
+	width:110px;
+	margin-bottom:12px;
+	padding-right:10px;
+}
+
+.contactEdit_item.contactEdit_item_birthday,
+.contactEdit_item.contactEdit_item_nickname{
+	float:left;
+	width:130px;
+	margin-bottom:12px;
+}
+
+.contactEdit_item_sex .contactEdit_item_value,
+.contactEdit_item_qq .contactEdit_item_value{
+	float:left;
+	font-size:12px;
+	width:110px;
+}
+
+.contactEdit_item_birthday .contactEdit_item_value,
+.contactEdit_item_nickname .contactEdit_item_value{
+	float:left;
+	font-size:12px;
+	width:130px;
+}
+
+
+.birthday_editor input{
+	width:120px;
+	background:url(../Images/calendar.png) no-repeat 110px;
+}
+
+.birthday_editor input:focus{
+	background:url(../Images/calendar_press.png) no-repeat 110px;
+}
+
+.sex_editor .selectMenu {width:100px;}
+.sex_editor .selectItems{width:98px; z-index: 2;}
+.qq_editor input{width:90px;}
+.nickname_editor input{width:120px;}
+.website_editor input,
+.family_street_editor input{
+	width:310px;
+}
+
+
+/*家庭地址*/
+.family_country_editor{
+	float:left;
+	margin:0 10px 10px 0;
+}
+
+.family_province_editor{
+	float:left;
+	margin:0 10px 10px 0;
+}
+
+.family_city_editor{
+	float:left;
+	margin:0 0 10px 0;
+}
+
+.family_street_editor{
+	margin:0 0 10px 0;
+}
+
+.family_postcode_editor{
+	margin:0 10px 10px 0;
+}
+
+.family_country_editor input,
+.family_postcode_editor input{
+	width:90px;
+}
+
+.family_province_editor input,
+.family_city_editor input{
+	width:90px;
+}
+
+
+
+/*公司信息---------------------------------------------------------------------------*/
+.company_editor input,
+.department_editor input,
+.position_editor input,
+.fax_editor input,
+.company_street_editor input{
+	width:310px;
+}
+
+/*公司地址*/
+.company_country_editor{
+	float:left;
+	margin:0 10px 10px 0;
+}
+
+.company_province_editor{
+	float:left;
+	margin:0 10px 10px 0;
+}
+
+.company_city_editor{
+	float:left;
+	margin:0 0 10px 0;
+}
+
+.company_street_editor{
+	margin:0 0 10px 0;
+}
+
+.company_postcode_editor{
+	margin:0 10px 10px 0;
+}
+
+.company_country_editor input,
+.company_postcode_editor input{
+	width:90px;
+}
+
+.company_province_editor input,
+.company_city_editor input{
+	width:90px;
+}
+
+
+
+/*显示更多*/
+.editMore{
+	cursor:default;
+	margin:20px 20px 40px;
+	text-align:center;
+	background:url(../Images/sectionTitleBg.png) repeat-x center center;
+}
+
+.editMore span{
+	color:#457cb2;
+	font-size:12px;
+	display:inline-block;
+	padding:0 20px;
+	background:#fff;
+}
+
+.editMore span em{
+	padding-right:12px;
+	background:url(../Images/showmore.png) no-repeat right center;
+}
+
+
+
+/*按钮栏*/
+.btnBarWrap{
+	position:fixed;
+	bottom:0;
+	width: -webkit-calc(100% - 18px);
+	min-width: 436px;
+	box-sizing: border-box;
+}
+
+.btnBar{
+	border-left:solid 1px #9ea6aa;
+	border-right:solid 1px #9ea6aa;
+}
+
+.btnBar .inner{
+	background:#f3f9fd;
+	height:36px;
+	border-top:solid 1px #ccd2d7;
+	padding:13px 20px 0;
+}
+
+.btnBar .leftBtns{
+	float:left;
+}
+
+.btnBar .leftBtns .foxButton{
+	margin-right:8px;
+}
+
+.btnBar .rightBtns{
+	float:right;
+}

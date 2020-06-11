@@ -1,0 +1,107 @@
+<ActionTemplates>
+   <Action>
+      <Name>ODBC.ConfigDataSource</Name>
+      <Description>配置 ODBC 数据源。</Description>
+      <ReturnValueType/>
+      <Arguments>
+         <Arg>
+            <Name>DriverDescription</Name>
+            <Description>驱动程序的描述。</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>"Microsoft Access Driver (*.mdb)"</Default>
+               <DataType>string</DataType>
+               <Constraints>1,*</Constraints>
+            </EasyMode>
+         </Arg>
+         <Arg>
+            <Name>Attributes</Name>
+            <Description>具有一对 keyword=value 的属性字符串。</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>"DSN=QandA\\0DBQ=J:\\DATABASE\\QandA.mdb\\0FIL=MS Access;\\0DESCRIPTION=Questions and Answers Database\\0DRIVERID=25\\0UID=\\0\\0"</Default>
+               <DataType>string</DataType>
+               <Constraints>1,*</Constraints>
+            </EasyMode>
+         </Arg>
+         <Arg>
+            <Name>Request</Name>
+            <Description>将要执行的操作类型。</Description>
+            <Type>number</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>ODBC_ADD_DSN</Default>
+               <DataType>combo</DataType>
+               <Constraints>ODBC_ADD_DSN,ODBC_CONFIG_DSN,ODBC_REMOVE_DSN,ODBC_ADD_SYS_DSN,ODBC_CONFIG_SYS_DSN,ODBC_REMOVE_SYS_DSN,ODBC_REMOVE_DEFAULT_DSN</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+   <Action>
+      <Name>ODBC.InstallDriver</Name>
+      <Description>安装 ODBC 驱动程序。</Description>
+      <ReturnValueType>string</ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>Driver</Name>
+            <Description>包含驱动程序描述和一对 name=value 的字符串。</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>"Microsoft Access Driver (*.mdb)\\0Driver=odbcjt32.dll\\0Setup=odbcjt32.dll\\0FileUsage=1\\0FileExtns=*.mdb\\0APILevel=1\\0ConnectFunctions=YYN\\0DriverODBCVer=02.50\\0s=YYN\\0SQLLevel=0\\0\\0"</Default>
+               <DataType>string</DataType>
+               <Constraints>1,*</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+   <Action>
+      <Name>ODBC.InstallManager</Name>
+      <Description>安装驱动程序管理器。</Description>
+      <ReturnValueType>string</ReturnValueType>
+      <Arguments/>
+   </Action>
+   <Action>
+      <Name>ODBC.UninstallDriver</Name>
+      <Description>移除 ODBC 驱动程序，并返回该操作之后驱动程序的使用统计。</Description>
+      <ReturnValueType>number</ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>Driver</Name>
+            <Description>显示在系统信息的 Odbcinst.ini 键中的驱动程序名称。</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>"Microsoft Access Driver (*.mdb)"</Default>
+               <DataType>string</DataType>
+               <Constraints>1,*</Constraints>
+            </EasyMode>
+         </Arg>
+         <Arg>
+            <Name>RemoveDSN</Name>
+            <Description>是否移除与驱动程序关联的 DSN。</Description>
+            <Type>boolean</Type>
+            <Default>false</Default>
+            <Required>0</Required>
+            <EasyMode>
+               <Default>false</Default>
+               <DataType>boolean</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+   <Action>
+      <Name>ODBC.UninstallManager</Name>
+      <Description>卸载驱动程序管理器，并返回该操作之后的使用统计。</Description>
+      <ReturnValueType>number</ReturnValueType>
+      <Arguments/>
+   </Action>
+</ActionTemplates>

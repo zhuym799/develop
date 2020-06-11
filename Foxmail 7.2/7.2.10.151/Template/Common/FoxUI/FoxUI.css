@@ -1,0 +1,713 @@
+/* Text--------------------------------------- */
+.blue_text{color:#457cb2;}
+.red_text{color:#be3e4b;}
+.grey_text{color:#999999;}
+
+
+/* Scrollbar--------------------------------------- */
+
+/* 滚动条宽度 */
+::-webkit-scrollbar {
+    height: 16px;   /* 对水平滚动条有效 */ 
+    width: 16px;    /* 对垂直滚动条有效 */
+}
+
+/* 滚动条上下或左右按钮 */
+::-webkit-scrollbar-button {
+    height: 0px;
+    width: 0px;
+}
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
+    display:block
+}
+
+/* 滚动条轨道 */
+::-webkit-scrollbar-track:vertical {
+    -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.2);
+    background: -webkit-gradient(
+				linear, 
+				0 0, 
+				100% 0, 
+				from(rgb(246, 248, 248)), 
+				to(rgb(255, 255, 255))
+	);
+}
+::-webkit-scrollbar-track:horizontal {
+    -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.2);
+	background: -webkit-gradient(
+				linear, 
+				0 0, 
+				0 100%, 
+				from(rgb(246, 248, 248)),
+				to(rgb(255, 255, 255))
+	);
+}
+::-webkit-scrollbar-track:hover {
+}
+::-webkit-scrollbar-track:active {
+}
+
+/* 轨道空白区域 */
+::-webkit-scrollbar-track-piece:vertical {
+    margin: 1px 0;
+    background: -webkit-gradient(
+				linear, 
+				0 0, 
+				100% 0, 
+				from(rgb(246, 248, 248)), 
+				to(rgb(255, 255, 255))
+	);
+    -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.2);
+}
+::-webkit-scrollbar-track-piece:horizontal {
+    margin: 0 1px;
+    background: -webkit-gradient(
+				linear, 
+				0 0, 
+				0 100%, 
+				from(rgb(246, 248, 248)),
+				to(rgb(255, 255, 255))
+	);
+    -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.2);
+}
+
+
+::-webkit-scrollbar-corner {
+	background: -webkit-gradient(
+				linear, 
+				20% 20%, 
+				100% 100%, 
+				from(rgb(246, 248, 248)),
+				to(rgb(255, 255, 255))
+	);
+}
+
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb:vertical {
+    border: 1px solid rgb(164, 181, 192);
+    border-right: 1px solid rgb(206,210,212);
+    background-clip: padding-box;
+    background: url(../FoxUI/img/Scrollbar/vert_handle_normal.png) center center no-repeat,
+                -webkit-gradient(
+				linear, 
+				0 0, 
+				100% 0, 
+				from(rgb(255, 255, 255)), 
+				color-stop(0.7, rgb(226, 229, 233)), 
+				to(rgb(214, 219, 223))
+				);
+    -webkit-box-shadow: 0px 1px 1px rgb(218, 218, 218);
+    min-height: 28px;
+}
+::-webkit-scrollbar-thumb:vertical:hover {
+    background: url(../FoxUI/img/Scrollbar/vert_handle_hover.png) center center no-repeat,
+                -webkit-gradient(
+				linear, 
+				0 0, 
+				100% 0, 
+				from(rgb(237, 248, 255)), 
+				color-stop(0.8, rgb(199, 217, 232)), 
+				to(rgb(210, 226, 239))
+				);
+}
+::-webkit-scrollbar-thumb:vertical:active {
+    background: url(../FoxUI/img/Scrollbar/vert_handle_press.png) center center no-repeat,
+                -webkit-gradient(
+				linear, 
+				0 0, 
+				100% 0, 
+				from(rgb(225, 240, 251)), 
+				color-stop(0.6, rgb(181, 204, 227)), 
+				to(rgb(181, 204, 227))
+				);
+}
+::-webkit-scrollbar-thumb:horizontal {
+    border: 1px solid rgb(164, 181, 192);
+    border-bottom: 1px solid rgb(206,210,212);
+    background-clip: padding-box;
+    background: url(../FoxUI/img/Scrollbar/horz_handle_normal.png) center center no-repeat,
+                -webkit-gradient(
+				linear, 
+				0 0, 
+				0 100%, 
+				from(rgb(255, 255, 255)), 
+				color-stop(0.7, rgb(226, 229, 233)), 
+				to(rgb(214, 219, 223))
+				);
+    -webkit-box-shadow: 1px 0px 1px rgb(218, 218, 218);
+    min-width: 28px;
+}
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background: url(../FoxUI/img/Scrollbar/horz_handle_hover.png) center center no-repeat,
+                -webkit-gradient(
+				linear, 
+				0 0, 
+				0 100%, 
+				from(rgb(237, 248, 255)), 
+				color-stop(0.8, rgb(199, 217, 232)), 
+				to(rgb(210, 226, 239))
+				);
+}
+::-webkit-scrollbar-thumb:horizontal:active {
+    background: url(../FoxUI/img/Scrollbar/horz_handle_press.png) center center no-repeat,
+                -webkit-gradient(
+				linear, 
+				0 0, 
+				0 100%, 
+				from(rgb(225, 240, 251)), 
+				color-stop(0.6, rgb(181, 204, 227)), 
+				to(rgb(181, 204, 227))
+				);
+}
+
+
+
+
+/* Buttons--------------------------------------- */
+
+.foxButton {
+	-webkit-appearance: none;
+	appearance: none;
+    font-size: 12px;
+	display:inline-block;
+	width:70px;
+    height: 19px;
+	line-height:19px;
+	vertical-align:top;
+    border-radius: 1px;
+    text-align: center;
+    cursor: default;
+}
+
+
+/*普通灰色按钮*/
+.foxButton.gray {
+	color:#000;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(249, 249, 249)), to(rgb(240, 240, 240)));
+    border: 1px solid rgb(161, 161, 161);
+    -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.foxButton.gray:hover {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(251, 251, 251)), to(rgb(243, 243, 243)));
+	border: 1px solid rgb(174, 174, 174);
+	-webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.foxButton.gray:active {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(235, 235, 235)), to(rgb(223, 223, 223)));
+	border: 1px solid rgb(153, 153, 153);
+	-webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+/*普通蓝色按钮*/
+.foxButton.blue {
+    color:#fff;
+    background: -webkit-gradient(
+    				linear, 
+    				0 0, 
+    				0 100%, 
+    				from(rgb(139, 197, 252)), 
+    				color-stop(0.05, rgb(97, 175, 248)), 
+    				color-stop(0.9, rgb(84, 162, 237)), 
+    				to(rgb(64, 147, 225)));
+    border: 1px solid rgb(51, 120, 185);
+    -webkit-box-shadow: inset 0px 1px 0px rgb(121, 188, 251), 0px 1px 0px rgba(0, 54, 107, 0.15);
+}
+.foxButton.blue:hover {
+	background: -webkit-gradient(
+    				linear, 
+    				0 0, 
+    				0 100%, 
+    				from(rgb(134, 195, 251)), 
+    				color-stop(0.05, rgb(115, 184, 250)), 
+    				color-stop(0.9, rgb(101, 172, 240)), 
+    				to(rgb(100, 171, 238)));
+	border: 1px solid rgb(67, 147, 224);
+	-webkit-box-shadow: inset 0px 1px 0px rgb(121, 188, 251), 0px 1px 0px rgba(0, 54, 107, 0.15);
+}
+.foxButton.blue:active {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(66, 143, 217)), to(rgb(67, 136, 202)));
+	border: 1px solid rgb(37, 105, 169);
+	-webkit-box-shadow: 0px 1px 0px rgba(0, 54, 107, 0.15) inset;
+}
+
+
+/*红色按钮*/
+.foxButton.red {
+	color:#fff;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(219, 103, 103)), to(rgb(215, 72, 72)));
+    border: 1px solid rgb(179, 15, 16);
+    -webkit-box-shadow: inset 0px 1px 0px rgb(220, 108, 108), 0px 1px 0px rgba(52, 18, 18, 0.15);
+}
+.foxButton.red:hover {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(230, 125, 125)), to(rgb(219, 104, 104)));
+    border: 1px solid rgb(183, 79, 79);
+    -webkit-box-shadow: inset 0px 1px 0px rgb(220, 108, 108), 0px 1px 0px rgba(52, 18, 18, 0.15);
+}
+.foxButton.red:active {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(204, 75, 75)), to(rgb(216, 74, 74)));
+	border: 1px solid rgb(173, 50, 50);
+	-webkit-box-shadow: inset 0px 1px 0px rgb(189, 66, 66);
+}
+
+
+/*禁用按钮*/
+.foxButton.disable {
+    background: rgb(243, 243, 243);
+    border: 1px solid rgb(204, 204, 204);
+    color: rgb(175, 175, 175);
+}
+
+
+/*银色按钮*/
+.foxButton.silver {
+    color:#000;
+    background: -webkit-gradient(
+					linear, 
+					0 0, 
+					0 100%, 
+					from(rgb(243, 249, 255)),
+					color-stop(0.7, rgb(218, 233, 247)), 
+					to(rgb(219, 234, 247)));
+    border: 1px solid rgb(122, 129, 136);
+}
+.foxButton.silver:hover {
+	background: -webkit-gradient(
+					linear, 
+					0 0, 
+					0 100%, 
+					from(rgb(236, 247, 255)), 
+					color-stop(0.7, rgb(200, 223, 243)), 
+					to(rgb(218, 233, 247)));
+	border: 1px solid rgb(122, 143, 164);
+}
+.foxButton.silver:active {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(192, 212, 233)), to(rgb(206, 224, 237)));
+	border: 1px solid rgb(145, 159, 173);
+	-webkit-box-shadow: 0px 1px 0px rgb(173, 194, 215,) inset;
+}
+.foxButton.silver.disable {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(222, 235, 247)), to(rgb(218, 232, 246)));
+    border: 1px solid rgb(169, 173, 176);
+    color: rgb(166, 178, 190);
+}
+
+
+
+
+/* Forms--------------------------------------- */
+
+::-webkit-input-placeholder { color:#aaa; }
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="search"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="color"],
+.uneditable-input{
+	font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	-webkit-appearance: none;
+	appearance: none;
+	max-width: 100%;
+	vertical-align: middle;
+	outline:none 0;
+}
+
+input[type="file"],
+input[type="image"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"]{
+  width: auto;
+}
+
+
+/* 单行输入框 */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="search"]{
+	height: 21px;
+	max-width: 100%;
+	border: 1px solid #b3b3b3;
+	background: -webkit-gradient(
+    				linear, 
+    				0 0, 
+    				0 100%, 
+    				from(rgb(232, 233, 237)), 
+    				color-stop(0.15, rgb(255, 255, 255)), 
+    				to(rgb(255, 255, 255)));
+	padding:0 4px;
+	border-radius: 1px;
+	vertical-align: middle;
+	outline:none 0;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="email"]:hover,
+input[type="url"]:hover,
+input[type="tel"]:hover,
+input[type="search"]:hover{
+	/*border:1px solid #bcbcbc;
+	-webkit-box-shadow: 0px 1px 0px rgba(224, 224, 224, 0.8) inset;*/
+}
+
+input[type="text"]:active,
+input[type="password"]:active,
+input[type="email"]:active,
+input[type="url"]:active,
+input[type="tel"]:active,
+input[type="search"]:active{
+	border:1px solid #73ace3;
+	-webkit-box-shadow: 0px 1px 0px rgba(224, 224, 224, 0.8) inset, 0px 0px 4px rgba(0, 132, 255, 0.3);
+}
+
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="tel"]:focus,
+input[type="search"]:focus{
+	border:1px solid #73ace3;
+	-webkit-box-shadow: 0px 1px 0px rgba(224, 224, 224, 0.8) inset, 0px 0px 4px rgba(0, 132, 255, 0.3);
+}
+
+
+/* 多选框 */
+input[type=checkbox]{
+	-webkit-appearance: none;
+	appearance: none;
+	width: 13px;
+	height: 13px;
+	vertical-align: middle;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(254, 254, 254)), to(rgb(236, 236, 236)));
+	border: 1px solid #757575;
+	border-radius: 2px;
+	box-sizing: border-box;
+	position: relative;
+	outline:none 0;
+	cursor: default;
+}
+
+input[type=checkbox]:hover,
+input[type=checkbox]:active,
+input[type=checkbox]:focus{
+	border-color: #3f81bc;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(254, 254, 254)), to(rgb(218, 238, 255)));
+}
+
+input[type=checkbox]:checked{
+	border-color: #3f81bc;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(254, 254, 254)), to(rgb(218, 238, 255)));
+}
+
+input[type=checkbox]:checked::after {
+	content: url(../FoxUI/img/Form/checkmark.png);
+	display: block;
+	position: absolute;
+	top: -4px;
+	left: 1px;
+}
+
+input[type=checkbox]:disabled,
+input[type=checkbox]:disabled:hover,
+input[type=checkbox]:disabled:active,
+input[type=checkbox]:disabled:focus,
+input[type=checkbox]:disabled:checked{
+	border-color: #c4c4c4;
+	background: #f9f9f9;
+}
+
+input[type=checkbox]:disabled:checked::after {
+	content: url(../FoxUI/img/Form/checkmark_disable.png);
+	display: block;
+	position: absolute;
+	top: -4px;
+	left: 1px;
+}
+
+
+/* 单选框 */
+input[type=radio] {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 13px;
+	height: 13px;
+	vertical-align: middle;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(254, 254, 254)), to(rgb(236, 236, 236)));
+	border: 1px solid #757575;
+	border-radius: 100%;
+	box-sizing: border-box;
+	position: relative;
+	outline:none 0;
+	cursor: default;
+}
+
+input[type=radio]:hover,
+input[type=radio]:active,
+input[type=radio]:focus{
+	border-color: #3e81bb;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(254, 254, 254)), to(rgb(218, 238, 255)));
+}
+
+
+input[type=radio]:checked {
+	border-color: #3f81bc;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(254, 254, 254)), to(rgb(218, 238, 255)));
+}
+
+input[type=radio]:checked::after {
+	content: '';
+	display: block;
+	position: relative;
+	top: 3px;
+	left: 3px;
+	width: 5px;
+	height: 5px;
+	background: #2566a1;
+	border-radius: 100%;
+}
+
+
+input[type=radio]:disabled,
+input[type=radio]:disabled:hover,
+input[type=radio]:disabled:active,
+input[type=radio]:disabled:focus,
+input[type=radio]:disabled:checked{
+	border-color: #c4c4c4;
+	background: #f9f9f9;
+}
+
+input[type=radio]:disabled:checked::after {
+	background: #c2c2c2;
+}
+
+
+/* 大输入框 */
+textarea{
+	font-size:12px;
+	max-width: 100%;
+	border: 1px solid #b3b3b3;
+	background: #fff;
+	padding:4px;
+	border-radius: 2px;
+	vertical-align: middle;
+	outline:none 0;
+	resize:none;
+}
+
+textarea:hover{
+	/*border:1px solid #bcbcbc;
+	-webkit-box-shadow: 0px 1px 0px rgba(224, 224, 224, 0.8) inset;*/
+}
+
+textarea:active{
+	border:1px solid #73ace3;
+	-webkit-box-shadow: 0px 1px 0px rgba(224, 224, 224, 0.8) inset, 0px 0px 4px rgba(0, 132, 255, 0.3);
+}
+
+textarea:focus{
+	border:1px solid #73ace3;
+	-webkit-box-shadow: 0px 1px 0px rgba(224, 224, 224, 0.8) inset, 0px 0px 4px rgba(0, 132, 255, 0.3);
+}
+
+
+/* 下拉菜单 */
+.selectMenu{
+	position:relative;
+	font-size:12px;
+}
+
+.selectBox{
+	color:#333;
+	height:22px;
+	line-height:22px;
+	padding:0 6px;
+	background: url(../FoxUI/img/Form/select.png) center right no-repeat , -webkit-gradient(linear, 0 0, 0 100%, from(rgb(249, 249, 249)), to(rgb(240, 240, 240)));
+    border:1px solid #a2a2a2;
+    -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+	border-radius: 1px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+.selectBox:hover{
+	background: url(../FoxUI/img/Form/select.png) center right no-repeat , -webkit-gradient(linear, 0 0, 0 100%, from(rgb(253, 253, 253)), to(rgb(244, 244, 244)));
+    border:1px solid #afafaf;
+    -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.selectBox:active{
+	background: url(../FoxUI/img/Form/select.png) center right no-repeat , -webkit-gradient(linear, 0 0, 0 100%, from(rgb(235, 235, 235)), to(rgb(223, 223, 223)));
+	-webkit-box-shadow:inset 0px 1px 1px rgba(205,205,205,1), 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.selectBox.disabled{
+	background:url(../FoxUI/img/Form/select_disable.png) center right no-repeat #f3f3f3;
+    border: 1px solid rgb(204, 204, 204);
+    color: rgb(175, 175, 175);
+	-webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.selectItems {
+    position: absolute;
+    background: #fcfcfc;
+    padding: 8px 0;
+    border-radius: 2px;
+    border: solid 1px #b0b0b0;
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.selectItems li {
+    cursor: default;
+    color: #000;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 10px;
+}
+.selectItems li:hover {
+    color:#fff;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(113, 149, 181)), to(rgb(102, 136, 147)));
+}
+.optionWrap{
+	margin-top:2px;
+	background:#fcfcfc;
+	padding:8px 0;
+	border-radius: 1px;
+	border:solid 1px #b0b0b0;
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.optionItem{
+	color:#000;
+	height:22px;
+	line-height:22px;
+	padding:0 10px;
+}
+
+.optionItem:hover{
+	color:#fff;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(113, 149, 181)), to(rgb(102, 136, 147)));
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Other--------------------------------------- */
+
+
+/* 标签 */
+
+/* 气泡 */
+
+/* 浮层 */
+
+/* 头像 */
+
+/* 文本字体颜色 */
+
+
+
+
+
+
+/*展开附件的滑块*/
+.foxSlideButton {
+	height: 20px;
+	padding: 0 22px;
+	border-radius: 12px;
+	border: 1px solid rgb(218,220,222);
+	color: rgb(105, 135, 170);
+	cursor: default;
+	-webkit-user-select: none;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(255, 255, 255)), to(rgb(250, 250, 250)));
+}
+.foxSlideButton.up {
+    background: url(../FoxUI/img/Button/slideup.png) 95% center no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(255, 255, 255)), to(rgb(250, 250, 250)));  
+}
+.foxSlideButton.up:hover {
+    background: url(../FoxUI/img/Button/slideup.png) 95% center no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(255, 255, 255)), to(rgb(237, 242, 246)));
+}
+.foxSlideButton.up:active {
+    background: url(../FoxUI/img/Button/slideup.png) 95% center no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(234, 237, 240)), to(rgb(255, 255, 255)));
+}
+.foxSlideButton.down {
+    background: url(../FoxUI/img/Button/slidedown.png) 95%  center no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(255, 255, 255)), to(rgb(250, 250, 250)));  
+}
+.foxSlideButton.down:hover {
+    background: url(../FoxUI/img/Button/slidedown.png) 95% center no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(255, 255, 255)), to(rgb(237, 242, 246)));
+}
+.foxSlideButton.down:active {
+    background: url(../FoxUI/img/Button/slidedown.png) 95% center no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(234, 237, 240)), to(rgb(255, 255, 255)));
+}
+
+
+
+
+
+
+
+
+
+
+.foxFrameBorder {
+    border-radius: 2px;
+    border: 1px solid rgb(158, 166, 170);   
+}
+.foxBorder {
+    width: 300px;
+    height: 80px;
+    border-radius: 2px;
+}
+.foxBorder.normal {
+    border: 1px solid rgb(183, 185, 187);
+    -webkit-box-shadow: 0px 1px 0px rgb(231, 233, 235) inset;  
+}
+.foxBorder.light {
+    border: 1px solid rgb(123, 177, 228);
+    -webkit-box-shadow: 0px 1px 0px rgb(206, 223, 237) inset, 0px 0px 3px rgb(123, 177, 228);
+}
+.foxTexter {
+    padding: 5px;
+    border-radius: 2px;
+    outline: 0;
+    border: 1px solid rgb(183, 185, 187);
+    -webkit-box-shadow: 0px 1px 0px rgb(231, 233, 235) inset;      
+}
+.foxTexter:focus {
+    outline: 0;
+    border: 1px solid rgb(123, 177, 228);
+    -webkit-box-shadow: 0px 1px 0px rgb(206, 223, 237) inset, 0px 0px 3px rgb(123, 177, 228);    
+}

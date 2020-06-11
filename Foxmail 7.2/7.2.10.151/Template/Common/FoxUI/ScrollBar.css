@@ -1,0 +1,149 @@
+::-webkit-scrollbar {
+    height: 16px;  
+    width: 16px;    
+}
+
+::-webkit-scrollbar-button {
+    height: 0px;
+    width: 0px;
+}
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
+    display:block
+}
+
+::-webkit-scrollbar-track:vertical {
+    -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.2);
+    background: -webkit-gradient(
+				linear, 
+				0 0, 
+				100% 0, 
+				from(rgb(246, 248, 248)), 
+				to(rgb(255, 255, 255))
+	);
+}
+::-webkit-scrollbar-track:horizontal {
+    -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.2);
+	background: -webkit-gradient(
+				linear, 
+				0 0, 
+				0 100%, 
+				from(rgb(246, 248, 248)),
+				to(rgb(255, 255, 255))
+	);
+}
+::-webkit-scrollbar-track:hover {
+}
+::-webkit-scrollbar-track:active {
+}
+
+::-webkit-scrollbar-track-piece:vertical {
+    margin: 1px 0;
+    background: -webkit-gradient(
+				linear, 
+				0 0, 
+				100% 0, 
+				from(rgb(246, 248, 248)), 
+				to(rgb(255, 255, 255))
+	);
+    -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.2);
+}
+::-webkit-scrollbar-track-piece:horizontal {
+    margin: 0 1px;
+    background: -webkit-gradient(
+				linear, 
+				0 0, 
+				0 100%, 
+				from(rgb(246, 248, 248)),
+				to(rgb(255, 255, 255))
+	);
+    -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.2);
+}
+
+
+::-webkit-scrollbar-corner {
+	background: -webkit-gradient(
+				linear, 
+				20% 20%, 
+				100% 100%, 
+				from(rgb(246, 248, 248)),
+				to(rgb(255, 255, 255))
+	);
+}
+
+
+::-webkit-scrollbar-thumb:vertical {
+    border: 1px solid rgb(164, 181, 192);
+    border-right: 1px solid rgb(206,210,212);
+    background-clip: padding-box;
+    background: url({{template_path}}Common/FoxUI/Images/New/Scrollbar/vert_handle_normal.png) center center no-repeat,
+                -webkit-gradient(
+				linear, 
+				0 0, 
+				100% 0, 
+				from(rgb(255, 255, 255)), 
+				color-stop(0.7, rgb(226, 229, 233)), 
+				to(rgb(214, 219, 223))
+				);
+    -webkit-box-shadow: 0px 1px 1px rgb(218, 218, 218);
+    min-height: 28px;
+}
+::-webkit-scrollbar-thumb:vertical:hover {
+    background: url({{template_path}}Common/FoxUI/Images/New/Scrollbar/vert_handle_hover.png) center center no-repeat,
+                -webkit-gradient(
+				linear, 
+				0 0, 
+				100% 0, 
+				from(rgb(237, 248, 255)), 
+				color-stop(0.8, rgb(199, 217, 232)), 
+				to(rgb(210, 226, 239))
+				);
+}
+::-webkit-scrollbar-thumb:vertical:active {
+    background: url({{template_path}}Common/FoxUI/Images/New/Scrollbar/vert_handle_press.png) center center no-repeat,
+                -webkit-gradient(
+				linear, 
+				0 0, 
+				100% 0, 
+				from(rgb(225, 240, 251)), 
+				color-stop(0.6, rgb(181, 204, 227)), 
+				to(rgb(181, 204, 227))
+				);
+}
+::-webkit-scrollbar-thumb:horizontal {
+    border: 1px solid rgb(164, 181, 192);
+    border-bottom: 1px solid rgb(206,210,212);
+    background-clip: padding-box;
+    background: url({{template_path}}Common/FoxUI/Images/New/Scrollbar/horz_handle_normal.png) center center no-repeat,
+                -webkit-gradient(
+				linear, 
+				0 0, 
+				0 100%, 
+				from(rgb(255, 255, 255)), 
+				color-stop(0.7, rgb(226, 229, 233)), 
+				to(rgb(214, 219, 223))
+				);
+    -webkit-box-shadow: 1px 0px 1px rgb(218, 218, 218);
+    min-width: 28px;
+}
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background: url({{template_path}}Common/FoxUI/Images/New/Scrollbar/horz_handle_hover.png) center center no-repeat,
+                -webkit-gradient(
+				linear, 
+				0 0, 
+				0 100%, 
+				from(rgb(237, 248, 255)), 
+				color-stop(0.8, rgb(199, 217, 232)), 
+				to(rgb(210, 226, 239))
+				);
+}
+::-webkit-scrollbar-thumb:horizontal:active {
+    background: url({{template_path}}Common/FoxUI/Images/New/Scrollbar/horz_handle_press.png) center center no-repeat,
+                -webkit-gradient(
+				linear, 
+				0 0, 
+				0 100%, 
+				from(rgb(225, 240, 251)), 
+				color-stop(0.6, rgb(181, 204, 227)), 
+				to(rgb(181, 204, 227))
+				);
+}

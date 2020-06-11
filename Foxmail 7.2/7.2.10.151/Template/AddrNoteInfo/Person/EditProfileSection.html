@@ -1,0 +1,78 @@
+<div class="contactEdit_personalSection clearfix {{section_hide}}">
+        
+    <div class="section_title"><span>{{lng_section_label}}</span></div>
+    
+    <div class="clearfix">
+    
+        <!-- 性别 -->
+        <div class="contactEdit_item contactEdit_item_sex clearfix">
+            <div class="contactEdit_item_label">{{sex_label}}</div>
+            <div class="contactEdit_item_value">
+                <div class="sex_editor">
+                    <div class="selectMenu">
+                        <div class="selectBox" typeNum="{{sel_sex_num}}">{{sex}}</div>
+                        <ul class="selectItems hide">
+                            <!-- <li typeNum="{{sex_none_num}}">{{lng_sex_none}}</li> -->
+                            <li typeNum="{{sex_male_num}}">{{lng_sex_male}}</li>
+                            <li typeNum="{{sex_female_num}}">{{lng_sex_female}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 生日 -->
+        <div class="contactEdit_item contactEdit_item_birthday clearfix">
+            <div class="contactEdit_item_label">{{birthday_label}}</div>
+            <div class="contactEdit_item_value">
+                <div class="birthday_editor">
+                    <input type="text" placeholder="" readonly="" value="{{birthday}}">
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+    <div class="clearfix">
+    
+        <!-- QQ -->
+        <div class="contactEdit_item contactEdit_item_qq clearfix">
+            <div class="contactEdit_item_label">{{qq_label}}</div>
+            <div class="contactEdit_item_value">
+                <div class="qq_editor"><input type="text" placeholder="" value="{{qq}}"></div>
+            </div>
+        </div>
+        
+        <!-- 昵称 -->
+        <div class="contactEdit_item contactEdit_item_nickname clearfix">
+            <div class="contactEdit_item_label">{{nick_label}}</div>
+            <div class="contactEdit_item_value">
+                <div class="nickname_editor"><input type="text" placeholder="" value="{{nick}}"></div>
+            </div>
+        </div>
+    
+    </div>
+
+    <!-- 网站 -->
+    <div class="contactEdit_item contactEdit_item_website clearfix">
+        <div class="contactEdit_item_label">{{website_label}}</div>
+        <div class="contactEdit_item_value">
+            <div class="website_editor"><input type="text" placeholder="" value="{{website}}"></div>
+        </div>
+    </div>
+    
+    <!-- 家庭地址 -->
+    <div class="contactEdit_item contactEdit_item_familyAdd clearfix">
+        <div class="contactEdit_item_label">{{familyAdd_label}}</div>
+        <div class="contactEdit_item_value">
+            <div class='clearfix'>
+                <div class="family_country_editor"><input type="text" placeholder="{{country_label}}" value="{{country}}"></div>
+                <div class="family_province_editor"><input type="text" placeholder="{{province_label}}" value="{{province}}"></div>
+                <div class="family_city_editor clearfix"><input type="text" placeholder="{{city_label}}" value="{{city}}"></div>
+            </div>
+            <div class="family_street_editor"><input type="text" placeholder="{{street_label}}" value="{{street}}"></div>
+            <div class="family_postcode_editor"><input type="text" placeholder="{{postcode_label}}" value="{{postcode}}"></div>
+        </div>
+    </div>
+    
+</div>

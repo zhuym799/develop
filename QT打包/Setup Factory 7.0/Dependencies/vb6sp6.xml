@@ -1,0 +1,161 @@
+<DependencyTemplate>
+<Dependency>
+<Name>Visual Basic 6.0 (SP6)</Name>
+<RuntimeTempFolder>vb6sp6</RuntimeTempFolder>
+<RevisionDate>Thursday, October 07, 2004</RevisionDate>
+<Description>安装 Visual Basic 6.0 (SP6) 应用程序所需的运行时文件。
+
+所有用 Microsoft Visual Basic 6.0 开发的程序需要核心运行时文件集才能运行。这些文件包括：
+
+Asycfilt.dll           2.40.4275.1 
+Comcat.dll          4.71.1460.1
+Msvbvm60.dll     6.0.97.82 
+Oleaut32.dll        2.40.4275.1 
+Olepro32.dll        5.0.4275.1 
+Stdole2.tlb          2.40.4275.1 
+
+
+【注意】请明白除了这些核心运行时文件，你还需要包括用 Visual Basic 创建的可执行文件以及工程中的其他支持文件。还要明白 Visual Basic 程序常常使用核心运行时文件集之外的其他控件。
+
+关于 Visual Basic 6 (SP6) 的更多信息请查看：
+
+Microsoft Knowledge Base Article - 290887 - VBRun60sp6.exe installs Visual Basic 6.0 SP6 run-time files
+http://support.microsoft.com/default.aspx?scid=kb;en-us;290887</Description>
+<DetectScript>function IsVB6SP6Installed()
+	-- 获取 msvbvm60.dll 的版本
+	local strVisualBasicRuntimeFile = _SystemFolder.."\\msvbvm60.dll";
+	
+	if(not File.DoesExist(strVisualBasicRuntimeFile))then
+
+		-- msvbvm60.dll 未找到，那么运行时将被安装。
+		SetupData.WriteToLogFile("信息\tVB6 SP6 模块: 没有找到 msvbvm60.dll。VB6 SP6 运行时将被安装。\r\n", true);
+	
+		-- msvbvm60.dll 未安装，那么安装模块。
+		return false;
+	end
+	
+	tblFileInfo = File.GetVersionInfo(strVisualBasicRuntimeFile);
+	if(not tblFileInfo)then
+	
+		-- 不能获取 msvbvm60.dll 的版本信息，那么运行时将被安装。
+		SetupData.WriteToLogFile("信息\tVB6 SP6 模块：无法获取 msvbvm60.dll 的版本信息。VB6 SP6 运行时将被安装。\r\n", true);
+	
+		-- 不能获取 msvbvm60.dll 的版本信息，那么安装运行时。
+		return false;
+	end
+	
+	local nCompareResult = String.CompareFileVersions(tblFileInfo.FileVersion,"6.0.97.82");
+	if(nCompareResult == -1)then
+	
+		-- 看起来 msvbvm60.dll 像是 OFN。
+		SetupData.WriteToLogFile("信息\tVB6 SP6 模块：检测到 msvbvm60.dll 的旧版本。VB6 SP6 运行时将被安装。\r\n", true);
+	
+		-- 已安装的版本比最新版本旧，那么安装模块。
+		return false;
+	else
+
+		-- 看起来 msvbvm60.dll 像是最新的。
+		SetupData.WriteToLogFile("信息\tVB6 SP6 模块：检测到 msvbvm60.dll 的当前版本。VB6 SP6 运行时已经安装。\r\n", true);
+
+		-- 已安装的版本是最新的，那么不安装模块。
+		return true;
+	end
+end
+</DetectScript>
+<DetectFunction>IsVB6SP6Installed</DetectFunction>
+<InstallScript>-- 用在安装操作中的变量:
+local strMessage = 
+[[安装程序检测到你的 Microsoft Visual Basic 6.0 运行时文件过旧。
+请点击“确定”进行安装，点击“取消”中止安装。]];
+local strDialogTitle = "必需的技术文件";
+local bShowUserPrompt = true; -- 设置为 true 来询问用户是否安装模块
+local bRunInstallFile = true; -- 设置默认选择 (是否默认运行安装)
+local strRuntimeSupportFolder = SessionVar.Expand("%TempLaunchFolder%\\vb6sp6");
+local strFileToRun = strRuntimeSupportFolder.."\\VBRun60sp6.exe";
+
+-----------------------------------------------------------------------------------------
+
+-- VB6 安装已启动。
+SetupData.WriteToLogFile("成功\tVB6 SP6 模块：安装脚本已启动。\r\n", true);
+
+-- 删除临时文件和运行时支持文件夹 (同时进行错误检查)
+local function PerformCleanUp()
+
+	File.Delete(strFileToRun);
+
+	error = Application.GetLastError();
+	if error ~= 0 then
+		SetupData.WriteToLogFile("错误\tVB6 SP6 模块：无法删除临时文件 (".._tblErrorMessages[error]..")\r\n", true);
+	end
+
+	Folder.Delete(strRuntimeSupportFolder);
+
+	error = Application.GetLastError();
+	if error ~= 0 then
+		SetupData.WriteToLogFile("错误\tVB6 SP6 模块：无法删除临时文件夹 (".._tblErrorMessages[error]..")\r\n", true);
+	end
+end
+
+-- 是否显示对话框来询问用户是否安装模块。
+if(bShowUserPrompt)then
+	local nDialogResult = Dialog.Message(strDialogTitle,strMessage,MB_OKCANCEL,MB_ICONEXCLAMATION);
+	if(nDialogResult == IDOK)then
+		-- 用户选择安装模块。
+		bRunInstallFile = true;
+
+		-- 用户要安装它
+		SetupData.WriteToLogFile("成功\tVB6 SP6 模块：用户已确认，准备安装。\r\n", true);
+
+	else
+		-- 用户不安装模块。
+		bRunInstallFile = false;
+
+		-- 用户回答否
+		SetupData.WriteToLogFile("成功\tVB6 SP6 模块：用户不安装模块。\r\n", true);
+	end
+end
+
+
+-- 检查用户是否要安装运行时。
+if(bRunInstallFile)then
+
+	-- 开始！
+	SetupData.WriteToLogFile("成功\tVB6 SP6 模块：正在运行 VB6 安装程序。\r\n", true);
+
+	-- “/R:N”命令行参数告诉 VB 安装程序若需要的话不要显示重启屏幕。
+	-- 我们将检测整个安装进程返回代码，若需要的话，还设置内部 _NeedsReboot 变量。
+	-- 【注意】在静默方式下，你不能添加命令行参数“/Q”来运行安装
+	local nResult = File.Run(strFileToRun,"/R:N","",SW_SHOWNORMAL,true);
+	if(nResult == 3010)then
+		-- VB 安装指明它需要重启才能完成
+		-- 设置 Setup Factory 的重启变量，以便在安装结束时重启
+		_NeedsReboot = true;
+
+		-- 需要重启
+		SetupData.WriteToLogFile("成功\tVB6 SP6 模块：VB6 安装程序已告知它需要重启。\r\n", true);
+
+	end
+	
+	-- 删除运行时安装程序文件，并删除临时文件夹
+	PerformCleanUp();
+	
+	-- 全部完成！
+	SetupData.WriteToLogFile("成功\tVB6 SP6 模块：VB6 运行时安装完毕。\r\n", true);
+	
+else
+	-- 用户不想安装运行时，那么删除运行时安装程序文件，
+	-- 并删除临时文件夹，然后退出安装程序。
+	PerformCleanUp();
+
+	-- 全部完成！
+	SetupData.WriteToLogFile("成功\tVB6 SP6 模块：VB6 运行时未安装。\r\n", true);
+
+	Application.Exit();
+
+end
+</InstallScript>
+<SupportFiles>
+<File>#SUFDIR#\Dependencies\vb6sp6\VBRun60sp6.exe</File>
+</SupportFiles>
+</Dependency>
+</DependencyTemplate>

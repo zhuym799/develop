@@ -1,0 +1,2049 @@
+/* 全局设置 */
+#conversation_logo_panel {
+	height: 100%;	
+}
+#conversation_logo_box{
+	height: 138px;
+	width: 100%;
+	margin-top: -70px;
+}
+.conversation_logo_image_exchange {
+	background: url('../Images/Skin_Default/Logo/exchange.png') center no-repeat;
+}
+.conversation_logo_image_21cn {
+	background: url('../Images/Skin_Default/Logo/21cn.png') center no-repeat;
+}
+.conversation_logo_image_126 {
+	background: url('../Images/Skin_Default/Logo/126.png') center no-repeat;
+}
+.conversation_logo_image_163 {
+	background: url('../Images/Skin_Default/Logo/163.png') center no-repeat;
+}
+.conversation_logo_image_chinanet {
+	background: url('../Images/Skin_Default/Logo/chinanet.png') center no-repeat;
+}
+.conversation_logo_image_cmcc {
+	background: url('../Images/Skin_Default/Logo/cmcc.png') center no-repeat;
+}
+.conversation_logo_image_foxmail {
+	background: url('../Images/Skin_Default/Logo/foxmail.png') center no-repeat;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi){ 
+	#conversation_logo_box {
+		height: 207px;
+		width: 100%;
+		margin-top: -70px;
+	}
+
+	.conversation_logo_image_foxmail {
+		background: url('../Images/Skin_Default/Logo/foxmail@2x.png') center no-repeat;
+		background-size: 240px 180px;
+	}
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi){
+	#conversation_logo_box {
+		height: 276px;
+		width: 100%;
+		margin-top: -70px;
+	}
+	
+	.conversation_logo_image_foxmail {
+		background: url('../Images/Skin_Default/Logo/foxmail@2x.png') center no-repeat;
+	}
+}
+
+.conversation_logo_image_gmail {
+	background: url('../Images/Skin_Default/Logo/gmail.png') center no-repeat;
+}
+.conversation_logo_image_icloud {
+	background: url('../Images/Skin_Default/Logo/icloud.png') center no-repeat;
+}
+.conversation_logo_image_msn {
+	background: url('../Images/Skin_Default/Logo/msn.png') center no-repeat;
+}
+.conversation_logo_image_outlook {
+	background: url('../Images/Skin_Default/Logo/outlook.png') center no-repeat;
+}
+.conversation_logo_image_qq {
+	background: url('../Images/Skin_Default/Logo/qq.png') center no-repeat;
+}
+.conversation_logo_image_sina {
+	background: url('../Images/Skin_Default/Logo/sina.png') center no-repeat;
+}
+.conversation_logo_image_sohu {
+	background: url('../Images/Skin_Default/Logo/sohu.png') center no-repeat;
+}
+.conversation_logo_image_unicom {
+	background: url('../Images/Skin_Default/Logo/unicom.png') center no-repeat;
+}
+.conversation_logo_image_yahoo {
+	background: url('../Images/Skin_Default/Logo/yahoo.png') center no-repeat;
+}
+#conversation_logo_info {
+	font-size: 18px;
+	color: #b5bfc9;
+	margin-top: 10px;
+	line-height: 1.5;
+	cursor: default;
+}
+
+html#FoxmailClientHTML{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+body#FoxmailClientBody{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	z-index: 0;
+	position: relative;	
+}
+
+a[href]:link {
+	text-decoration: none !important; 
+}
+a[href]:hover {
+	text-decoration: underline !important;
+}
+
+#body_main{
+	height: 100%;
+	z-index: 0;
+	position: relative;
+}
+
+#PrintFrame {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+/* 快速回复区域 */
+.fast_reply_panel {
+	font-size: 13px;
+	border-bottom: 1px solid rgb(175,184,188);
+	background-color: #eaeff3;
+	padding: 13px 14px 0px 14px;
+	height: auto;
+}
+.fast_reply_panel .foxTexter {
+	overflow: hidden;
+	min-height: 58px;
+}
+.fast_reply_panel .toolbar {
+	margin: 10px 0px;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+.fast_reply_panel .toolbar_left {
+	-webkit-box-flex: 1;
+}
+.fast_reply_panel .toolbar_right {
+	width: 180px;
+}
+.fast_reply_panel .cancel_button {
+	float: right;
+}
+.fast_reply_panel .send_button {
+	float: right;
+	margin-right: 10px;
+}
+.fast_reply_panel .receiver {
+	
+}
+.fast_reply_panel .compose_button {
+	display: inline;
+	margin: 2px 0px 5px 0px;
+	float: right;
+	width: 16px;
+	height: 16px;
+	cursor: default;
+	background: url(../Images/Skin_Default/popup_normal.png) center no-repeat;
+	-webkit-user-select: none;
+}
+.fast_reply_panel .compose_button:hover {
+	background: url(../Images/Skin_Default/popup_hover.png) center no-repeat;
+}
+.fast_reply_panel .compose_button:active {
+	background: url(../Images/Skin_Default/popup_active.png) center no-repeat;
+}
+
+/* 备注区域 */
+.comment_editor {
+	padding: 9px 18px 0px 4px;
+	border-bottom: 1px solid rgb(219, 221, 223);
+	height: 112px;
+	overflow: hidden;
+	background-color: rgb(243, 243, 244); 
+}
+.comment_editor .foxTextArea{
+	width: 100%;
+}
+.comment_editor textarea{
+	width: 100%;
+	height: 55px;
+	/* 输入框背景不加保护色 默认白色 */
+	/*background-color: rgb(255, 255, 255);*/
+}
+.comment_editor .toolbar {
+	width: 100%;
+}
+.comment_editor .comment_editor_cancel {
+	float: right;
+	margin: 10px -15px 0px 0px;
+}
+.comment_editor .comment_editor_save {
+	float: right;
+	margin: 10px 7px 0px 0px;
+}
+
+.mail_comment_show_area{
+    border-bottom: 1px solid rgb(211, 213, 215);
+	margin-right: 0px;
+	width: 100%;
+}
+.comment_background {
+	background-color: rgb(243, 243, 244);
+}
+.comment_background:hover {
+	background-color: #eff1f3;
+	/*filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#eff1f3,endColorStr=#eceef0);*/
+}
+.comment_edit_icon {
+	width: 16px;
+	height: 16px;
+	float: right;
+	margin: 6px 6px 0px 0px;
+}
+.comment_background:hover .comment_edit_icon {
+	background:url('../Images/Skin_Default/comment_edit_icon.png') center no-repeat;
+
+}
+
+.mail_comment_show_area .comment_desc{
+	padding: 3px 0px 0px 5px;
+	float: left;
+}
+.mail_comment_show_area .content{
+	margin-left: 2px;
+	word-wrap: break-word;
+	padding: 3px 5px 5px 0px;
+	display: inline-block;
+}
+
+/* 会议邮件区域 */
+.mail_meeting_area{
+	height: 50px;
+	overflow: hidden;
+    border-bottom: 1px solid rgb(211, 213, 215);
+    margin: 0 10px;
+}
+.mail_meeting_area_handling {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(228, 243, 253)), to(rgb(207, 228, 240)));
+}
+.mail_meeting_area_handled {
+	background-color: rgb(243, 243, 244);	
+}
+.mail_meeting_mark{
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin: 8px 0px 0px 8px;
+}
+.mail_meeting_mark_icon {
+	background-image: url('../Images/Skin_Default/meeting/meeting_icon.png');	
+}
+.mail_meeting_cancel_mark_icon {
+	background-image: url('../Images/Skin_Default/meeting/meeting_cancel_icon.png');
+}
+.mail_meeting_expired_mark_icon {
+	background-image: url('../Images/Skin_Default/meeting/meeting_expired_icon_.png');
+}
+.mail_meeting_info{
+	padding-top: 5px;
+	padding-left: 10px;
+	line-height: 20px;
+	height: 40px;
+	overflow: hidden;
+}
+.mail_meeting_stat, .mail_meeting_response {
+	float: right;
+	max-width: 50%;/*350px*/
+	height: 20px;
+	padding-top: 16px;
+	padding-right: 10px;
+}
+.mail_meeting_toolbar{
+	float: right;
+	padding-top: 16px;
+	padding-right: 10px;
+}
+.mail_meeting_accept_button, .mail_meeting_tentative_button, .mail_meeting_refuse_button, .mail_read_receipt_send_button {
+	padding: 0 10px 2px 0px;
+	float: left;
+	font-size: 12px;
+	cursor: default;
+	text-indent: 25px;
+	border-radius: 10px;
+	border: 1px solid rgb(142, 150, 155);
+}
+.mail_meeting_accept_button{
+	background: url(../../Common/FoxUI/Images/New/Icon/accept.png) 15% 18% no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(246, 246, 246)), to(rgb(236, 236, 236)));
+}
+.mail_meeting_tentative_button{
+	margin-left: 6px;
+	background: url(../../Common/FoxUI/Images/New/Icon/pending.png) 15% 18% no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(246, 246, 246)), to(rgb(236, 236, 236)));
+}
+.mail_meeting_refuse_button{
+	margin-left: 6px;
+	background: url(../../Common/FoxUI/Images/New/Icon/reject.png) 15% 18% no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(246, 246, 246)), to(rgb(236, 236, 236)));
+}
+.mail_read_receipt_send_button{
+	display: inline-block;
+	line-height: 17px;
+	float: right;
+	margin: 6px 40px 0 0;
+	background: url(../../Common/FoxUI/Images/New/Icon/send.png) 15% 18% no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(246, 246, 246)), to(rgb(236, 236, 236)));
+}
+.mail_meeting_accept_button:hover, .mail_meeting_tentative_button:hover, .mail_meeting_refuse_button:hover, .mail_read_receipt_send_button:hover {
+	border: 1px solid rgb(172, 180, 186);
+}
+.mail_meeting_accept_button:active {
+	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2) inset;
+	background: url(../../Common/FoxUI/Images/New/Icon/accept.png) 15% 18% no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(211, 217, 222)), to(rgb(220, 227, 231)));
+}
+.mail_meeting_tentative_button:active {
+	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2) inset;
+	background: url(../../Common/FoxUI/Images/New/Icon/pending.png) 15% 18% no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(211, 217, 222)), to(rgb(220, 227, 231)));
+}
+.mail_meeting_refuse_button:active {
+	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2) inset;
+	background: url(../../Common/FoxUI/Images/New/Icon/reject.png) 15% 18% no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(211, 217, 222)), to(rgb(220, 227, 231)));
+}
+.mail_read_receipt_send_button:active {
+	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2) inset;
+	background: url(../../Common/FoxUI/Images/New/Icon/send.png) 15% 18% no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(211, 217, 222)), to(rgb(220, 227, 231)));
+}
+
+/* 邮件会话区域 */
+.mail_frame {
+	/*width: 100%;
+	height: 100%;
+	position: relative;*/
+}
+
+.mail_session_body {
+	margin: 0 9px;
+	padding: 0 0 1px 0;
+	z-index: 0;
+	position: relative;
+}
+
+.show_more_mails{
+	text-align: center;
+	padding-bottom: 8px;
+}
+.show_more_button {
+	cursor: pointer;
+	font-size: 12px;
+}
+.mails_loading_tips {
+	font-size: 12px;
+}
+
+.mail_session_subject {
+	display: inline-block;
+	margin: 6px 10px;
+    text-align: left;
+    word-break: break-all;
+}
+
+.mail_session {
+	margin-top: 0px;
+    margin-bottom: 9px;
+	height: auto;
+	position: relative;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+	z-index: 0;
+}
+
+.mail_preview_panel {
+	background-color: window;
+}
+
+.mail_preview_panel:hover {
+    border: 1px solid #8A8D8E;
+}
+
+.mail_preview_panel:active {
+    background: #F8F8F8;
+}
+
+.mail_preview_box {
+	font-size: 14px;
+	width: 100%;
+	height: 37px;
+	display: -webkit-box;
+  	-webkit-box-orient: horizontal;
+}
+/* 已读未读 */
+.mail_preview_box.read {
+	font-weight: normal;	
+}
+.mail_preview_box.unread {
+	font-weight: bold;	
+}
+.mail_head_readmark {
+	margin-top: 2px;
+	width: 16px;
+	height: 16px;
+}
+.unread .mail_head_readmark {
+	background: url(../../Common/FoxUI/Images/New/Icon/unread.png) center no-repeat;
+}
+
+.mail_preview_left {
+	width: 110px;
+	height: inherit;
+	padding: 0 0 0 7px;
+	margin-top: -1px;
+    display: -webkit-box;
+  	-webkit-box-orient: horizontal;
+  	-webkit-box-align: center;
+}
+.mail_preview_main {
+	height: inherit;
+	-webkit-box-flex: 1;
+}
+.mail_preview_right {
+	width: 160px;
+	height: inherit;
+    text-align: right;
+    display: -webkit-box;
+  	-webkit-box-orient: horizontal;
+  	-webkit-box-align: center;
+}
+
+.mail_full_panel {
+	position: relative; /* 定位横向滚动条 */
+	min-height: 38px;
+	z-index: 0;
+}
+.horizontal_scroller {
+	position: absolute;
+	width: 100%;
+	overflow: auto;
+	bottom: 0px;
+}
+.horizontal_scroller.fixed_bottom {
+	position:fixed;
+	bottom: 0px;
+	width: -webkit-calc(100% - 20px);
+	-webkit-transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+}
+.scroller_sham_content {
+	height: 1px;	
+}
+@media print {
+	.horizontal_scroller {
+		display: none;
+	}
+}
+
+.mail_head_avatar{
+	width: 24px;
+	height: 24px;
+	float: left;
+	margin-left: 7px;
+	/*暂时屏蔽*/
+	display: none;
+}
+
+.mail_head_avatar img{
+	width: 22px;
+	height: 22px;
+	border: 1px solid rgb(209, 214, 215);
+}
+
+.mail_head_sender {
+	margin: 0 0 0 6px;
+    display: inline-block;
+    width: 80px;
+    color: #000000;
+	font-size: 14px;
+	cursor: default;
+}
+.mail_preview_abstract {
+	position: relative;
+	top: 8px;
+	cursor: default;
+}
+
+.mail_head_attachment {
+    width: 16px;
+    height: 16px;
+	margin-right: 10px;
+	background: url(../Images/Skin_Default/attachment_info.png) center no-repeat;
+}
+
+.mail_head_date {
+	margin-right: 5px;
+	text-align: left;
+    color: #898989;
+	font-size: 12px;
+	cursor: default;
+}
+
+.mail_head_time {
+    padding-right: 6px;
+	margin-right: 5px;
+	text-align: left;
+    color: #898989;
+	font-size: 12px;
+	cursor: default;
+}
+
+/* 邮件头区域 展开模式 */
+
+.mail_head_expand {
+	padding: 2px 15px 2px 15px;
+    cursor: default;
+}
+
+.mail_head_subject_container {
+	/*width: 100%;
+    margin-top: 7px;
+	margin-bottom: 3px;
+    text-align: left;
+	padding-left: 2px;*/
+}
+.mail_head_attachment_container {
+	margin-top: 8px;
+	float: right;
+	text-align: right;
+}
+.mail_head_subject_container_draft_1 {
+    margin-right: 112px;
+}
+.mail_head_subject {
+	/*display: inline-block;
+    text-align: left;
+    word-break: break-all;*/
+}
+.mail_session_title_tail {
+	display: inline-block;
+}
+.mail_top_most {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	position: relative;
+	top: 2px;
+	margin: 0px 0px 0px 5px;
+	-webkit-user-webkit: none;
+}
+.mail_top_most.top {
+	background: url(../../Common/FoxUI/Images/New/Icon/top.png) no-repeat;
+}
+.mail_top_most.not_top {
+	background: url(../../Common/FoxUI/Images/New/Icon/untop.png) no-repeat;
+}
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi){ 
+
+	.mail_top_most.top {
+		background: url(../../Common/FoxUI/Images/New/Icon/top@2x.png) no-repeat;
+		background-size: 18px 18px;
+	}
+	.mail_top_most.not_top {
+		background: url(../../Common/FoxUI/Images/New/Icon/untop@2x.png) no-repeat;
+		background-size: 18px 18px;
+	}
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi){
+	.mail_top_most.top {
+		background: url(../../Common/FoxUI/Images/New/Icon/top@2x.png) no-repeat;
+		background-size: 18px 18px;
+	}
+	.mail_top_most.not_top {
+		background: url(../../Common/FoxUI/Images/New/Icon/untop@2x.png) no-repeat;
+		background-size: 18px 18px;
+	}
+}
+
+
+
+/* 邮件折叠区域 */
+
+.mail_head_panel {
+    font-size: 13px;
+}
+/* 展开头部信息 */
+.mail_info_head {
+    margin: 0px 9px;
+	margin-right: 0px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 3px;
+	padding-right: 3px;
+    white-space: nowrap;
+	/*width: 100%;*/
+	border-bottom: 1px solid rgb(219,221,223);
+}
+
+.mail_info_head_main {
+    float: left;
+    width: 100%;
+}
+
+/* 邮件头操作区域 */
+.mail_info_operation{
+	position: relative;
+	z-index: 3000;
+	/*border-top: 1px solid #000;
+	border-bottom: 1px solid #000;*/
+	height: 19px;
+	line-height: 19px;
+}
+
+.mail_info_operation_has_attachments_0 {
+    float: left;
+    width: 120px; /* 信息区域长度 */
+    margin-left: -120px; /* 左偏移位置 */
+    text-align: right;
+}
+
+.mail_info_operation_has_attachments_1 {
+	float: left;
+    width: 160px; /* 信息区域长度 */
+    margin-left: -160px; /* 左偏移位置 */
+    text-align: right;
+}
+
+.mail_info_operation_attachment{
+	float: right;
+	height: 16px;
+	overflow: hidden;
+	margin: 2px 10px 0px 10px;
+}
+
+.mail_info_attachment_count {
+    color: #136DBA;
+	height: 16px;
+	cursor: pointer;
+	padding-left: 19px;
+	vertical-align: middle;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.mail_info_attachment_count:hover {
+    color: #368CE3;
+}
+
+.mail_info_attachment_count:active {
+    color: #368CE3;
+}
+
+.mail_info_switch_time {
+	float: right;
+	width: 16px;
+	height: 16px;
+	margin: 5px 0px 0px 8px;
+	background: url('../Images/Skin_Default/time_switch_icon.png') no-repeat;
+}
+.mail_fast_reply_icon {
+	margin: -6px 0px 0px 0px;
+	float: right;
+	overflow: hidden;
+	width: 33px;
+	height: 21px;
+	/*cursor:pointer;*/
+}
+.mail_more_control_icon {
+	margin: -6px -13px 0px 0px;
+	float: right;
+	overflow: hidden;
+	width: 29px;
+	height: 21px;
+	/*cursor:pointer;*/
+}
+@media print {
+	.general_info_tool {
+		display: none;
+	}		
+}
+
+/* 头像信息 */
+
+.mail_info_sender_avatar{
+	float: left; 
+	margin-right: 10px; 
+	margin-top: 5px;
+	width: 32px;
+	height: 32px;
+	border: 1px solid RGB(209, 214, 215);
+	/*暂时隐藏*/
+	display: none;
+}
+
+.mail_info_sender_avatar img{
+	width: 32px;
+	height: 32px;
+}
+
+/* mail_info_right */
+.mail_info_right{
+	position: relative;
+	/*margin-left: 50px;*/
+	/*暂时隐藏了头像 设置左边距*/
+	margin-left: 0px;
+	overflow: hidden;
+}
+
+.mail_info_right_scroll{
+	position: relative;
+}
+
+
+.general_info_panel {
+	padding: 0 10px;
+	position: relative;		
+}
+.general_info {
+	padding: 5px 0;
+	border-bottom: 1px solid rgb(219,221,221);	
+}
+.general_info_sender {
+	color: rgb(0,0,0);
+    font-weight: bold;
+	font-size: 13px;
+	min-height: 16px;
+}
+.general_info_bottom {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	margin: 5px 0px 0px 0px;
+}
+.general_info_bottom_left {
+	color: rgb(65,70,78);
+	-webkit-box-flex: 1;
+}
+.general_info_bottom_right {
+	width: 200px;
+}
+.detail_info_prompt{
+	float: right;
+	color: #457cb2;;
+	margin: 0px 0px 0px 5px;
+	cursor: default;
+	-webkit-user-select: none;
+}
+.detail_info_prompt:hover {
+	color: #659fd7;
+}
+.general_info_time {
+	float: right;
+	color: rgb(144,144,144);
+	margin: 0px 0px 0px 5px;
+}
+.general_info_tool {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	cursor: default;
+}
+
+.fastreply_button {
+	display: inline-block;
+	cursor: default;
+	margin: 0;
+	padding: 0;
+	width: 32px;
+	height: 20px;
+	border-left: 1px solid rgb(191, 198, 201);
+	border-bottom: 1px solid rgb(191, 198, 201);
+	border-bottom-left-radius: 2px;
+	-webkit-user-select: none;
+	background: url(../../Common/FoxUI/Images/New/Icon/replay.png) 0px 0px no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(255, 255, 255)), to(rgb(237, 239, 240)));
+}
+.fastreply_button:hover {
+	background: url(../../Common/FoxUI/Images/New/Icon/replay.png) 0px 0px no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(246, 248, 249)), to(rgb(237, 239, 240)));
+}
+.fastreply_button:active {
+	background: url(../../Common/FoxUI/Images/New/Icon/replay.png) 0px 0px no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(232, 239, 237)), to(rgb(240, 243, 245)));
+}
+
+.control_button {
+	display: inline-block;
+	cursor: default;
+	margin: 0px;
+	padding: 0;
+	width: 29px;
+	height: 20px;
+	border-left: 1px solid rgb(191, 198, 201);
+	border-bottom: 1px solid rgb(191, 198, 201);
+	-webkit-user-select: none;
+	background: url(../../Common/FoxUI/Images/New/Icon/more.png) 0px 0px no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(255, 255, 255)), to(rgb(237, 239, 240)));	
+}
+.control_button:hover {
+	background: url(../../Common/FoxUI/Images/New/Icon/more.png) 0px 0px no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(246, 248, 249)), to(rgb(237, 239, 240))); 
+}
+.control_button:active {
+	background: url(../../Common/FoxUI/Images/New/Icon/more.png) 0px 0px no-repeat,
+                -webkit-gradient(linear, 0 0, 0 100%, from(rgb(232, 239, 237)), to(rgb(240, 243, 245))); 
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi){ 
+
+	.fastreply_button {
+		background: url(../../Common/FoxUI/Images/New/Icon/replay@2x.png) 0px 0px no-repeat,
+					-webkit-gradient(linear, 0 0, 0 100%, from(rgb(255, 255, 255)), to(rgb(237, 239, 240)));
+		background-size: 32px 20px;
+	}
+
+	.fastreply_button:hover {
+		background: url(../../Common/FoxUI/Images/New/Icon/replay@2x.png) 0px 0px no-repeat,
+					-webkit-gradient(linear, 0 0, 0 100%, from(rgb(246, 248, 249)), to(rgb(237, 239, 240)));
+		background-size: 32px 20px;
+	}
+	.fastreply_button:active {
+		background: url(../../Common/FoxUI/Images/New/Icon/replay@2x.png) 0px 0px no-repeat,
+					-webkit-gradient(linear, 0 0, 0 100%, from(rgb(232, 239, 237)), to(rgb(240, 243, 245)));
+		background-size: 32px 20px;
+	}
+	
+	.control_button {
+		background: url(../../Common/FoxUI/Images/New/Icon/more@2x.png) 0px 0px no-repeat,
+					-webkit-gradient(linear, 0 0, 0 100%, from(rgb(255, 255, 255)), to(rgb(237, 239, 240)));
+		background-size: 29px 20px;
+	}
+
+	.control_button:hover {
+		background: url(../../Common/FoxUI/Images/New/Icon/more@2x.png) 0px 0px no-repeat,
+					-webkit-gradient(linear, 0 0, 0 100%, from(rgb(246, 248, 249)), to(rgb(237, 239, 240)));
+		background-size: 29px 20px;
+	}
+	.control_button:active {
+		background: url(../../Common/FoxUI/Images/New/Icon/more@2x.png) 0px 0px no-repeat,
+					-webkit-gradient(linear, 0 0, 0 100%, from(rgb(232, 239, 237)), to(rgb(240, 243, 245))); 
+		background-size: 29px 20px;
+	}
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi){
+	
+	.fastreply_button {
+		background: url(../../Common/FoxUI/Images/New/Icon/replay@2x.png) 0px 0px no-repeat,
+					-webkit-gradient(linear, 0 0, 0 100%, from(rgb(255, 255, 255)), to(rgb(237, 239, 240)));
+		background-size: 32px 20px;
+	}
+
+	.fastreply_button:hover {
+		background: url(../../Common/FoxUI/Images/New/Icon/replay@2x.png) 0px 0px no-repeat,
+					-webkit-gradient(linear, 0 0, 0 100%, from(rgb(246, 248, 249)), to(rgb(237, 239, 240)));
+		background-size: 32px 20px;
+	}
+	.fastreply_button:active {
+		background: url(../../Common/FoxUI/Images/New/Icon/replay@2x.png) 0px 0px no-repeat,
+					-webkit-gradient(linear, 0 0, 0 100%, from(rgb(232, 239, 237)), to(rgb(240, 243, 245)));
+		background-size: 32px 20px;
+	}
+	
+	.control_button {
+		background: url(../../Common/FoxUI/Images/New/Icon/more@2x.png) 0px 0px no-repeat,
+					-webkit-gradient(linear, 0 0, 0 100%, from(rgb(255, 255, 255)), to(rgb(237, 239, 240)));
+		background-size: 29px 20px;
+	}
+
+	.control_button:hover {
+		background: url(../../Common/FoxUI/Images/New/Icon/more@2x.png) 0px 0px no-repeat,
+					-webkit-gradient(linear, 0 0, 0 100%, from(rgb(246, 248, 249)), to(rgb(237, 239, 240)));
+		background-size: 29px 20px;
+	}
+	.control_button:active {
+		background: url(../../Common/FoxUI/Images/New/Icon/more@2x.png) 0px 0px no-repeat,
+					-webkit-gradient(linear, 0 0, 0 100%, from(rgb(232, 239, 237)), to(rgb(240, 243, 245))); 
+		background-size: 29px 20px;
+	}
+}
+
+
+.detail_info_panel{
+	position: relative;
+	margin: 0px 10px;
+	color: #4F4F4F;
+	line-height: 25px;
+	background-color: rgb(241, 246, 245);
+
+}
+.detail_info_panel:after {
+	position: absolute;
+	top: -5px;
+	right: 20px;
+	content: ' ';
+	width: 8px;
+	height: 8px;
+	background-color: rgb(241, 246, 245);
+	-webkit-transform: rotate(45deg);
+	border-left: 1px solid rgb(219, 221, 221);
+	border-top: 1px solid rgb(219, 221, 221);	
+}
+
+.detail_info {
+	padding: 5px 3px;
+	border-bottom: 1px solid rgb(219,221,221);
+}
+.bottom_line {
+	margin: 0px 10px;
+	border-bottom: 1px solid rgb(219,221,221);
+}
+.mail_info_expanded_row {
+	
+}
+
+.mail_contact_item {
+	cursor: default;
+}
+.mail_contact_item:hover {
+	color: rgb(0,0,0);	
+}
+
+.mail_info_expanded_head {
+	float: left;
+    width: 60px;
+    text-align: right;
+    vertical-align: top;
+	/*color: rgb(98,116,132);*/
+	color: rgb(65,70,78);
+}
+
+.mail_info_expanded_content {
+	margin-left: 55px;
+	color: rgb(65,70,78);
+}
+
+.mail_info_fulltime{
+	display: inline-block;
+}
+
+.mail_info_expanded_sender {
+    /*color: rgb(0,0,0);*/
+    color: rgb(65,70,78);
+    word-break: break-word;
+	font-weight: normal;
+}
+
+.mail_info_expanded_receiver{
+	color: rgb(65,70,78);
+}
+.mail_info_expanded_content {
+	margin-right: 20px;	
+}
+.mail_info_attachments{
+	/*height: 25px;*/
+}
+.mail_entry_info_attachment_fileicon {
+	width: 16px;
+	height: 16px;
+	margin-top: 0px;
+	position: relative;
+	top: 3px;
+	cursor: pointer;
+}
+.mail_entry_info_attachment_filename {
+	cursor: pointer;
+}
+.mail_entry_info_attachment_filename:hover {
+	color: #659fd7;
+}
+.mail_entry_info_attachment_list_item {
+	position: relative;
+}
+
+/* 详细信息附件列表 */
+.mail_entry_info_attachment_list_container {
+	display: inline-block;
+	padding-top: 3px;
+	margin-right: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+}
+.mail_entry_info_huge_attachment_list_container{
+	display: inline-block;
+	padding-top: 3px;
+	margin-right: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+}
+.mail_entry_info_attachment_list_container:hover{
+	color: #659fd7;
+}
+.mail_entry_info_attachment_list_container:active{
+}
+.mail_entry_info_attachment_list_item {
+	white-space: nowrap;
+	overflow: hidden;
+	width: 100%;
+}
+.mail_entry_info_attachment_list_img {
+	display: block;
+	float: left;
+	width: 22px;
+	height: 19px;
+	line-height: 19px;
+	overflow: hidden;
+}
+.mail_entry_info_attachment_list_img img{
+	margin-top: 2px;
+	width: 16px;
+	height: 16px;
+	float: left;
+}
+.mail_entry_info_attachment_list_info{
+	display: block;
+	height: 19px;
+	line-height: 19px;
+	color: #7f7f7f;
+}
+.mail_entry_info_attachment_list_item a {
+	text-decoration: none;
+}
+.mail_entry_info_attachment_list_info:hover{
+	color: #4F4F4F;
+}
+.mail_entry_info_attachment_list_info .mail_entry_info_attachment_span{
+	color: #4F4F4F;
+}
+.mail_entry_info_attachment_list_info:hover .mail_entry_info_attachment_span{
+	color: #000000;
+}
+
+.mail_info_expanded_contact_address {
+	color: #7f7f7f;
+    word-break: break-word;
+    cursor: default;
+}
+
+.mail_info_expanded_contact_address:hover{
+    color: rgb(79,79,79);
+}
+.mail_info_expanded_contact_address:hover span{
+	color: rgb(0,0,0);
+}
+
+.mail_header_receiver_panel {
+	display: block;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.mail_header_receiver_item {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.media_print .mail_content_container {
+	margin-left: 0px;
+	margin-right: 0px;	
+}
+
+.mail_contact_info_loading{
+	height: 48px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mail_content_panel {
+	margin: 0 12px;
+	padding: 5px 0 12px 0;
+	min-height: 120px;
+	font-size: 13px;
+/*	width: -webkit-calc(100% - 30px);*/
+	overflow-x: hidden;
+	overflow-y: hidden;
+	z-index: 0;
+	position: relative;
+	box-sizing: border-box;	
+}
+
+div[foxmail_class='mail_content_body'] div:only-child {
+	position: static !important;
+}
+
+.mail_loading_box {
+	background: url('../Images/Skin_Default/loading.gif') center no-repeat;
+	min-height: 100px;
+}
+
+.mail_loading_placeholder {
+    margin: 64px auto;
+    text-align: center;
+}
+
+/* 附件显示区域 */
+.mail_attachment_container_host {
+	overflow: hidden;
+	position: relative;
+	margin-left: -4px;
+	margin-right: -4px;
+	margin-top: 10px;
+}
+
+.mail_attachment_panel {
+	margin-top: 3px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.mail_attachment_boxtitle {
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 15px;
+    color: #757575;
+	z-index: 10;
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+}
+
+.mail_attachment_container {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+    list-style-type: none;
+}
+
+.mail_attachment_container_flash {
+    box-shadow: 0 0 2px 2px rgba(97, 186, 239, 0.5);
+    border: 1px solid rgb(97, 186, 239);
+}
+.select_all_normal_attachments_button {
+	float: left;
+	/*cursor: pointer;*/
+}
+
+.mail_attachment_desc{
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	float: left;
+}
+.desc_normal_attachment_desc{
+	display: inline-block;
+}
+.mail_attachment_download_button{
+	display: inline-block;
+	width: 18px;
+	height: 16px;
+	margin: 1px 0px 0px 0px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.mail_normal_attachment_title{
+	overflow: hidden;
+	line-height: 16px;
+	height: 16px;
+	font-size: 12px;
+	margin-left: 19px;
+	margin-top: 5px;
+}
+.desc_normal_attachments {
+	display: inline-block;
+}
+
+.mail_huge_attachment_title{
+	font-size: 12px;
+	/*padding: 5px;*/
+	line-height: 16px;
+	height: 16px;
+	margin-left: 19px;
+	margin-top: 5px;
+}
+
+.mail_huge_attachment_title a{
+	margin-left: 30px;
+}
+
+/* huge attachment */
+.mail_huge_attachment_entry{
+	width: 220px;
+	height: 40px;
+	padding-top: 8px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.mail_huge_attachment_entry_container{
+}
+.mail_huge_attachment_entry_uploading{
+	color: #999;
+}
+.mail_huge_attachment_image_container {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    vertical-align: middle;
+	position: absolute;
+	left: 12px; 
+}
+
+.mail_huge_attachment_image_wrap {
+    display: table-cell;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+}
+.mail_huge_attachment_entry_uploading .mail_huge_attachment_image_wrap {
+	filter:alpha(Opacity=50);	
+}
+
+.mail_huge_attachment_image_wrap img {
+    max-width: 32px;
+    max-height: 32px;
+    vertical-align: middle;
+}
+
+.mail_huge_attachment_info {
+    display: inline-block;
+    vertical-align: middle;
+	width: 150px;
+	margin-left: 52px;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.mail_huge_attachment_filename {
+    display: block;
+	max-width: 150px;
+    font-size: 12px;
+    color: #484848;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	height: 16px;
+	line-height: 16px;
+}
+.mail_huge_attachment_entry_uploading .mail_huge_attachment_filename {
+	color: #999;	
+}
+
+.mail_huge_attachment_size {
+    margin-top: 2px;
+    font-size: 12px;
+    color: #999;
+	height: 16px;
+	line-height: 16px;
+}
+
+/* normal attachment */
+.mail_attachment_entry {
+    width: 220px;
+	height: 40px;
+	padding-top: 8px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.mail_attachment_entry:hover {
+	/*background-color: #ddd;*/
+}
+
+.mail_attachment_image_container {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    vertical-align: middle;
+	position: absolute;
+	left: 8px;
+}
+
+.mail_attachment_image_wrap {
+    display: table-cell;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mail_attachment_image_wrap img {
+    max-width: 32px;
+    max-height: 32px;
+    vertical-align: middle;
+} 
+.mail_attachment_info {
+    display: inline-block;
+    vertical-align: middle;
+	width: 150px;
+	margin-left: 48px;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.pointer {
+	cursor: pointer;
+}
+.pointer a {
+	cursor: pointer;			
+}
+.pointer a:hover {
+	cursor: pointer;			
+}
+.default {
+	cursor: default;
+}
+.default a {
+	cursor: default;
+}
+.default a:hover {
+	cursor: default;
+}
+
+.mail_attachment_filename {
+    display: block;
+	max-width: 150px;
+    font-size: 12px;
+    color: #484848;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	height: 16px;
+	line-height: 16px;
+}
+
+.mail_attachment_size {
+    margin-top: 2px;
+    font-size: 12px;
+    color: #999;
+	height: 16px;
+	line-height: 16px;
+}
+
+.mail_attachment_container li.ui-selected, li.ui-selecting {
+	/*background-color: RGB(94, 114, 134);*/
+	background:url('../Images/Skin_Default/attach_select.png') center no-repeat;
+
+}/*
+li.ui-selected .mail_attachment_filename, li.ui-selecting .mail_attachment_filename{
+	color: RGB(255, 255, 255);
+}
+li.ui-selected .mail_attachment_size, li.ui-selecting .mail_attachment_size {
+	color: RGB(255, 255, 255);
+}
+li.ui-selected .mail_info_expanded_receiver, li.ui-selected .mail_info_expanded_sender, li.ui-selected .mail_info_expanded_contact_address {
+	color: RGB(255, 255, 255);
+}
+li.ui-selecting .mail_info_expanded_receiver, li.ui-selecting .mail_info_expanded_sender, li.ui-selecting .mail_info_expanded_contact_address{
+	color: RGB(255, 255, 255);
+}*/
+/*
+.ui-selected .mail_attachment_image_container, .ui-selecting .mail_attachment_image_container {
+    background: #DDD;
+    border-radius: 3px;
+}
+
+.ui-selected .mail_attachment_filename, .ui-selecting .mail_attachment_filename {
+    background: #476496;
+    border-radius: 8px;
+    color: #FFF;
+}*/
+/*
+#foxmail_view_body.body_blur .ui-selected .mail_attachment_filename, #foxmail_view_body.body_blur .ui-selecting .mail_attachment_filename {
+    background: gray;
+}*/
+
+
+
+
+/* 邮件加载动画 */
+/*
+.loading_spinner_container {
+    position: relative;
+    margin: auto;
+    width: 32px;
+    height: 32px;
+}
+
+.loading_spinner_container>div {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    border-radius: 4px 4px 0px 0px;
+    background-color: transparent;
+    height: 8px;
+    width: 4px;
+    float: left;
+    -webkit-transform-origin: 2px 16px;
+}
+
+.loading_spinner_segment01 {
+    -webkit-transform: rotate(0deg);
+    -webkit-animation: keyframes_loading_spinner 1s linear 0s infinite normal forwards;
+}
+.loading_spinner_segment02 {
+    -webkit-transform: rotate(30deg);
+    -webkit-animation: keyframes_loading_spinner 1s linear 0.0833s infinite normal forwards;
+}
+.loading_spinner_segment03 {
+    -webkit-transform: rotate(60deg);
+    -webkit-animation: keyframes_loading_spinner 1s linear 0.1667s infinite normal forwards;
+}
+.loading_spinner_segment04 {
+    -webkit-transform: rotate(90deg);
+    -webkit-animation: keyframes_loading_spinner 1s linear 0.2500s infinite normal forwards;
+}
+.loading_spinner_segment05 {
+    -webkit-transform: rotate(120deg);
+    -webkit-animation: keyframes_loading_spinner 1s linear 0.3333s infinite normal forwards;
+}
+.loading_spinner_segment06 {
+    -webkit-transform: rotate(150deg);
+    -webkit-animation: keyframes_loading_spinner 1s linear 0.4167s infinite normal forwards;
+}
+.loading_spinner_segment07 {
+    -webkit-transform: rotate(180deg);
+    -webkit-animation: keyframes_loading_spinner 1s linear 0.5000s infinite normal forwards;
+}
+.loading_spinner_segment08 {
+    -webkit-transform: rotate(210deg);
+    -webkit-animation: keyframes_loading_spinner 1s linear 0.5833s infinite normal forwards;
+}
+.loading_spinner_segment09 {
+    -webkit-transform: rotate(240deg);
+    -webkit-animation: keyframes_loading_spinner 1s linear 0.6667s infinite normal forwards;
+}
+.loading_spinner_segment10 {
+    -webkit-transform: rotate(270deg);
+    -webkit-animation: keyframes_loading_spinner 1s linear 0.7500s infinite normal forwards;
+}
+.loading_spinner_segment11 {
+    -webkit-transform: rotate(300deg);
+    -webkit-animation: keyframes_loading_spinner 1s linear 0.8333s infinite normal forwards;
+}
+.loading_spinner_segment12 {
+    -webkit-transform: rotate(330deg);
+    -webkit-animation: keyframes_loading_spinner 1s linear 0.9167s infinite normal forwards;
+}
+*/
+/* 共享样式 */
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.hide_last_one:last-child {
+    display: none;
+}
+
+.ellipsis {
+    /*word-wrap: break-word;*/
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hide_ifzero_0, .hide_ifnot_0, .hide_if_1, .hide_when_collapse_collapse, .hide_when_expand_expand {
+    display: none;
+}
+.hide_ifzero_0_0 {
+	display: none;
+}
+.hide_ifzero_0_0_0 {
+	display: none;
+}
+.visibility {
+	visibility: hidden;
+}
+
+/* 动画效果 */
+
+.anim_fastreply_slidedown {
+    display: block;
+    -webkit-animation: keyframes_fastreply_slidedown 10s linear 0s 1 normal forwards;
+}
+
+.anim_fastreply_fadetip {
+    display: block;
+    -webkit-animation: keyframes_fastreply_fadetip 10s linear 0s 1 normal forwards;
+}
+
+.anim_fastreply_slideup {
+    display: block;
+    -webkit-animation: keyframes_fastreply_slideup 10s linear 0s 1 normal forwards;
+}
+
+/* 分别发送样式 */
+.mail_entry_extra_info {
+	margin: 0 10px;
+	height: 32px;
+	overflow: hidden;
+	background-image: url('../Images/Skin_Default/read_receipt_bg.png');
+	background-repeat: repeat-x;
+}
+.mail_entry_extra_info_content {
+	padding-left: 10px;
+	line-height: 32px;
+}
+
+.mail_x_rcpts{
+	margin: 0 10px;
+	height: 32px;
+	overflow: hidden;
+	background-image: url('../Images/Skin_Default/read_receipt_bg.png');
+	background-repeat: repeat-x;
+	cursor: default;
+}
+.mail_x_rcpts_content{
+	padding-left: 10px;
+	line-height: 32px;
+}
+.mail_x_rcpts_send_button{
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+	width: 70px;
+	height: 22px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 9pt;
+	color: #fff;
+	background: url('../Images/Skin_Default/fast_reply_send_normal.png') center no-repeat;
+}
+.mail_x_rcpts_send_button:hover{
+	background: url('../Images/Skin_Default/fast_reply_send_hover.png') center no-repeat;
+}
+.mail_x_rcpts_send_button:active{
+	background: url('../Images/Skin_Default/fast_reply_send_down.png') center no-repeat;
+}
+.mail_x_rcpts_desc{
+	/*margin-right: 40px;*/
+}
+
+/* 定时发送 */
+.timemail_normal_background {
+	background-image: url('../Images/Skin_Default/read_receipt_bg.png');
+	background-repeat: repeat-x;
+}
+.timemail_expired_background {
+	background-color: #F3F3F4;
+	border-bottom: 1px solid rgb(219,221,223); 
+}
+.mail_entry_timemail_info {
+	margin: 0 10px;
+	/*width: 100%;*/
+	height: 32px;
+	overflow: hidden;
+}
+.mail_entry_timemail_content{
+	line-height: 32px;
+}
+.mail_entry_timemail_info1{
+	padding-left: 10px;
+	float: left;
+	cursor: default;
+}
+.mail_entry_timemail_info2{
+	padding-right: 10px;
+	color: #9C3225;
+	float: right;
+	cursor: default;
+}
+.mail_entry_timemail_button{
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+	width: 70px;
+	height: 22px;
+	line-height: 20px;
+	cursor: default;
+	text-align: center;
+	font-size: 9pt;
+}
+
+/* 阅读收条区域 */
+.mail_read_receipt{
+	margin: 0 10px;
+	height: 32px;
+	overflow: hidden;
+	background-image: url('../Images/Skin_Default/read_receipt_bg.png');
+	background-repeat: repeat-x;
+}
+.mail_read_receipt_content{
+	padding-left: 10px;
+	line-height: 32px;
+}
+
+.mail_read_receipt_desc{
+	/*margin-right: 40px;*/
+}
+
+/* 加密邮件 */
+.mail_encrypt_box {
+	padding: 0 10px;
+}
+.mail_encrypt_container {
+	padding: 18px 0 18px 83px;
+	background: url(../../Common/FoxUI/Images/New/Icon/lock.png) 25px 30px no-repeat, rgb(241, 246, 245);
+	border-bottom: 1px solid rgb(220,221,223);
+	font-size: 10pt;
+	overflow: hidden;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi){ 
+	.mail_encrypt_container {
+		background: url(../../Common/FoxUI/Images/New/Icon/lock@2x.png) 25px 30px no-repeat, rgb(241, 246, 245);
+		background-size: 32px 41px;
+	}
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi){
+
+	.mail_encrypt_container {
+		background: url(../../Common/FoxUI/Images/New/Icon/lock@2x.png) 25px 30px no-repeat, rgb(241, 246, 245);
+		background-size: 32px 41px;
+	}
+}
+
+.mail_encrypt_form {
+	margin: 3px 0;
+}
+.mail_encrypt_form .foxInputer {
+	display: inline-block;
+	width: 180px;
+}
+.mail_encrypt_form .foxButton {
+	display: inline-block;
+	margin: 0 0 0 2px;
+}
+.mail_encrypt_error {
+	padding: 0 0 0 18px;
+	color: rgb(156, 50, 37);
+	background: url(../../Common/FoxUI/Images/New/Icon/warn.png) 0 3px no-repeat;
+}
+
+
+/* 附件信息区域样式 */
+.attachments_info_panel{ 
+	margin: 0 10px;
+}
+.attachments_info {
+	padding: 3px 0 0 0;
+}
+.attachments_list {
+	overflow: hidden;
+	line-height: 0px;
+}
+.attachments_list.collapse {
+	max-height: 80px;
+}
+.attachments_list.expand {
+
+}
+.attachments_info_bottom {
+	border-top: 1px solid rgb(219,223,221);
+	width: 100%;
+	height: 1px;
+	text-align: center;
+	margin: 1px 0 0 0;
+}
+.attachments_info_bottom.crown {
+	margin: 10px 0;
+}
+.attachments_slide_button {
+	display: inline-block;
+	margin: -11px 0px 0px 0px;
+}
+/*附件*/
+.normal_attachments_list {
+	display: inline;
+	line-height: 0px;
+}
+.huge_attachments_list {
+	display: inline;
+	line-height: 0px;
+}
+.attachment_item {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	width: 260px;
+	height: 23px;
+	margin-bottom: 2px;
+	border: 1px solid rgb(255,255,255);
+	border-radius: 2px;
+	-webkit-user-drag: element;
+}
+.attachment_item:hover {
+	border: 1px solid rgb(210,222,230);
+	background-color: rgb(241,248,255);	
+}
+.attachment_item:active {
+	border: 1px solid rgb(153,168,158);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(224, 237, 251)), to(rgb(202, 224, 250)));
+    -webkit-box-shadow: inset 0px 1px 0px rgb(243, 248, 258);	
+}
+.attachment_item.selected {
+	border: 1px solid rgb(153,168,158);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(224, 237, 251)), to(rgb(202, 224, 250)));
+    -webkit-box-shadow: inset 0px 1px 0px rgb(243, 248, 258);	
+}
+.attachment_item_info {
+	display: inline-block;
+	max-width: 100%;
+	color: #555555;
+	cursor: default;
+	line-height: 24px;
+	height: 24px;
+	margin-top: -1px;
+}
+.attachment_item_info a{
+	color: #555555;
+	cursor: default;
+	line-height: 24px;
+	height: 24px;
+}
+.attachment_item_img{
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.attachment_item_img img{
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+.attachment_item_size{
+	float: right;
+	display: inline-block;
+	color: #999999;
+	margin-left: 10px;
+	margin-right: 4px;
+}
+/*超大附件*/
+.mail_entry_info_huge_attachment_item{
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	width: 260px;
+	height: 24px;
+	line-height: 24px;
+	margin-bottom: 1px;
+}
+.mail_entry_info_huge_attachment_item:hover .preview_button_area{
+	visibility: visible;
+}
+.mail_entry_info_huge_attachment_item:active .preview_button_area{
+	visibility: visible;
+}
+.mail_entry_info_huge_attachment_item:hover.selected .preview_button_area{
+	visibility: visible;
+}
+.mail_entry_info_huge_attachment_item_main{
+	display: inline-block;
+	max-width: 100%;
+	color: #555555;
+	cursor: default;
+	line-height: 24px;
+	height: 24px;
+	margin-top: -1px;
+}
+.mail_entry_info_huge_attachment_item_main a{
+	color: #555555;
+	cursor: default;
+}
+.mail_entry_info_huge_attachment_item_img{
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.mail_entry_info_huge_attachment_item_img img{
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+.mail_entry_info_huge_attachment_item_expiredtime{
+	float: right;
+	display: inline-block;
+	color: #95a7b8;
+	margin-left: 10px;
+	margin-right: 4px;
+}
+.mail_entry_info_huge_attachment_item_ellipsis{
+	float: right;
+	display: inline-block;
+	color: #000;
+}
+/* 内容引用 */
+.foxmail_blockquote_block_head{
+	color: #457cb2;
+	font-size: 10pt;
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.foxmail_blockquote_block_head_left {
+	width: 48px;
+	height: 20px;
+	float: left;
+	overflow: hidden;
+}
+.foxmail_blockquote_block_head_right {
+	width: 48px;
+	height: 20px;
+	float: left;
+	overflow: hidden;
+}
+.foxmail_blockquote_block_head_tips {
+	float: left;
+	cursor: default;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 20px;
+	line-height: 20px;
+}
+.foxmail_blockquote_block_head:hover{
+	color: #659fd7;
+}
+.foxmail_blockquote_block{
+	display: none;
+	overflow: hidden;
+}
+.foxmail_blockquote_block_end {
+	clear: both;
+}
+/*邮件标签*/
+.mail_tag_list{
+	display: inline;
+	margin-left: 5px;
+}
+.mail_tag_list .tag_item{
+	display: inline-block;
+	font-size: 10pt;
+	line-height: 1.3;
+	font-weight: normal;
+	color: #fff;
+	border-radius: 5px;
+	padding: 2px 4px;
+}
+
+/*会话提示*/
+.foxmail_conversation_tips_bg{
+	width: 100%;
+	height: 32px;
+	overflow: hidden;
+	font-size: 9.5pt;
+	text-indent: 10px;
+	color: rgb(62, 70, 76);
+}
+.foxmail_conversation_tips_text{
+	margin-right: 32px;
+	display: block;
+	height: 18px;
+	line-height: 18px;
+	margin-top: 7px;
+}
+.foxmail_conversation_tips_text_inner{
+
+}
+.foxmail_conversation_tips_help_btn{
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+	padding-left: 16px;
+	overflow: hidden;
+	display: inline;
+	cursor: pointer;
+}
+.foxmail_conversation_tips_close_btn{
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	float: right;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+/* 拉取邮件失败的错误提示信息样式 */
+.mail_entry_body_error_tips_block{
+	font-size: 10pt;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.mail_entry_body_error_tips_block_item{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.mail_entry_body_error_tips_text{
+	
+}
+.retry_get_mail_content{
+	margin-left: 10px;
+	cursor: default;
+	color: #457cb2;
+}
+.retry_get_mail_content:hover{
+	color: #659fd7;
+}
+
+/* 图片放大缩小 */
+.mail_content_panel * img:not([norescale]) {
+	max-width: 100%;
+	height: auto!important;
+}
+.mail_content_panel td img, .mail_content_panel th img {
+	max-width: inherit;
+}
+.image_natural_size {
+	max-width: inherit!important;
+	width: auto!important;
+	height: auto!important;
+}
+.image_zoomin {
+	cursor: url(../../Common/FoxUI/Images/New/Icon/zoomin.cur), pointer;
+}
+.image_zoomout {
+	cursor: url(../../Common/FoxUI/Images/New/Icon/zoomout.cur), pointer;
+}
+a .image_zoomin, a .image_zoomout {
+	cursor: pointer;
+}
+
+
+/* 邮件备注 */
+.mail_comment_panel {
+	padding: 0 10px 0 10px;
+}
+
+.mail_comment_editor {
+	padding: 8px 4px 9px 4px;
+	background: rgb(243, 243, 244);
+	border-bottom: 1px solid rgb(219, 221, 223);
+}
+.mail_comment_content {
+	padding: 4px 30px 4px 4px;
+	background: rgb(243, 243, 244);
+	border-bottom: 1px solid rgb(219, 221, 223);
+}
+.mail_comment_content:hover {
+	background: url(../../Common/FoxUI/Images/New/Icon/edit.png) -webkit-calc(100% - 10px) 6px no-repeat, rgb(243, 243, 244);	
+}
+
+.mail_comment_editor .foxTexter {
+	overflow: hidden;
+	min-height: 58px;
+}
+
+.mail_comment_editor .toolbar {
+	margin: 10px 0 0 0;
+}
+
+.mail_comment_editor .cancel_button {
+	float: right;
+}
+
+.mail_comment_editor .submit_button {
+	float: right;
+	margin-right: 10px;
+}
+
+.retry_panel {
+	padding: 38px 0 0 0;
+}
+.retry_loadbody {
+	color: #457cb2;;
+	margin: 0px 0px 0px 10px;
+	cursor: default;
+}
+
+.retry_loadbody:hover {
+	color: #659fd7;
+}
+
+@media print {
+	#PrintFrame {
+		display: none;
+	}
+	.mail_session {
+		box-shadow: 0 0 0 rgba(0,0,0,0.15);
+	}
+}

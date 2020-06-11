@@ -1,0 +1,24 @@
+<SUF70Messages>
+<Language>
+<Name>Portuguese</Name>
+<Default>0</Default>
+<Primary>22</Primary>
+<Secondary>
+<ID>1</ID>
+<ID>2</ID>
+</Secondary>
+</Language>
+<Messages>
+<IDS_WINDOW_TITLE>Instalador %ProductName%</IDS_WINDOW_TITLE>
+<IDS_HEADER_TEXT>Executando Ações</IDS_HEADER_TEXT>
+<IDS_SUBHEADER_TEXT>Aguarde por favor...</IDS_SUBHEADER_TEXT>
+<IDS_CTRL_BUTTON_CANCEL>&Cancelar</IDS_CTRL_BUTTON_CANCEL>
+<IDS_CTRL_STATICTEXT_TOPINSTRUCTIONS>Por favor aguarde enquanto algumas ações são executadas em seu sistema.</IDS_CTRL_STATICTEXT_TOPINSTRUCTIONS>
+<IDS_CTRL_STATICTEXT_LABEL_01>Progresso Um</IDS_CTRL_STATICTEXT_LABEL_01>
+<IDS_CTRL_STATICTEXT_LABEL_02>Executando ações...</IDS_CTRL_STATICTEXT_LABEL_02>
+<IDS_CTRL_PROGRESS_BAR_01/>
+<IDS_CTRL_STATICTEXT_LABEL_03>Progresso Dois</IDS_CTRL_STATICTEXT_LABEL_03>
+<IDS_CTRL_STATICTEXT_LABEL_04>Executando ações...</IDS_CTRL_STATICTEXT_LABEL_04>
+<IDS_CTRL_PROGRESS_BAR_02/>
+</Messages>
+</SUF70Messages>

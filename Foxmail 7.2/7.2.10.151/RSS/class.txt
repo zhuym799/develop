@@ -1,0 +1,96 @@
+﻿科技·网络	月光博客	http://feed.williamlong.info/	http://www.williamlong.info/images/apple-touch-icon.png
+科技·网络	科学松鼠会	http://songshuhui.net/feed	http://songshuhui.net/wp-content/themes/isongshu/images/logo.jpg
+科技·网络	小众软件	http://feed.appinn.com/	http://www.appinn.com/appwc.png
+科技·网络	XJP的碎碎念	http://feed.xjp.cc	
+科技·网络	科技_腾讯热门博文	http://rsshotfeeds.mail.qq.com/tech	
+科技·网络	搜索引擎周边	http://feed.feedsky.com/eryi	http://www.eryi.org/themes/blue/style/blue/bg_banner_03.jpg
+科技·网络	腾讯CDC	http://cdc.tencent.com/?feed=rss2	http://cdc.tencent.com/apple-touch-icon.png
+科技·网络	对牛乱弹琴 | Playin' with IT	http://feed.keso.cn/PlayinWithIT	
+科技·网络	UCDChina.com	http://feed.feedsky.com/ucdchina	http://ucdchina.com/blog/attachments/ucdchina_logo.png
+科技·网络	aw's blog	http://feed.awflasher.com	
+科技·网络	It Talks-魏武挥的blog	http://feed.feedsky.com/ittalks	http://weiwuhui.com/wp-content/uploads/wei.ico
+趣味·生活	我们爱讲冷笑话	http://feed.feedsky.com/lengxiaohua	http://lengxiaohua.net/wp-content/uploads/socold.gif
+趣味·生活	疯狂的设计	http://hi.baidu.com/madesign/rss	
+趣味·生活	糗事百科	http://feed.feedsky.com/qiushi	
+趣味·生活	奇趣发现	http://feed.feedsky.com/qiqufaxian		
+趣味·生活	美剧迷 Meijumi.com	http://www.meijumi.com/feed.asp	http://www.meijumi.com/favicon.ico
+趣味·生活	笑话幽默百分百	http://feed.xiaohuayoumo.com	http://www.xiaohuayoumo.com/favicon.ico
+趣味·生活	褪墨	http://feed.mifengtd.cn	http://www.mifengtd.cn/logo.gif
+趣味·生活	影像日报 | MovieSoon.com 好莱坞电影手册	http://mymovie.blogbus.com/index.rdf	
+趣味·生活	文怡心厨房	http://blog.sina.com.cn/rss/wenyi.xml	http://portrait8.sinaimg.cn/1420174783/blog/180
+趣味·生活	设计｜生活｜发现新鲜	http://feed.feedsky.com/since1984	
+趣味·生活	相对美女私房菜	http://blog.sina.com.cn/rss/wangxiaoxing.xml	http://portrait7.sinaimg.cn/1494856974/blog/180
+趣味·生活	网不易	http://www.netnoease.com/rss2.php	
+趣味·生活	优酷-每日推荐视频	http://www.youku.com/index/rss_cool_v/	
+趣味·生活	后现代乐园	http://feed.911usa.com.cn/	http://images2.911usa.com.cn/logo11.png
+趣味·生活	看电影·非主流的世界电影之旅	http://www.mtime.com/blog/103667/rss	http://static1.mtime.cn/favicon.ico
+趣味·生活	情感_腾讯热门博文	http://rsshotfeeds.mail.qq.com/feeling	
+趣味·生活	水煮沉浮	http://feed.feedsky.com/shuizhu	http://www.911usa.com.cn/favicon.ico
+趣味·生活	煎蛋	http://feed.jandan.net/	http://jandan.net/favicon.ico
+趣味·生活	两个素食者的创意厨房	http://blog.sina.com.cn/rss/veg.xml	http://portrait2.sinaimg.cn/1226967121/blog/180
+趣味·生活	豆瓣最受欢迎的评论	http://www.douban.com/feed/review/latest	http://img3.douban.com/favicon.ico
+趣味·生活	玩意儿	http://feed.feedsky.com/medowo	
+趣味·生活	胖丫头的食之八九	http://blog.sina.com.cn/rss/pyt.xml	http://portrait1.sinaimg.cn/1237096440/blog/180
+趣味·生活	IDEA1983 | 创意设计	http://feed.feedsky.com/badblue	http://idea1983.com/favicon.ico
+趣味·生活	Engadget 中国版	http://cn.engadget.com/rss.xml	http://www.blogsmithmedia.com/cn.engadget.com/media/favicon.ico
+趣味·生活	梅子的写食日记	http://blog.sohu.com/members/plum/rss	http://photo.pic.sohu.com/images/oldblog/person/2006/1/6/s_1136520274443_6232.gif
+趣味·生活	看法-博客大巴	http://feed.feedsky.com/kanfa	
+趣味·生活	生活频道	http://pindao.blogbus.com/shenghuo/rss	
+趣味·生活	行者频道	http://pindao.blogbus.com/xingzhe/rss	
+商业·经济	首席理财分析师:凯恩斯	http://blog.sina.com.cn/rss/cannes.xml	http://portrait3.sinaimg.cn/1284139322/blog/180
+商业·经济	徐小明的BLOG	http://blog.sina.com.cn/rss/xuxiaoming8.xml	http://portrait5.sinaimg.cn/1300871220/blog/180
+商业·经济	财经_腾讯热门博文	http://rsshotfeeds.mail.qq.com/finance	
+商业·经济	任志强的BLOG	http://blog.sina.com.cn/rss/renzhiqiang.xml	http://portrait2.sinaimg.cn/1182389073/blog/180
+商业·经济	王冉的Blog	http://blog.sina.com.cn/rss/wangran.xml	http://portrait2.sinaimg.cn/1197890497/blog/180
+时尚·潮流	美容护肤每日推荐	http://feed.99meili.com	
+时尚·潮流	我的时装·时刻	http://fashionmoments.blogbus.com/index.rdf	http://pindao.blogbus.com/favicon.ico
+时尚·潮流	MISS F Magazine	http://missfaye.blogbus.com/index.rdf	http://pindao.blogbus.com/favicon.ico
+时尚·潮流	Leica中文摄影杂志	http://feed.feedsky.com/leica	http://www.leica.org.cn/favicon.ico
+时尚·潮流	色界频道	http://pindao.blogbus.com/sejie/rss	
+时尚·潮流	飞豆网-明星·美女	http://www.feedou.com/feedFile/290.xml	
+时尚·潮流	《男人装》官方博客	http://blog.sina.com.cn/rss/fhm.xml	http://blog.sina.com.cn/favicon.ico
+时尚·潮流	掘图志	http://feed.feedsky.com/diggimg	http://juetuzhi.net/favicon.ico
+时尚·潮流	时尚_腾讯热门博文	http://rsshotfeeds.mail.qq.com/vogue	
+时尚·潮流	色界频道	http://pindao.blogbus.com/rss/channel7.rdf	http://pindao.blogbus.com/favicon.ico
+时尚·潮流	星座_腾讯热门博文	http://rsshotfeeds.mail.qq.com/astro	
+时尚·潮流	图片_腾讯热门博文	http://rsshotfeeds.mail.qq.com/pictures	
+时尚·潮流	瞄瞄网	http://feed.feedsky.com/mm360	
+时尚·潮流	zixuanego～	http://zixuan.blogbus.com/index.rdf	
+时尚·潮流	GIRLS.PIC	http://feeds2.feedburner.com/girls_pic	http://girlspic.blogbus.com/files/12124101530.ico
+时尚·潮流	风尚频道	http://pindao.blogbus.com/fengshang/rss	http://public.blogbus.com/static_files/7492/v6/imgs/blogbus-logo.png
+时事·新闻	爱枣报	http://feed.izaobao.com	
+时事·新闻	阅读 · 良品杂志	http://feed.feedsky.com/metroer	
+时事·新闻	韩寒	http://blog.sina.com.cn/rss/twocold.xml	http://portrait4.sinaimg.cn/1191258123/blog/180
+时事·新闻	三联生活周刊	http://blog.sina.com.cn/rss/lifeweek.xml	http://portrait8.sinaimg.cn/1191965271/blog/180
+时事·新闻	不许联想	http://feeds.feedburner.com/wangxiaofeng	
+时事·新闻	槽边往事	http://feeds.feedburner.com/caitou		
+时事·新闻	每日鲜果精选	http://www.xianguo.com/service/dailyshare		http://pubsubhubbub.appspot.com/favicon.ico
+时事·新闻	思想_腾讯热门博文	http://rsshotfeeds.mail.qq.com/thought	
+时事·新闻	潘石屹的BLOG	http://blog.sina.com.cn/rss/panshiyi.xml	http://portrait8.sinaimg.cn/1182391231/blog/180
+时事·新闻	文化_腾讯热门博文	http://rsshotfeeds.mail.qq.com/cul	
+时事·新闻	社会_腾讯热门博文	http://rsshotfeeds.mail.qq.com/news	
+时事·新闻	一五一十部落头条	http://feed.feedsky.com/my1510	http://www.my1510.cn/1510.ico
+时事·新闻	传媒_腾讯热门博文	http://rsshotfeeds.mail.qq.com/media	
+时事·新闻	山在那—王石blog	http://blog.sina.com.cn/rss/wangshi.xml	http://portrait8.sinaimg.cn/1193491727/blog/180
+时事·新闻	东西	http://www.dongxi.net/feed	http://dongxi.net//img/favicon.ico
+体育·竞技	黄健翔的blog	http://blog.sina.com.cn/rss/huangjianxiang.xml	http://portrait7.sinaimg.cn/1362607654/blog/180
+体育·竞技	李承鹏	http://blog.sina.com.cn/rss/lichengpeng.xml	http://portrait2.sinaimg.cn/1189591617/blog/180
+体育·竞技	体育_腾讯热门博文	http://rsshotfeeds.mail.qq.com/sports	
+体育·竞技	大嘴泉的体育漫画	http://blog.sina.com.cn/rss/dazuiquan.xml		http://portrait4.sinaimg.cn/1228293531/blog/180
+体育·竞技	董路的BLOG	http://blog.sina.com.cn/rss/donglu.xml	http://portrait4.sinaimg.cn/1189615035/blog/180
+娱乐·明星	老徐	http://blog.sina.com.cn/rss/xujinglei.xml		http://portrait6.sinaimg.cn/1190363061/blog/180
+娱乐·明星	娱乐_腾讯热门博文	http://rsshotfeeds.mail.qq.com/ent	
+其他	每日英语	http://english-feed.beanwoo.com	http://www.beanwoo.com/images/english-logo.gif
+其他	GTD Life	http://feed.feedsky.com/GTDlife	
+其他	每日一句	http://sl.iciba.com/rss.php?rtype=dailysentence	
+其他	Autoblog简体中文版	http://cn.autoblog.com/rss.xml	http://cn.autoblog.com/media/favicon-v5.png
+其他	大观园	 http://feed.feedsky.com/wenzhai	
+其他	战隼的学习探索 	http://feed.read.org.cn/	
+其他	爱词霸百科辞典每日热词 	http://love.iciba.com/rss/index.php?c=rss&m=index	http://love.iciba.com/images/wiki_logo.jpg
+其他	动漫_腾讯热门博文	http://rsshotfeeds.mail.qq.com/comic	
+其他	教育_腾讯热门博文	http://rsshotfeeds.mail.qq.com/edu		
+其他	米乐家	http://feed.feedsky.com/autolife	
+其他	汽车_腾讯热门博文	http://rsshotfeeds.mail.qq.com/auto	
+其他	A9VG电玩部落社区论坛	http://bbs.a9vg.com/rss.php?fid=261	http://bbs.a9vg.com/favicon.ico
+其他	游戏_腾讯热门博文	http://rsshotfeeds.mail.qq.com/game	
+其他	马鼎盛的BLOG	http://blog.sina.com.cn/rss/madingsheng.xml	http://portrait2.sinaimg.cn/1191211465/blog/180

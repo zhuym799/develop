@@ -1,0 +1,233 @@
+.hidden {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.foxCombobox {
+    display: inline-block;
+    width: 300px;
+    padding: 5px;
+}
+
+.foxCombobox .inputContainer {
+    margin-right: 20px;
+}
+
+.foxCombobox input {
+    border: 0px solid #FFF;
+    font-size: 12px;
+    line-height: 18px;
+    height: 18px;
+    width: auto;
+    size: 10;
+    padding-left: 5px;
+}
+
+.foxCombobox .select_button {
+    width: 16px;
+    height: 16px;
+    background-image: url('./Images/select_icon_normal_arrow.png');
+    float: right;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.foxCombobox .input_top {
+    width: auto;
+    height: 5px;
+    overflow: hidden;
+}
+
+.foxCombobox .input_top_lostfocus {
+    background: url('./Images/top.png') repeat-x;
+}
+
+.foxCombobox .input_top_focus {
+    background: url('./Images/light_top.png') repeat-x;
+}
+
+.foxCombobox .input_top_left{
+    width: 5px;
+    height: 5px;
+    float: left;
+    overflow: hidden;
+}
+
+.foxCombobox .input_top_left_lostfocus{
+    background: url('./Images/left_top.png') no-repeat;
+}
+
+.foxCombobox .input_top_left_focus{
+    background: url('./Images/light_left_top.png') no-repeat;
+}
+
+.foxCombobox .input_top_right{
+    width: 5px;
+    height: 5px;
+    float: right;
+    overflow: hidden;
+}
+
+.foxCombobox .input_top_right_lostfocus{
+    background: url('./Images/right_top.png') no-repeat;
+}
+
+.foxCombobox .input_top_right_focus{
+    background: url('./Images/light_right_top.png') no-repeat;
+}
+
+.foxCombobox .input_middle_left{
+    padding-left: 5px;
+}
+
+.foxCombobox .input_middle_left_lostfocus{
+    background: url('./Images/left_middle.png') left repeat-y; 
+}
+
+.foxCombobox .input_middle_left_focus {
+    background: url('./Images/light_left_middle.png') left repeat-y;
+}
+
+.foxCombobox .input_middle_right{
+    padding-right: 5px;
+}
+
+.foxCombobox .input_middle_right_lostfocus{
+    background: url('./Images/right_middle.png') right repeat-y;
+}
+
+.foxCombobox .input_middle_right_focus{
+    background: url('./Images/light_right_middle.png') right repeat-y;
+}
+
+.foxCombobox .input_bottom{
+    width: auto;
+    height: 5px;
+    overflow: hidden;
+}
+
+.foxCombobox .input_bottom_lostfocus{
+    background: url('./Images/bottom.png') repeat-x;
+}
+
+.foxCombobox .input_bottom_focus{
+    background: url('./Images/light_bottom.png') repeat-x;
+}
+
+.foxCombobox .input_bottom_left{
+    width: 5px;
+    height: 5px;
+    float: left;
+    overflow: hidden;
+}
+
+.foxCombobox .input_bottom_left_lostfocus{
+    background: url('./Images/left_bottom.png') no-repeat;
+}
+
+.foxCombobox .input_bottom_left_focus{
+    background: url('./Images/light_left_bottom.png') no-repeat;
+}
+
+.foxCombobox .input_bottom_right{
+    width: 5px;
+    height: 5px;
+    float: right;
+    overflow: hidden;
+}
+
+.foxCombobox .input_bottom_right_lostfocus{
+    background: url('./Images/right_bottom.png') no-repeat;
+}
+
+.foxCombobox .input_bottom_right_focus{
+    background: url('./Images/light_right_bottom.png') no-repeat;
+    width: 5px;
+    height: 5px;
+    float: right;
+}
+
+.foxCombobox .listContainer {
+    position: relative;
+}
+
+.foxCombobox .list {
+    position: absolute;
+    top: -5px;
+    background-color: #FFF;
+    line-height: 25px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.foxCombobox .list ul {
+    list-style: none;
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+}
+
+.foxCombobox .list li {
+    height: 25px;
+    padding-left: 5px;
+}
+
+.foxCombobox .list .hover {
+    background: url('./Images/select_focus.png') repeat-x;
+    color: white;
+}
+
+.foxCombobox .list_top_focus {
+    background: url('./Images/light_top.png') repeat-x;
+    width: 100%;
+    height: 5px;
+}
+
+.foxCombobox .list_top_left_focus{
+    background: url('./Images/light_left_top.png') no-repeat;
+    width: 5px;
+    height: 5px;
+    float: left;
+}
+
+.foxCombobox .list_top_right_focus{
+    background: url('./Images/light_right_top.png') no-repeat;
+    width: 5px;
+    height: 5px;
+    float: right;
+}
+
+.foxCombobox .list_middle_left_focus{
+    background: url('./Images/light_left_middle.png') left repeat-y;
+    padding-left: 5px;
+}
+
+.foxCombobox .list_middle_right_focus{
+    background: url('./Images/light_right_middle.png') right repeat-y;
+    padding-right: 5px;
+}
+
+.foxCombobox .list_bottom_focus {
+    background: url('./Images/light_bottom.png') repeat-x;
+    width: 100%;
+    height: 5px;
+}
+
+.foxCombobox .list_bottom_left_focus{
+    background: url('./Images/light_left_bottom.png') no-repeat;
+    width: 5px;
+    height: 5px;
+    float: left;
+}
+
+.foxCombobox .list_bottom_right_focus{
+    background: url('./Images/light_right_bottom.png') no-repeat;
+    width: 5px;
+    height: 5px;
+    float: right;
+}

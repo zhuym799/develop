@@ -1,0 +1,178 @@
+.fox_text_area {
+    overflow: hidden;
+    width: auto;
+    height: 122px;
+    border-bottom: 1px solid #DADADA;   
+}
+.fox_text_area .container{
+    padding: 8px 0px 8px 0px;
+}
+
+.fox_text_area .clear {
+    clear: both;
+}
+
+.fox_text_area .input_area{
+    width: 100%;
+    overflow: hidden;
+}
+
+.fox_text_area .input_area_top{
+    width: 100%;
+    height: 5px;
+    overflow: hidden;
+}
+.fox_text_area.blur .input_area_top{
+    background: url('./Images/top.png') repeat-x;
+}
+.fox_text_area.focus .input_area_top{
+    background: url('./Images/light_top.png') repeat-x;
+}
+
+.fox_text_area .input_area_top_left{
+    width: 5px;
+    height: 5px;
+    overflow: hidden;
+    float: left;
+}
+.fox_text_area.blur .input_area_top_left{
+    background: url('./Images/left_top.png') no-repeat;
+}
+.fox_text_area.focus .input_area_top_left{
+    background: url('./Images/light_left_top.png') no-repeat;
+}
+
+.fox_text_area .input_area_top_right{
+    width: 5px;
+    height: 5px;
+    overflow: hidden;
+    float: right;
+}
+.fox_text_area.blur .input_area_top_right{
+    background: url('./Images/right_top.png') no-repeat;
+}
+.fox_text_area.focus .input_area_top_right{
+    background: url('./Images/light_right_top.png') no-repeat;
+}
+
+.fox_text_area .input_area_left{
+    padding-left: 5px;
+}
+.fox_text_area.blur .input_area_left{
+    background: url('./Images/left_middle.png') left repeat-y;
+}
+.fox_text_area.focus .input_area_left{
+    background: url('./Images/light_left_middle.png') left repeat-y;
+}
+
+.fox_text_area .input_area_right{
+    padding-right: 5px;
+}
+.fox_text_area.blur .input_area_right{
+    background: url('./Images/right_middle.png') right repeat-y;
+}
+.fox_text_area.focus .input_area_right{
+    background: url('./Images/light_right_middle.png') right repeat-y;
+}
+
+.fox_text_area textarea {
+    border: 0px solid rgb(104,159,222);
+    height: 63px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.fox_text_area .input_area_bottom{
+    width: 100%;
+    height: 5px;
+    overflow: hidden;
+}
+.fox_text_area.blur .input_area_bottom{
+    background: url('./Images/bottom.png') repeat-x;
+}
+.fox_text_area.focus .input_area_bottom{
+    background: url('./Images/light_bottom.png') repeat-x;
+}
+
+.fox_text_area .input_area_bottom_left{
+    width: 5px;
+    height: 5px;
+    overflow: hidden;
+    float: left;
+}
+.fox_text_area.blur .input_area_bottom_left{
+    background: url('./Images/left_bottom.png') no-repeat;
+}
+.fox_text_area.focus .input_area_bottom_left{
+    background: url('./Images/light_left_bottom.png') no-repeat;
+}
+
+.fox_text_area .input_area_bottom_right{
+    width: 5px;
+    height: 5px;
+    overflow: hidden;
+    float: right;
+}
+.fox_text_area.blur .input_area_bottom_right{
+    background: url('./Images/right_bottom.png') no-repeat;
+}
+.fox_text_area.focus .input_area_bottom_right{
+    background: url('./Images/light_right_bottom.png') no-repeat;
+}
+
+.fox_text_area .toolbar{
+}
+
+.fox_text_area .cancel_button {
+    float: right;
+    width: 70px;
+    height: 22px;
+    margin-top: 8px;
+    margin-right: 2px;
+    cursor: default;
+    text-align: center;
+    font-size: 12px;
+    line-height: 21px;
+    color: rgb(122,122,122);
+}
+
+.fox_text_area .save_button {
+    float: right;
+    width: 70px;
+    height: 22px;
+    margin-right: 7px;
+    margin-top: 8px;
+    cursor: default;
+    text-align: center;
+    font-size: 12px;
+    line-height: 21px;
+    color: rgb(255,255,255);
+}
+
+.fox_text_area .cancel_button_normal {
+    background: url(./Images/cancel_button_normal.png) center no-repeat;
+}
+.fox_text_area .cancel_button:hover {
+    background: url(./Images/cancel_button_hover.png) center no-repeat;
+}
+.fox_text_area .cancel_button:active {
+    background: url(./Images/cancel_button_down.png) center no-repeat;
+}
+
+.fox_text_area .save_button_normal {
+    background: url(./Images/save_button_normal.png) center no-repeat;
+}
+.fox_text_area .save_button_normal:hover {
+    background: url(./Images/save_button_hover.png) center no-repeat;
+}
+.fox_text_area .save_button_normal:active {
+    background: url(./Images/save_button_down.png) center no-repeat;
+}
+.fox_text_area .save_button_disable {
+    color: rgb(175,175,175);
+    background: url(./Images/save_button_disable.png) center no-repeat;
+}

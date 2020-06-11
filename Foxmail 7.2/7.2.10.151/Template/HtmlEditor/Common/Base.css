@@ -1,0 +1,11 @@
+body{
+	margin:0;
+	padding: 0px;
+	-webkit-user-select: none;
+}
+.fox_hand{
+	cursor: pointer !important;
+}
+.fox_hide {
+	display: none;
+}

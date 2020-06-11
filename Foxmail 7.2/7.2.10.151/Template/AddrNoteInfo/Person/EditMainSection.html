@@ -1,0 +1,36 @@
+<div class="contactEdit_mainSection clearfix">
+        
+    <!-- email list -->
+    <div class="contactEdit_emailList">
+    
+        <ul class="email_list">
+            {{email_list}}
+        </ul>
+        
+        <div class="addEmailBar clearfix">
+            <div class="addEmail foxButton gray unselectable" id="">{{lng_add_addr}}</div>
+            <!--提示为空的情况-->
+            <div class="errMsg hide">{{lng_error_tip}}</div>
+        </div>
+        
+    </div>
+    
+    <!-- tel list -->
+    <div class="contactEdit_telList">
+    
+        <ul class="tel_list">
+            {{phone_list}}
+        </ul>
+        
+        <div class="addTelBar clearfix">
+            <div class="addTel foxButton gray unselectable" id="">{{lng_add_phone}}</div>
+        </div>
+        
+    </div>
+    
+    <!-- 附注 -->
+    <div class="contactEdit_item contactEdit_item_other clearfix">
+        {{notions}}
+    </div>
+
+</div>

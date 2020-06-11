@@ -1,0 +1,52 @@
+<ActionTemplates>
+   <Action>
+      <Name>DlgCheckBox.GetProperties</Name>
+      <Description>获取当前屏幕上检查框的属性。</Description>
+      <ReturnValueType>table</ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>ControlID</Name>
+            <Description>检查框控件的数字 ID。</Description>
+            <Type>number</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default/>
+               <DataType>CheckBox</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+      <Action>
+      <Name>DlgCheckBox.SetProperties</Name>
+      <Description>设置当前屏幕上检查框控件的属性。</Description>
+      <ReturnValueType/>
+      <Arguments>
+         <Arg>
+            <Name>ControlID</Name>
+            <Description>检查框控件的数字 ID。</Description>
+            <Type>number</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default/>
+               <DataType>CheckBox</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+         <Arg>
+            <Name>Properties</Name>
+            <Description>包含由 "Checked", "Enabled", "Text" 和 "Visible" 索引的检查框控件属性的表格。</Description>
+            <Type>table</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>tbProperties</Default>
+               <DataType>table</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+</ActionTemplates>

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<script type='text/javascript' src='../Javascript/jquery-1.9.1.min.js'></script>
+	<script type='text/javascript' src='../Javascript/jsrender.js'></script>
+	<script type='text/javascript' src='../Javascript/FoxUI.js'></script>
+	<script type='text/javascript' src='./TextArea.js'></script>
+	<link rel="stylesheet" type="text/css" href="./TextArea.css">
+	<script type="text/javascript"></script>
+</head>
+<body style='padding:0px; margin:0px;'>
+	<div id='comment_editor_{{mailid}}' class='fox_text_area comment_editor' mailid='{{mailid}}' status='hide'>
+		<div class='container'>
+			<div class='input_area'>
+				<div class='input_area_top_blur'>
+					<div class='input_area_top_left_blur'></div>
+					<div class='input_area_top_right_blur'></div>
+					<div class='clear'></div>
+				</div>
+				<div class='input_area_left_blur'>
+					<div class='input_area_right_blur'>
+						<textarea id='comment_editor_text_{{mailid}}' class='comment_editor_text' mailid='{{mailid}}'></textarea>
+					</div>
+				</div>
+				<div class='input_area_bottom_blur'>
+					<div class='input_area_bottom_left_blur'></div>
+					<div class='input_area_bottom_right_blur'></div>
+					<div class='clear'></div>
+				</div>
+			</div>
+			<div class='toolbar'>
+				<div id='comment_editor_cancel_{{mailid}}' class='cancel_button cancel_button_normal comment_editor_cancel' mailid={{mailid}}>取消</div>
+				<div id='comment_editor_save_{{mailid}}' class='save_button save_button_disable comment_editor_save' mailid={{mailid}}>保存</div>
+				<div class='clear'></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<ActionTemplates>
+   <Action>
+      <Name>DlgButton.GetProperties</Name>
+      <Description>获取当前屏幕上按钮控件的属性。</Description>
+      <ReturnValueType>table</ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>ControlID</Name>
+            <Description>按钮控件的数字 ID。</Description>
+            <Type>number</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default/>
+               <DataType>Button</DataType>
+               <Constraints>1,*</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+      <Action>
+      <Name>DlgButton.SetProperties</Name>
+      <Description>设置当前屏幕上按钮控件的属性。</Description>
+      <ReturnValueType/>
+      <Arguments>
+         <Arg>
+            <Name>ControlID</Name>
+            <Description>按钮控件的数字 ID。</Description>
+            <Type>number</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default/>
+               <DataType>Button</DataType>
+               <Constraints>1,*</Constraints>
+            </EasyMode>
+         </Arg>
+         <Arg>
+            <Name>Properties</Name>
+            <Description>包含由 "Enabled", "Text", "Visible" 索引的按钮控件属性的表格。</Description>
+            <Type>table</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>my_table</Default>
+               <DataType>table</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+</ActionTemplates>

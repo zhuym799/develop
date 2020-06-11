@@ -1,0 +1,31 @@
+.fox_frameborder_deep .fox_frameborder_top_border_middle{
+	background: url('./Images/background-top-border-middle.png') repeat-x;
+}
+
+.fox_frameborder_deep .fox_frameborder_top_border_left{
+	background: url('./Images/background-top-border-left.png') no-repeat;
+}
+
+.fox_frameborder_deep .fox_frameborder_top_border_right{
+	background: url('./Images/background-top-border-right.png') no-repeat;
+}
+
+.fox_frameborder_deep .fox_frameborder_bottom_border_middle{
+	background: url('./Images/background-bottom-border-middle.png') repeat-x;
+}
+
+.fox_frameborder_deep .fox_frameborder_bottom_border_left{
+	background: url('./Images/background-bottom-border-left.png') no-repeat;
+}
+
+.fox_frameborder_deep .fox_frameborder_bottom_border_right{
+	background: url('./Images/background-bottom-border-right.png') no-repeat;
+}
+
+.fox_frameborder_deep .fox_frameborder_left_border{
+	background: url('./Images/background-border-left.png') left repeat-y;
+}
+
+.fox_frameborder_deep .fox_frameborder_right_border{
+	background: url('./Images/background-border-right.png') right repeat-y;
+}

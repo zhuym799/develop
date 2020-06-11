@@ -1,0 +1,324 @@
+<SUF7ScreenData>
+<Name>选择快捷方式</Name>
+<Description>提示用户选择安装快捷方式的文件夹。
+
+(所选的文件夹名称储存在 %AppShortcutFolderName% 会话变量中。)</Description>
+<GalleryVisiblity>15</GalleryVisiblity>
+<Screen>
+<Type>115</Type>
+<Name>选择快捷方式</Name>
+<BannerStyle>2</BannerStyle>
+<TemplateName>选择快捷方式</TemplateName>
+<OverrideProjTheme>0</OverrideProjTheme>
+<StyleData>
+<CstClrs>0</CstClrs>
+<TBBG format="hex">ffffff</TBBG>
+<BDYBG format="hex">ece9d8</BDYBG>
+<FTBG format="hex">ece9d8</FTBG>
+<TBTXT format="hex">000000</TBTXT>
+<BDYTXT format="hex">000000</BDYTXT>
+<CBG format="hex">ffffff</CBG>
+<C3DFACE format="hex">ece9d8</C3DFACE>
+<C3DHLT format="hex">ece9d8</C3DHLT>
+<C3DLIT format="hex">ffffff</C3DLIT>
+<C3DSH format="hex">aca899</C3DSH>
+<CBTNTXT format="hex">000000</CBTNTXT>
+<CTEXT format="hex">000000</CTEXT>
+<CDISTXT format="hex">aca899</CDISTXT>
+<CPRGRS format="hex">316ac5</CPRGRS>
+<C3DSHDK format="hex">716f64</C3DSHDK>
+<TBIMG>Default_Top_Banner.jpg</TBIMG>
+<SBIMG>Default_Side_Banner.jpg</SBIMG>
+<BDIMG/>
+<BDFILL>0</BDFILL>
+<HDSEP>1</HDSEP>
+<FTSEP>1</FTSEP>
+<CstFnts>0</CstFnts>
+<Fonts>
+<FontData>
+<FontName>Arial</FontName>
+<CharacterSet>0</CharacterSet>
+<Height>-13</Height>
+<Weight>700</Weight>
+<Italic>0</Italic>
+<Underline>0</Underline>
+<StrikeOut>0</StrikeOut>
+<AntiAlias>1</AntiAlias>
+</FontData>
+<FontData>
+<FontName>Arial</FontName>
+<CharacterSet>0</CharacterSet>
+<Height>-13</Height>
+<Weight>700</Weight>
+<Italic>0</Italic>
+<Underline>0</Underline>
+<StrikeOut>0</StrikeOut>
+<AntiAlias>1</AntiAlias>
+</FontData>
+<FontData>
+<FontName>Arial</FontName>
+<CharacterSet>0</CharacterSet>
+<Height>-24</Height>
+<Weight>700</Weight>
+<Italic>0</Italic>
+<Underline>0</Underline>
+<StrikeOut>0</StrikeOut>
+<AntiAlias>1</AntiAlias>
+</FontData>
+<FontData>
+<FontName>Arial</FontName>
+<CharacterSet>0</CharacterSet>
+<Height>-13</Height>
+<Weight>400</Weight>
+<Italic>0</Italic>
+<Underline>0</Underline>
+<StrikeOut>0</StrikeOut>
+<AntiAlias>1</AntiAlias>
+</FontData>
+<FontData>
+<FontName>Arial</FontName>
+<CharacterSet>0</CharacterSet>
+<Height>-13</Height>
+<Weight>400</Weight>
+<Italic>0</Italic>
+<Underline>0</Underline>
+<StrikeOut>0</StrikeOut>
+<AntiAlias>1</AntiAlias>
+</FontData>
+</Fonts>
+<CAOff>
+<TP>0</TP>
+<L>15</L>
+<T>15</T>
+<R>15</R>
+<B>15</B>
+</CAOff>
+<CAOff>
+<TP>1</TP>
+<L>15</L>
+<T>15</T>
+<R>15</R>
+<B>15</B>
+</CAOff>
+<CAOff>
+<TP>2</TP>
+<L>15</L>
+<T>15</T>
+<R>15</R>
+<B>15</B>
+</CAOff>
+</StyleData>
+<NameVariable>%AppShortcutFolderName%</NameVariable>
+<Events>
+<Event>
+<Name>On Preload</Name>
+<Args/>
+<Script>-- 这些操作在屏幕显示之前执行。
+
+-- 为快捷方式选择适当的用户配置文件
+-- (每个用户或所有用户) 基于 _UsePerUserFolders
+
+-- 我们只应提供 Windows NT 4.0/2000/XP+ 上的所有用户或每个用户
+local bHideUserProfileOptions = false;
+local tblOS = System.GetOSVersionInfo();
+if(tblOS)then
+	if(tblOS.PlatformId == "1")then
+		bHideUserProfileOptions = true;
+	end
+end
+
+if(bHideUserProfileOptions)then
+	DlgRadioButton.SetProperties(CTRL_RADIOBTN_PERUSER,{Visible = false});
+	DlgRadioButton.SetProperties(CTRL_RADIOBTN_ALLUSERS,{Visible = false});
+	-- 始终使用 Windows 95/98/ME 上的每个用户文件夹
+	_UsePerUserFolders = true;
+else
+	DlgRadioButton.SetProperties(CTRL_RADIOBTN_PERUSER,{Checked = _UsePerUserFolders});
+	DlgRadioButton.SetProperties(CTRL_RADIOBTN_ALLUSERS,{Checked = not _UsePerUserFolders});
+end
+
+-- 来自 _SUF70_Global_Functions.lua:
+-- 用现有的快捷方式文件夹名称填入组合框
+g_FillComboBoxWithShortcutFolders(CTRL_COMBOBOX_SHORTCUTFOLDERS);
+</Script>
+</Event>
+<Event>
+<Name>On Back</Name>
+<Args/>
+<Script>-- 这些操作在点击“返回”按钮时执行。
+
+-- 返回到上一个屏幕
+Screen.Back();
+</Script>
+</Event>
+<Event>
+<Name>On Next</Name>
+<Args/>
+<Script>-- 这些操作在点击“下一步”按钮时执行。
+
+-- 从组合框获取文本
+strShortcutFolder = DlgComboBox.GetProperties(CTRL_COMBOBOX_SHORTCUTFOLDERS).Text;
+
+-- 如果快捷方式文件夹路径为空，则显示信息
+-- 如果不为空，则检查无效的字符并进入下一个屏幕
+if String.Length(strShortcutFolder) == 0 then
+
+	-- 该栏为空...
+	-- 快点，别害羞 :)
+	local strTitle = SetupData.GetLocalizedString("MSG_INVALID_ENTRY");
+	local strPrompt = SetupData.GetLocalizedString("ERR_FIELD_CANNOT_BE_EMPTY");
+	Dialog.Message(strTitle, strPrompt, MB_OK, MB_ICONEXCLAMATION);
+
+else
+	-- 该栏不为空...
+	-- 确定快捷方式文件夹路径只包含有效的字符
+	if g_ContainsValidRelativePathChars(strShortcutFolder) then
+
+		-- 进入下一个屏幕
+		Screen.Next();
+
+	else
+		-- 快捷方式文件夹包含无效的字符
+		-- 告诉用户需要修正
+		local strTitle = SetupData.GetLocalizedString("MSG_INVALID_ENTRY");
+		local strPrompt = SetupData.GetLocalizedString("ERR_INVALID_CHARACTERS") .. "\r\n/ * ? \" &lt; &gt; | :";
+		Dialog.Message(strTitle, strPrompt, MB_OK, MB_ICONEXCLAMATION);
+	end
+end
+</Script>
+</Event>
+<Event>
+<Name>On Cancel</Name>
+<Args/>
+<Script>-- 这些操作在点击“取消”按钮时执行。
+
+-- 来自 _SUF70_Global_Functions.lua:
+-- 询问用户是否确定要退出
+if g_ConfirmSetupAbort() then
+	Application.Exit();
+end
+</Script>
+</Event>
+<Event>
+<Name>On Help</Name>
+<Args/>
+<Script>-- 这些操作在点击“帮助”按钮时执行。
+</Script>
+</Event>
+<Event>
+<Name>On Ctrl Message</Name>
+<Args>number e_CtrlID, number e_MsgID, table e_Details</Args>
+<Script>-- 这些操作由屏幕上的控件触发。
+
+if (e_MsgID == MSGID_CLICKED) then
+
+	-- 用户进行了点击...是单选按钮中的一个吗？
+	if (e_CtrlID == CTRL_RADIOBTN_PERUSER) then
+
+		-- 用户所选的屏幕上的“每用户”选项...
+	
+		-- 打开安装中的选项
+		_UsePerUserFolders = true;
+
+		-- 更新组合框中的快捷方式文件夹列表
+		g_FillComboBoxWithShortcutFolders(CTRL_COMBOBOX_SHORTCUTFOLDERS);
+
+	elseif (e_CtrlID == CTRL_RADIOBTN_ALLUSERS) then
+
+		-- 用户选择了屏幕上的“所有用户”选项...
+
+		-- 关闭安装中的选项
+		_UsePerUserFolders = false;
+
+		-- 更新组合框中的快捷方式文件夹列表
+		g_FillComboBoxWithShortcutFolders(CTRL_COMBOBOX_SHORTCUTFOLDERS);
+	end
+end
+</Script>
+</Event>
+</Events>
+<Controls>
+<Control>
+<Type>1</Type>
+<ID>103</ID>
+<Visible>0</Visible>
+<Enabled>0</Enabled>
+<TabOrder>75</TabOrder>
+<FTButton>1</FTButton>
+</Control>
+<Control>
+<Type>1</Type>
+<ID>101</ID>
+<Visible>1</Visible>
+<Enabled>1</Enabled>
+<TabOrder>76</TabOrder>
+<FTButton>1</FTButton>
+</Control>
+<Control>
+<Type>1</Type>
+<ID>100</ID>
+<Visible>1</Visible>
+<Enabled>1</Enabled>
+<TabOrder>-10</TabOrder>
+<FTButton>1</FTButton>
+</Control>
+<Control>
+<Type>1</Type>
+<ID>102</ID>
+<Visible>1</Visible>
+<Enabled>1</Enabled>
+<TabOrder>-9</TabOrder>
+<FTButton>1</FTButton>
+</Control>
+<Control>
+<Type>2</Type>
+<ID>203</ID>
+<Visible>1</Visible>
+<Enabled>1</Enabled>
+<TabOrder>0</TabOrder>
+<IsHeading>0</IsHeading>
+</Control>
+<Control>
+<Type>2</Type>
+<ID>211</ID>
+<Visible>1</Visible>
+<Enabled>1</Enabled>
+<TabOrder>1</TabOrder>
+<IsHeading>0</IsHeading>
+</Control>
+<Control>
+<Type>4</Type>
+<ID>501</ID>
+<Visible>1</Visible>
+<Enabled>1</Enabled>
+<TabOrder>2</TabOrder>
+<Sorted>0</Sorted>
+<ShowShortcutFolders>1</ShowShortcutFolders>
+<PerUser>1</PerUser>
+<Variable/>
+<Lines>4</Lines>
+<ComboType>1</ComboType>
+</Control>
+<Control>
+<Type>5</Type>
+<ID>600</ID>
+<Visible>1</Visible>
+<Enabled>1</Enabled>
+<TabOrder>35</TabOrder>
+<Group>1</Group>
+<StartID>600</StartID>
+<EndID>601</EndID>
+</Control>
+<Control>
+<Type>5</Type>
+<ID>601</ID>
+<Visible>1</Visible>
+<Enabled>1</Enabled>
+<TabOrder>40</TabOrder>
+<Group>0</Group>
+<StartID>600</StartID>
+<EndID>601</EndID>
+</Control>
+</Controls>
+</Screen>
+</SUF7ScreenData>

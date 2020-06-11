@@ -1,0 +1,12 @@
+<Stationerys>
+	<Group name="simple">
+  	   <Stationery dir="033" thumb="thumb.bmp"/> 
+	   <Stationery dir="034" thumb="thumb.bmp"/> 
+	   <Stationery dir="035" thumb="thumb.bmp"/> 
+	   <Stationery dir="036" thumb="thumb.bmp"/> 
+	   <Stationery dir="037" thumb="thumb.bmp"/> 
+	   <Stationery dir="038" thumb="thumb.bmp"/> 
+	   <Stationery dir="039" thumb="thumb.bmp"/> 
+	   <Stationery dir="040" thumb="thumb.bmp"/> 
+	</Group>	
+</Stationerys>

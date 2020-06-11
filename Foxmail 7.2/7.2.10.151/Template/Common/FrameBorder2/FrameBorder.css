@@ -1,0 +1,136 @@
+
+.frame_top_border_middle {
+	height: 9px;
+	width: 100%;
+	overflow: hidden;
+	background: url('./Images/background-top-border-middle.png') repeat-x;
+}
+.frame_top_border_left{
+	float: left;
+	width: 9px;
+	height: 9px;
+	overflow: hidden;
+	background: url('./Images/background-top-border-left.png') no-repeat;
+}
+.frame_top_border_right{
+	float: right;
+	width: 9px;
+	height: 9px;
+	overflow: hidden;
+	background: url('./Images/background-top-border-right.png') no-repeat;
+}
+.frame_bottom_border_middle{
+	height: 9px;
+	width: 100%;
+	overflow: hidden;
+	background: url('./Images/background-bottom-border-middle.png') repeat-x;
+}
+.frame_bottom_border_left{
+	float: left;
+	width: 9px;
+	height: 9px;
+	overflow: hidden;
+	background: url('./Images/background-bottom-border-left.png') no-repeat;
+}
+.frame_bottom_border_right{
+	float: right;
+	width: 9px;
+	height: 9px;
+	overflow: hidden;
+	background: url('./Images/background-bottom-border-right.png') no-repeat;
+}
+.frame_left_border{
+	padding-left: 4px;
+	background: url('./Images/background-border-left.png') left repeat-y;
+}
+.frame_right_border{
+	background: url('./Images/background-border-right.png') right repeat-y;
+}
+.frame_content{
+	padding-right: 4px;
+}
+
+/**/
+
+.frame_fixed_top_border_middle {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	right: 26px;
+	z-index: 2;
+	height: 9px;
+	overflow: hidden;
+	background: url('./Images/background-top-border-middle.png') repeat-x;
+}
+.frame_fixed_top_border_left{
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	width: 9px;
+	height: 9px;
+	z-index: 3;
+	overflow: hidden;
+	background: url('./Images/background-top-border-left.png') no-repeat;
+}
+.frame_fixed_top_border_right{
+	position: fixed;
+	top: 10px;
+	right: 26px;
+	width: 9px;
+	height: 9px;
+	z-index: 3;
+	overflow: hidden;
+	background: url('./Images/background-top-border-right.png') no-repeat;
+}
+
+.frame_fixed_bottom_border_middle {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	right: 26px;
+	z-index: 2;
+	height: 9px;
+	overflow: hidden;
+	background: url('./Images/background-bottom-border-middle.png') repeat-x;
+}
+.frame_fixed_bottom_border_left{
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	width: 9px;
+	height: 9px;
+	z-index: 3;
+	overflow: hidden;
+	background: url('./Images/background-bottom-border-left.png') no-repeat;
+}
+.frame_fixed_bottom_border_right{
+	position: fixed;
+	bottom: 10px;
+	right: 26px;
+	width: 9px;
+	height: 9px;
+	z-index: 3;
+	overflow: hidden;
+	background: url('./Images/background-bottom-border-right.png') no-repeat;
+}
+
+.frame_fixed_left_border{
+	position: fixed;
+	top: 10px;
+	bottom: 10px;
+	left: 10px;
+	width: 9px;
+	overflow: hidden;
+	z-index: 2;
+	background: url('./Images/background-border-left.png') repeat-y;
+}
+.frame_fixed_right_border{
+	position: fixed;
+	top: 10px;
+	bottom: 10px;
+	right: 26px;
+	width: 9px;
+	overflow: hidden;
+	z-index: 2;
+	background: url('./Images/background-border-right.png') repeat-y;
+}

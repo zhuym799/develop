@@ -1,0 +1,206 @@
+/* 水平滚动条样式 */
+.foxwb_horz_scrollbar{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 16px;
+	background: url('./Images/All_horzscrollbar_bkgHorz.bmp') repeat-x;
+	z-index: 90000;
+	overflow: hidden;
+}
+
+.foxwb_horz_scrollbar_fixed{
+	position: fixed;
+	bottom: 0px;
+	z-index: 90000;
+}
+.foxwb_horz_scroller{
+	display: inline-block;
+	position: relative;
+	height: 16px;
+	left: 0;
+	overflow: hidden;
+}
+
+.foxwb_horz_scroller_handle{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	height: 16px;
+	overflow: hidden;
+}
+.foxwb_scroller_normal .foxwb_horz_scroller_handle{
+	background: url('./Images/horz_scrollbar_handle_normal.png') center no-repeat;
+	background-size: 9px 9px;
+	background-position: center 4px;
+}
+.foxwb_scroller_hover .foxwb_horz_scroller_handle{
+	background: url('./Images/horz_scrollbar_handle_hover.png') center no-repeat;
+	background-size: 9px 9px;
+	background-position: center 4px;
+}
+.foxwb_scroller_down .foxwb_horz_scroller_handle{
+	background: url('./Images/horz_scrollbar_handle_press.png') center no-repeat;
+	background-size: 9px 9px;
+	background-position: center 4px;
+}
+
+.foxwb_horz_scroller_middle{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	height: 16px;
+	overflow: hidden;
+}
+.foxwb_scroller_normal .foxwb_horz_scroller_middle{
+	background: url('./Images/All_horzscrollbar_barHorzNormal_middle.png') repeat-x;
+}
+.foxwb_scroller_hover .foxwb_horz_scroller_middle{
+	background: url('./Images/All_horzscrollbar_barHorzHover_middle.png') repeat-x;
+}
+.foxwb_scroller_down .foxwb_horz_scroller_middle{
+	background: url('./Images/All_horzscrollbar_barHorzDown_middle.png') repeat-x;
+}
+
+.foxwb_horz_scroller_p1{
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	width: 5px;
+	height: 16px;
+}
+.foxwb_scroller_normal .foxwb_horz_scroller_p1{
+	background: url('./Images/All_horzscrollbar_barHorzNormal_left.png') no-repeat;
+}
+.foxwb_scroller_hover .foxwb_horz_scroller_p1{
+	background: url('./Images/All_horzscrollbar_barHorzHover_left.png') no-repeat;
+}
+.foxwb_scroller_down .foxwb_horz_scroller_p1{
+	background: url('./Images/All_horzscrollbar_barHorzDown_left.png') no-repeat;
+}
+
+.foxwb_horz_scroller_p2{
+	overflow: hidden;
+	position: absolute;
+	right: 0px;
+	width: 5px;
+	height: 16px;
+}
+
+.foxwb_scroller_normal .foxwb_horz_scroller_p2{
+	background: url('./Images/All_horzscrollbar_barHorzNormal_right.png') no-repeat;
+}
+.foxwb_scroller_hover .foxwb_horz_scroller_p2{
+	background: url('./Images/All_horzscrollbar_barHorzHover_right.png') no-repeat;
+}
+.foxwb_scroller_down .foxwb_horz_scroller_p2{
+	background: url('./Images/All_horzscrollbar_barHorzDown_right.png') no-repeat;
+}
+
+/* 竖直滚动条样式 */
+.foxwb_vert_scrollbar{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	width: 16px;
+	background: url('./Images/All_vertscrollbar_bkgVert.bmp') repeat-y;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 10000;
+}
+.foxwb_vert_scrollbar_fixed{
+	position: fixed;
+	right: 0;
+	z-index: 10000;
+}
+.foxwb_vert_scroller{
+	display: inline-block;
+	position: relative;
+	width: 16px;
+	height: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+.foxwb_vert_scroller_p1{
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	width: 16px;
+	height: 5px;
+}
+
+.foxwb_vert_scroller_handle{
+	width: 16px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	overflow: hidden;
+}
+.foxwb_scroller_normal .foxwb_vert_scroller_handle{
+	background: url('./Images/vert_scrollbar_handle_normal.png') center no-repeat;
+	background-size: 9px 9px;
+	background-position: 4px center;
+}
+.foxwb_scroller_hover .foxwb_vert_scroller_handle{
+	background: url('./Images/vert_scrollbar_handle_hover.png') center no-repeat;
+	background-size: 9px 9px;
+	background-position: 4px center;
+}
+.foxwb_scroller_down .foxwb_vert_scroller_handle{
+	background: url('./Images/vert_scrollbar_handle_press.png') center no-repeat;
+	background-size: 9px 9px;
+	background-position: 4px center;
+}
+
+.foxwb_vert_scroller_middle{
+	width: 16px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	overflow: hidden;
+}
+.foxwb_vert_scroller_p2{
+	overflow: hidden;
+	position: absolute;
+	bottom: 0px;
+	width: 16px;
+	height: 5px;
+}
+
+.foxwb_scroller_normal .foxwb_vert_scroller_p1{
+	background: url('./Images/All_vertscrollbar_barVertNormal_top.png') no-repeat;
+}
+.foxwb_scroller_normal .foxwb_vert_scroller_middle{
+	background: url('./Images/All_vertscrollbar_barVertNormal_middle.png') repeat-y;
+}
+.foxwb_scroller_normal .foxwb_vert_scroller_p2{
+	background: url('./Images/All_vertscrollbar_barVertNormal_bottom.png') no-repeat;
+}
+
+.foxwb_scroller_hover .foxwb_vert_scroller_p1{
+	background: url('./Images/All_vertscrollbar_barVertHover_top.png') no-repeat;
+}
+.foxwb_scroller_hover .foxwb_vert_scroller_middle{
+	background: url('./Images/All_vertscrollbar_barVertHover_middle.png') repeat-y;
+}
+.foxwb_scroller_hover .foxwb_vert_scroller_p2{
+	background: url('./Images/All_vertscrollbar_barVertHover_bottom.png') no-repeat;
+}
+
+.foxwb_scroller_down .foxwb_vert_scroller_p1{
+	background: url('./Images/All_vertscrollbar_barVertDown_top.png') no-repeat;
+}
+.foxwb_scroller_down .foxwb_vert_scroller_middle{
+	background: url('./Images/All_vertscrollbar_barVertDown_middle.png') repeat-y;
+}
+.foxwb_scroller_down .foxwb_vert_scroller_p2{
+	background: url('./Images/All_vertscrollbar_barVertDown_bottom.png') no-repeat;
+}
+
+/* 公共 */
+.foxwb_scrollbar_hide{
+	display: none;
+}

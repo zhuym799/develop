@@ -1,0 +1,27 @@
+﻿#fox_html_content_box {
+	-webkit-user-select: text;
+	background-color: window;
+	outline: none
+}
+.fox_html_content {
+	-webkit-user-select: text;
+	outline: none !important;
+}
+.fox_html_content img {
+	cursor: default !important;
+}
+.fox_html_content_plaintext {
+	padding: 10px;
+	-webkit-user-select: text;
+	outline: none;
+	font-family: '微软雅黑';
+	font-size: 10.5pt;
+}
+
+.brush_format {
+	cursor: url("../../../PngImages/brush_2.cur"), auto;	
+}
+
+#divFMContentBody{
+	outline: none;
+}

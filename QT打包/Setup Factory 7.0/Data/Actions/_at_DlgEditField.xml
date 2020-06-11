@@ -1,0 +1,52 @@
+<ActionTemplates>
+   <Action>
+      <Name>DlgEditField.GetProperties</Name>
+      <Description>获取当前屏幕上编辑栏控件的属性。</Description>
+      <ReturnValueType>table</ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>ControlID</Name>
+            <Description>编辑栏控件的数字 ID。</Description>
+            <Type>number</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default/>
+               <DataType>EditField</DataType>
+               <Constraints>1,*</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+      <Action>
+      <Name>DlgEditField.SetProperties</Name>
+      <Description>设置当前屏幕上编辑栏控件的属性。</Description>
+      <ReturnValueType/>
+      <Arguments>
+         <Arg>
+            <Name>ControlID</Name>
+            <Description>编辑栏控件的数字 ID。</Description>
+            <Type>number</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default/>
+               <DataType>EditField</DataType>
+               <Constraints>1,*</Constraints>
+            </EasyMode>
+         </Arg>
+         <Arg>
+            <Name>Properties</Name>
+            <Description>包含由 "Enabled", "Text" 和 "Visible" 索引的组合框控件属性的表格。</Description>
+            <Type>table</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>my_table</Default>
+               <DataType>table</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+</ActionTemplates>

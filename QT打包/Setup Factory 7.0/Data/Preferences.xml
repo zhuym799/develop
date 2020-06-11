@@ -1,0 +1,61 @@
+<Preferences>
+<AddingFiles>
+<CreateSCExtensions>exe;hlp;chm;bat;com</CreateSCExtensions>
+<RegisterTTF>1</RegisterTTF>
+<ScanDLL>0</ScanDLL>
+<DropFolderMode>2</DropFolderMode>
+</AddingFiles>
+<Folders>
+<TempFilesFolder>C:\DOCUME~1\BLUEWA~1\LOCALS~1\Temp</TempFilesFolder>
+<OutputFolder>C:\Documents and Settings\Bluewater\My Documents\My Setups</OutputFolder>
+<ProjectsFolder>C:\Documents and Settings\Bluewater\My Documents\Setup Factory 7.0 Projects</ProjectsFolder>
+<PreferencesXMLLocation>D:\Setup Factory 7.0\Data</PreferencesXMLLocation>
+</Folders>
+<Build>
+<BuildConfirm>1</BuildConfirm>
+<OpenFolderAfterBuild>1</OpenFolderAfterBuild>
+<BuildWithWizard>1</BuildWithWizard>
+<ExcludeFonts>Arial, Courier New, Times New Roman</ExcludeFonts>
+</Build>
+<Documents>
+<AutoSaveInterval>15</AutoSaveInterval>
+<AutoSavePurgeLevel>10</AutoSavePurgeLevel>
+<AutoSaveEnabled>1</AutoSaveEnabled>
+<UndoRedoLevels>10</UndoRedoLevels>
+<ShowProjWizard>1</ShowProjWizard>
+</Documents>
+<StartupOptions>
+<StartupOption>0</StartupOption>
+</StartupOptions>
+<Languages>
+<DefaultLang>English</DefaultLang>
+<NumDefLangs>1</NumDefLangs>
+<Lang00>English</Lang00>
+</Languages>
+<Updates>
+<Frequency>30</Frequency>
+<HideInterface>0</HideInterface>
+<UpdateEnabled>1</UpdateEnabled>
+<JulianLastUpdateDate>2453672</JulianLastUpdateDate>
+</Updates>
+<GUI>
+<MissingFile>255</MissingFile>
+<GUIPaintTheme>0</GUIPaintTheme>
+<DockingPaneTheme>0</DockingPaneTheme>
+<TaskPanelTheme>0</TaskPanelTheme>
+<TaskPanelAnimation>0</TaskPanelAnimation>
+<DoubleClickEditsAction>1</DoubleClickEditsAction>
+<AutoSyntaxCheck>1</AutoSyntaxCheck>
+<ConfirmScriptCancel>1</ConfirmScriptCancel>
+</GUI>
+<SpellChecker>
+<Dictionary>D:\Setup Factory 7.0\Data\SpellUS.lex</Dictionary>
+<LastCustDict/>
+<AlwaysSuggestCorrections>1</AlwaysSuggestCorrections>
+<SuggestFromMainDictionariesOnly>0</SuggestFromMainDictionariesOnly>
+<IgnoreWordsInUppercase>1</IgnoreWordsInUppercase>
+<IgnoreWordsWithNumbers>1</IgnoreWordsWithNumbers>
+<IgnoreInternetAddresses>1</IgnoreInternetAddresses>
+<CapitalizeSentences>1</CapitalizeSentences>
+</SpellChecker>
+</Preferences>

@@ -1,0 +1,300 @@
+html{
+	height: 100%;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+
+body{
+/*	padding:9px;*/
+	margin: 0px;
+	background: #dbe2e8;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+
+/*浏览界面-------------------------------------------------------------------------*/
+.groupViewPanel{
+	position: relative;
+	height: 100%;
+	background: #dbe2e8;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.groupViewArea{
+	position: relative;
+	min-height: -webkit-calc(100% - 20px);
+	margin: 9px;
+	background: #fff;
+	border-radius: 2px;
+	border: 1px solid rgb(158, 166, 170);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+
+.groupViewArea_controlPanel{
+	position: relative;
+	height: auto;
+}
+
+
+
+/*编辑界面-------------------------------------------------------------------------*/
+.editPanelWrapper {
+	padding: 9px; 
+	height: 100%; 
+	box-sizing: border-box;
+}
+
+.groupEditPanel{
+	position: relative;
+	/*height: -webkit-calc(100% - 50px);*/
+	height: 100%;
+	background: #dbe2e8;
+	box-sizing: border-box;
+	/*overflow-x:hidden;*/
+	/*overflow-y:auto;*/
+}
+
+.groupEditArea{
+	position: relative;
+	min-height: -webkit-calc(100% - 20px);
+	/*margin: 9px;*/
+	background: #fff;
+	border-radius: 2px;
+	border: 1px solid rgb(158, 166, 170);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+	min-width:434px;
+}
+
+.errMsg{
+	color:#666666;
+	font-size:12px;
+	line-height:12px;
+	padding-left: 20px;
+	background:url(../../Common/FoxUI/Images/New/Icon/err.png) no-repeat left center;
+}
+
+
+
+/*基本信息-------------------------------------------------------------------------*/
+.groupView_basicSection,
+.groupEdit_basicSection{
+	position:relative;
+	height:50px;
+	border-bottom:solid 1px #e6e6e6;
+	margin: 0 20px 20px;
+	padding: 20px 0;
+}
+
+.groupView_basicSection_wrap{
+	position: relative;
+	padding: 0 90px 0 70px;
+	height: 50px;
+}
+
+.groupEdit_basicSection_wrap{
+	position: relative;
+	padding: 0 0 0 70px;
+	height: 50px;
+}
+
+.groupAvatar_view,
+.groupAvatar_edit{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:50px;
+	height:50px;
+}
+
+#groupAvatar_img{
+	width: 48px;
+	height: 48px;
+	border:solid 1px #f6f9fb;
+}
+
+.groupName_view{
+	cursor: default;
+	font-size:16px;
+	font-weight:bold;
+	line-height: 24px;
+	width: auto;
+	/*height: 50px;*/
+	overflow: hidden;
+	white-space:nowrap;
+	word-break:break-all;
+	text-overflow:ellipsis;
+}
+
+.displayName_view{
+	/*cursor: default;
+	font-size:16px;
+	font-weight:bold;
+	line-height: 24px;
+	width: auto;
+	overflow: hidden;
+	white-space:nowrap;
+	word-break:break-all;
+	text-overflow:ellipsis;*/
+}
+
+.displayName_view:hover{color:#3e5974;}
+
+.groupEditBtn{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+.displayName_edit{
+	margin-bottom:8px;
+}
+
+.displayName_edit input{
+	width:150px;
+}
+
+
+
+/*邮件组成员模块-------------------------------------------------------------------------*/
+.groupView_memberSection{
+	padding: 0 20px;
+	margin-bottom: 50px;
+}
+
+.groupEdit_memberSection{
+	max-width:500px; /*这个是控制编辑时候的区域的最大宽度，如果不控制，窗口比较大时按钮会离得比较远，是否不好操作？*/
+	padding: 0 20px;
+	margin-bottom: 60px;
+}
+
+.memberSection_title_view,
+.memberSection_title_edit{
+	font-size:12px;
+	color:#999;
+	height:23px;
+	padding-bottom:10px;
+	border-bottom:dotted 1px #ebebeb;
+}
+
+.memberSection_title_label_view,
+.memberSection_title_label_edit{
+	padding-top:8px;
+}
+
+.addMemberBtn{
+	float:right;
+}
+
+
+
+/*浏览邮件组成员-------------------------------------------------------------------------*/
+.groupView_memberList_item{
+	color:#333;
+	font-size:12px;
+	line-height:22px;
+	position:relative;
+	padding:4px 0;
+	/*border-bottom:dotted 1px #ebebeb;*/
+}
+
+.groupView_memberList_item .member_name:hover{color:#3e5974;}
+
+.groupView_memberList_item .member_email{
+	color:#999;
+	padding-left:8px;
+}
+
+.groupView_memberList_item .member_num{
+	color:#999;
+	padding-left:8px;
+}
+
+.groupView_memberList_item.memberType_group_view .member_name{
+	display:inline-block;
+	padding-left:20px;
+	background:url(../Images/icon_group_small.png) left 5px no-repeat;
+	word-break: break-word;
+}
+
+
+
+/*编辑邮件组成员-------------------------------------------------------------------------*/
+.groupEdit_memberList_item{
+	color:#333;
+	font-size:12px;
+	line-height:22px;
+	position:relative;
+	padding:6px 40px 6px 0;
+	border-bottom:dotted 1px #ebebeb;
+}
+
+.groupEdit_memberList_item .member_email{
+	color:#999;
+	padding-left:8px;
+}
+
+.groupEdit_memberList_item .member_num{
+	color:#999;
+	padding-left:8px;
+}
+
+.groupEdit_memberList_item.memberType_group_edit .member_name{
+	display:inline-block;
+	padding-left:20px;
+	background:url(../Images/icon_group_small.png) left 5px no-repeat;
+}
+
+.removeMemberBtn{
+	position:absolute;
+	right:6px;
+	top:8px;
+	display:inline-block;
+	width:18px;
+	height:18px;
+	background:url(../Images/reduce_normal.png) no-repeat;
+}
+
+.removeMemberBtn:hover{
+	background:url(../Images/reduce_hover.png) no-repeat;
+}
+
+.removeMemberBtn:active{
+	background:url(../Images/reduce_press.png) no-repeat;
+}
+
+
+
+/*按钮栏*/
+.btnBarWrap{
+	position:fixed;
+	bottom:0;
+	width: -webkit-calc(100% - 18px);
+	min-width: 436px;
+	box-sizing: border-box;
+}
+
+.btnBar{
+	border-left:solid 1px #9ea6aa;
+	border-right:solid 1px #9ea6aa;
+}
+
+.btnBar .inner{
+	background:#f3f9fd;
+	height:36px;
+	border-top:solid 1px #ccd2d7;
+	padding:13px 20px 0;
+}
+
+.btnBar .leftBtns{
+	float:left;
+}
+
+.btnBar .leftBtns .foxButton{
+	margin-right:8px;
+}
+
+.btnBar .rightBtns{
+	float:right;
+}

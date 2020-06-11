@@ -1,0 +1,220 @@
+﻿/* CSS Document */
+*{margin:0; padding:0;}
+html,body {height:100%; margin:0; padding:0; }
+td,input,button,select,body {font-family:Verdana;font-size:14px; margin:0; padding:0;}
+ul,li{list-style:none;}
+form,body,ul,li,h3,p{margin:0;padding:0;} 
+img{border:0;} 
+#detail_body{
+	width:972px;
+	/*height:564px;*/
+	height: 500px;
+	margin:0 auto;
+	border:1px solid #cccccc;
+	}
+a:link, a:visited{text-decoration:none; outline:none;}
+/*搜索栏部分*/
+#magsearcharea{
+	background-color:#F5F5F5;
+	border-bottom:1px solid #cccccc;
+	padding:20px 0px 15px;
+	text-align:center;
+	display: none;
+	}
+#magsearcharea span{
+	color:#555555;
+	line-height:26px;
+	}
+#magsearcharea .search_box{
+	line-height:20px;
+	height:23px;
+	margin:0 3px 0 5px;
+	width:400px;
+	font-size:14px;
+	color:#000000;
+	background:url(images/rss.png) 0 -193px repeat-x;
+	border-color:#7c7c7c #c3c3c3 #c3c3c3 #9a9a9a;
+	border-right:1px solid #c3c3c3;
+	border-style:solid;
+	border-width:1px;
+	padding:2px 0 0 4px;
+	}
+#magsearcharea .submit_btn{
+	background:url(images/rss.png) -160px -130px no-repeat;
+	height:26px;
+	width:71px;
+	line-height:25px;
+	margin:0;
+	padding:0;
+	border:0;
+	text-align:center;
+	}
+
+/*左侧列表*/	
+ul.searchfilter{
+	float:left;
+	width:110px;
+	height:489px;
+	border-right:1px solid #cccccc;
+	background-color:#f9f9f9;
+	padding:10px 0 0 10px;
+	}
+ul.searchfilter li{
+	font-size:14px;
+	line-height:27px;
+	margin:3px;
+	}
+ul.searchfilter li a{
+	color:#494949;
+	display:block;
+	padding:0 10px;
+	_zoom:1;
+	}
+ul.searchfilter li a:hover{
+	background-color:#e9e9e9;
+	}
+ul.searchfilter li.selected{
+	background:#ffffff;
+	border:1px solid #cccccc;
+	border-right:0;
+	position:relative;
+	margin-right:0px;
+	right:-1px;
+	}
+ul.searchfilter li.selected a{
+	font-weight:bold;
+	}
+ul.searchfilter li.selected a:hover{
+	background-color:#ffffff;
+	}
+
+/*右侧推荐部分*/
+#resultitems{
+	height:438px;
+	margin-left:140px;
+	padding:12px 0 0 5px;
+	width:790px;
+	}
+#resultitems .item{
+	border-bottom:1px solid #dddddd;
+	float:left; height:62px;
+	padding:11px 0 13px;
+	width:394px;
+	height:63px;
+	overflow:hidden;
+	}
+#resultitems .item img{
+	width:60px;
+	height:60px;
+	}
+#resultitems .iteminfo{
+	margin-left:70px;
+	}
+#resultitems .item a{
+	display:block;
+	float:left;
+	border:1px solid #cccccc;
+	}
+#resultitems .iteminfo h3{
+	line-height:20px;
+	height:20px;
+	overflow:hidden;
+	width:314px;
+	}
+#resultitems .iteminfo h3 a{
+	color:#0f2b2f;
+	float:none;
+	border:0;
+	display:inline;
+	font-size:14px;
+	}
+#resultitems .iteminfo h3 a:hover{
+	text-decoration:underline;
+	}
+.iteminfo p{
+	height:15px;
+	margin:3px 0;
+	color:#a0a0a0;
+	font-size:12px;
+	}
+#resultitems .suboperate a.rss_submit{
+	border:0;
+	background:url(images/rss.png) 0 -130px no-repeat;
+	width:71px;
+	height:26px;
+	line-height:25px;
+	border:0;
+	color:#ffffff;
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-size:12px;
+	}
+#resultitems .suboperate a.rss_submit:hover{
+	background:url(images/rss.png) 0 -162px no-repeat;
+	}
+#resultitems .suboperate span a{
+	display:inline;
+	border:0;
+	font-size:12px;
+	color:#0f2b2f;
+	line-height:27px;
+	margin-left:5px;
+	}
+#resultitems .suboperate span a:hover{
+	text-decoration:underline;
+	}
+
+/*底部换页*/
+#changepage{
+	width:560px;
+	margin-left:260px;
+	margin-top:10px;
+	text-align:center;
+	}
+#changepage a{
+	display:block;
+	width:128px;
+	height:30px;
+	float:left;
+	text-indent:-9999px;
+	}
+#changepage div{
+	float:left;
+	margin:0 20px;
+	height:30px;
+	line-height:29px;
+	color:#494949;
+	}
+#changepage #topre a{
+	background:url(images/rss.png) 0 -32px no-repeat;
+	}
+#changepage #tonext a{
+	background:url(images/rss.png) -160px -32px no-repeat;
+	}
+#changepage #topre a:hover{
+	background:url(images/rss.png) 0 -64px no-repeat;
+	}
+#changepage #tonext a:hover{
+	background:url(images/rss.png) -160px -64px no-repeat;
+	}
+#changepage #topre a:active{
+	background:url(images/rss.png) 0 -96px no-repeat;
+	}
+#changepage #tonext a:active{
+	background:url(images/rss.png) -160px -96px no-repeat;
+	}
+#changepage #topre a.disable{
+	background:url(images/rss.png) 0px 0px no-repeat;
+	cursor:default;
+	}
+#changepage #tonext a.disable{
+	background:url(images/rss.png) -160px 0px  no-repeat;
+	cursor:default;
+	}
+#changepage #topre a.disable:hover{
+	background:url(images/rss.png) 0px 0px no-repeat;
+	}
+#changepage #tonext a.disable:hover{
+	background:url(images/rss.png) -160px 0px  no-repeat;
+	}

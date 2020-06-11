@@ -1,0 +1,234 @@
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:34:352
+*********************NEW CONNECTION********************
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:34:352
+ServerAddr: smtp.qiye.163.com; Port: 25; ssl: 0
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:34:602
+Connect server OK!
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:34:738
+EHLO cmd: EHLO hxyz-PC
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:34:793
+250-proxy-sm-thq-1.hmbj.internal
+250-PIPELINING
+250-8BITMIME
+250-AUTH=LOGIN PLAIN
+250-AUTH PLAIN LOGIN
+250 STARTTLS
+
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:34:793
+AUTH LOGIN
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:34:853
+334 VXNlcm5hbWU6
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:34:854
+emh1eXVhbm1pbmdAaHgtc29mdC5jbg==
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:34:961
+334 UGFzc3dvcmQ6
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:34:961
+start send cmd: Login By Password
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:35:147
+235 2.0.0 OK
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:35:186
+MAIL FROM: <zhuyuanming@hx-soft.cn>
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:35:254
+250 Mail OK
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:35:254
+RCPT TO: <gaoshuang@hx-soft.cn>
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:35:280
+250 Mail OK
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:35:281
+DATA
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:35:343
+354 End data with <CR><LF>.<CR><LF>
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:35:512
+250 Mail OK queued as smtp11,WdOowACXi4WG5+1cTEfMAQ--.926S2 1559095175
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:35:516
+QUIT cmd
+[7.2.10.151] [ThreadId: 11240]  2019-05-29 09:59:35:516
+tick: 375
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:57:611
+*********************NEW CONNECTION********************
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:57:612
+ServerAddr: smtp.qiye.163.com; Port: 25; ssl: 0
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:57:703
+Connect server OK!
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:57:744
+EHLO cmd: EHLO hxyz-PC
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:57:786
+250-telproxy-sm3.hmbj.internal
+250-PIPELINING
+250-8BITMIME
+250-AUTH=LOGIN PLAIN
+250-AUTH PLAIN LOGIN
+250 STARTTLS
+
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:57:787
+AUTH LOGIN
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:57:829
+334 VXNlcm5hbWU6
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:57:829
+emh1eXVhbm1pbmdAaHgtc29mdC5jbg==
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:58:121
+334 UGFzc3dvcmQ6
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:58:121
+start send cmd: Login By Password
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:58:239
+235 2.0.0 OK
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:58:248
+MAIL FROM: <zhuyuanming@hx-soft.cn>
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:58:551
+250 Mail OK
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:58:551
+RCPT TO: <gaoshuang@hx-soft.cn>
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:58:601
+250 Mail OK
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:58:602
+DATA
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:58:661
+354 End data with <CR><LF>.<CR><LF>
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:58:869
+250 Mail OK queued as smtp4,JedpCgCHMoU7YRRdkI7QAA--.218S2 1561616699
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:58:869
+QUIT cmd
+[7.2.10.151] [ThreadId: 14236]  2019-06-27 14:24:58:870
+tick: 641
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:18:703
+*********************NEW CONNECTION********************
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:18:704
+ServerAddr: smtp.qiye.163.com; Port: 25; ssl: 0
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:18:717
+Connect server OK!
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:18:721
+EHLO cmd: EHLO DESKTOP-SIRL3OQ
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:18:725
+250-telproxy-sm4.hmbj.internal
+250-PIPELINING
+250-8BITMIME
+250-AUTH=LOGIN PLAIN
+250-AUTH PLAIN LOGIN
+250 STARTTLS
+
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:18:726
+AUTH LOGIN
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:18:730
+334 VXNlcm5hbWU6
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:18:730
+emh1eXVhbm1pbmdAaHgtc29mdC5jbg==
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:18:735
+334 UGFzc3dvcmQ6
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:18:735
+start send cmd: Login By Password
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:19:025
+235 2.0.0 OK
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:19:029
+MAIL FROM: <zhuyuanming@hx-soft.cn>
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:19:038
+250 Mail OK
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:19:038
+RCPT TO: <gaoshuang@hx-soft.cn>
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:19:043
+250 Mail OK
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:19:044
+DATA
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:19:048
+354 End data with <CR><LF>.<CR><LF>
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:19:303
+250 Mail OK queued as smtp7,g+CowAD3PH0XXEJdX0UOAA--.556S2 1564630039
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:19:305
+QUIT cmd
+[7.2.10.151] [ThreadId: 772]  2019-08-01 11:27:19:305
+tick: 281
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:151
+*********************NEW CONNECTION********************
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:152
+ServerAddr: smtp.qiye.163.com; Port: 25; ssl: 0
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:190
+Connect server OK!
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:217
+EHLO cmd: EHLO DESKTOP-SIRL3OQ
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:246
+250-telproxy-sm4.hmbj.internal
+250-PIPELINING
+250-8BITMIME
+250-AUTH=LOGIN PLAIN
+250-AUTH PLAIN LOGIN
+250 STARTTLS
+
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:246
+AUTH LOGIN
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:274
+334 VXNlcm5hbWU6
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:274
+emh1eXVhbm1pbmdAaHgtc29mdC5jbg==
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:300
+334 UGFzc3dvcmQ6
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:300
+start send cmd: Login By Password
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:458
+235 2.0.0 OK
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:465
+MAIL FROM: <zhuyuanming@hx-soft.cn>
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:496
+250 Mail OK
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:497
+RCPT TO: <zhangqiuyue@hx-soft.cn>
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:526
+250 Mail OK
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:526
+DATA
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:553
+354 End data with <CR><LF>.<CR><LF>
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:720
+250 Mail OK queued as smtp4,JedpCgAXZY0pwq9dia9RBA--.539S2 1571799593
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:721
+QUIT cmd
+[7.2.10.151] [ThreadId: 160580]  2019-10-23 10:59:54:722
+tick: 266
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:17:468
+*********************NEW CONNECTION********************
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:17:469
+ServerAddr: smtp.qiye.163.com; Port: 25; ssl: 0
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:17:611
+Connect server OK!
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:17:670
+EHLO cmd: EHLO DESKTOP-SIRL3OQ
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:17:721
+250-telproxy-sm1.hmbj.internal
+250-PIPELINING
+250-8BITMIME
+250-AUTH=LOGIN PLAIN
+250-AUTH PLAIN LOGIN
+250 STARTTLS
+
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:17:721
+AUTH LOGIN
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:17:787
+334 VXNlcm5hbWU6
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:17:787
+emh1eXVhbm1pbmdAaHgtc29mdC5jbg==
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:17:841
+334 UGFzc3dvcmQ6
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:17:841
+start send cmd: Login By Password
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:20:156
+235 2.0.0 OK
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:20:159
+MAIL FROM: <zhuyuanming@hx-soft.cn>
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:20:231
+250 Mail OK
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:20:231
+RCPT TO: <liuziqiang@hx-soft.cn>
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:20:303
+250 Mail OK
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:20:303
+RCPT TO: <wangxinxiu@hx-soft.cn>
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:20:384
+250 Mail OK
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:20:384
+DATA
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:20:441
+354 End data with <CR><LF>.<CR><LF>
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:21:758
+250 Mail OK queued as smtp4,JedpCgDnnZ7lYWteXYdLAg--.3233S2 1584095721
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:21:759
+QUIT cmd
+[7.2.10.151] [ThreadId: 10168]  2020-03-13 18:35:21:759
+tick: 1594

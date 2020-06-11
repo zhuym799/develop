@@ -1,0 +1,69 @@
+<ActionTemplates>
+   <Action>
+      <Name>DLL.CallFunction</Name>
+      <Description>调用动态链接库 (DLL) 中的函数。它可用于以你自己的函数来扩充 Setup Factory 的功能。</Description>
+      <ReturnValueType>string</ReturnValueType>
+      <Arguments>
+         <Arg>
+            <Name>Filename</Name>
+            <Description>DLL 文件的路径。</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>_TempFolder.."\\Myfile.dll"</Default>
+               <DataType>fileedit</DataType>
+               <Constraints>Docs</Constraints>
+            </EasyMode>
+         </Arg>
+         <Arg>
+            <Name>FunctionName</Name>
+            <Description>DLL 中函数的名称。</Description>
+            <Type>string</Type>
+            <Default/>
+            <Required>1</Required>
+            <EasyMode>
+               <Default>"MyFunctionName"</Default>
+               <DataType>string</DataType>
+               <Constraints>1,*</Constraints>
+            </EasyMode>
+         </Arg>
+         <Arg>
+            <Name>Parameters</Name>
+            <Description>要传给函数的以逗号分隔的参数列表。</Description>
+            <Type>string</Type>
+            <Default>""</Default>
+            <Required>0</Required>
+            <EasyMode>
+               <Default>""</Default>
+               <DataType>string</DataType>
+               <Constraints>none</Constraints>
+            </EasyMode>
+         </Arg>
+         <Arg>
+            <Name>ReturnType</Name>
+            <Description>从函数返回的值类型。</Description>
+            <Type>number</Type>
+            <Default>0</Default>
+            <Required>0</Required>
+            <EasyMode>
+               <Default>DLL_RETURN_TYPE_INTEGER</Default>
+               <DataType>combo</DataType>
+               <Constraints>DLL_RETURN_TYPE_INTEGER,DLL_RETURN_TYPE_LONG,DLL_RETURN_TYPE_STRING</Constraints>
+            </EasyMode>
+         </Arg>
+         <Arg>
+            <Name>CallConvention</Name>
+            <Description>Setup Factory 将在调用 DLL 函数时使用的调用规则。</Description>
+            <Type>number</Type>
+            <Default>0</Default>
+            <Required>0</Required>
+            <EasyMode>
+               <Default>DLL_CALL_CDECL</Default>
+               <DataType>combo</DataType>
+               <Constraints>DLL_CALL_CDECL,DLL_CALL_STDCALL</Constraints>
+            </EasyMode>
+         </Arg>
+      </Arguments>
+   </Action>
+</ActionTemplates>

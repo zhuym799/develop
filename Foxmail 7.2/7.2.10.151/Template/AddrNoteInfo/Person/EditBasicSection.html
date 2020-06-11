@@ -1,0 +1,28 @@
+<div class="contactEdit_basicSection clearfix">
+    <div class='contactEdit_basicSection_wrap'>  
+        <div class="contactAvatar_edit"><img id="contactAvatar_img" src="{{avatar_path}}"></div>
+        
+        <div class="contactName_edit">
+            <div class="name_area">
+            
+                <div class="displayName_edit">
+                    <input id="last_name" type="text" placeholder="{{lng_lastnamee}}" autofocus value="{{lastname}}"><!--
+                    --><input id="first_name" type="text" placeholder="{{lng_firstname}}" value="{{firstname}}">
+                </div>
+                
+                <!--正常情况-->
+                <div id="switch_display_name" class="switch_display_name">
+                    <div class="listContainer">
+                        <div class="list">
+                            <span class="label">{{lng_display_label}}</span><span class="displayNameStyle" typeNum={{display_name_type}}>{{display_name}}</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--提示为空的情况-->
+                <div class="errMsg hidden">{{lng_error_tip}}</div>
+                
+            </div>
+        </div>
+    </div>
+</div>

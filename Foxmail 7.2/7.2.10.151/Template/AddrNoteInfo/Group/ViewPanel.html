@@ -1,0 +1,37 @@
+<div class='groupViewPanel'>
+    <div class='groupViewArea' noteId='{{note_id}}'>
+
+        <div class='groupViewArea_controlPanel'>
+
+            <!-- 基本信息 -->
+            <div class='groupView_basicSection'>
+                <div class='groupView_basicSection_wrap clearfix'>
+                    <div class='groupAvatar_view'><img id='groupAvatar_img' src="{{avatar_path}}" /></div>
+                    <div class="groupName_view"><span class='displayName_view defcursor'>{{name}}</span></div>
+                    <div class='{{edit_hide}}'>
+                        <div class="groupEditBtn foxButton gray unselectable">{{lng_edit}}</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 小组成员 -->
+            <div class='groupView_memberSection'>
+                
+                <div class="memberSection_title_view clearfix">
+                    <div class="memberSection_title_label_view">{{lng_member}}<span>({{member_count}})</span></div>
+                </div>
+
+                <div class="groupView_memberContainer">
+                
+                    <ul class="groupView_memberList">
+                        {{member_list}}
+                    </ul>
+                
+                </div>
+
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
